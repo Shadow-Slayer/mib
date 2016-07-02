@@ -289,10 +289,10 @@
                 ["sound", "The song you played had bad sound quality or no sound. "],
                 ["nsfw", "The song you contained was NSFW (image or sound). "],
                 ["unavailable", "The song you played was not available for some users. "],
-                ["som" , "A música tocada tinha qualidade de som ruim ou não tinha som. "],
-                ["tema" , "Sua música não estava de acordo com o tema da sala."],
-                ["nudes" , "A música continha conteúdo impróprio NSFW :underage:"],
-                ["ind" , "A música não estava disponível para alguns usuários"]
+                ["som", "A música tocada tinha qualidade de som ruim ou não tinha som. "],
+                ["tema", "Sua música não estava de acordo com o tema da sala."],
+                ["nudes", "A música continha conteúdo impróprio NSFW :underage:"],
+                ["ind", "A música não estava disponível para alguns usuários"]
             ],
             afkpositionCheck: 15,
             afkRankCheck: "ambassador",
@@ -3620,21 +3620,7 @@
                 }
             },
             
-            mehCommand: {
-                command: 'meh',
-                rank: 'user',
-                type: 'exact',
-                functionality: function (chat, cmd) {
-                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
-                    else {
-                        if (typeof basicBot.settings.website === "string")
-                            API.sendChat(subChat(basicBot.chat.website, {link: basicBot.settings.website}));
-                            API.sendChat('/me @' + name + ', em nossa comunidade não damos "chato" nas músicas, preferimos silencia-lá. Por favor utilize o botão de silenciar.');
-                    }
-                }
-            },
-
+            
             whoisCommand: {
                 command: 'whois',
                 rank: 'bouncer',
