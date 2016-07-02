@@ -2947,7 +2947,7 @@
             },
 
             rouletteCommand: {
-                command: 'roulette',
+                command: ['roulette','roleta'],
                 rank: 'mod',
                 type: 'exact',
                 functionality: function (chat, cmd) {
