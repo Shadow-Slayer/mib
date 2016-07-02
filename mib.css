@@ -69,7 +69,13 @@
     background-size: 35px;
 }
 
-
+/*feluz*/
+.cm.message.id-3839549 {
+    background-image: url(https://s.gravatar.com/avatar/681557ed224ed2027533bd41f38faac7?s=80);
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    background-size: 35px;
+}
 
 #room-host, #room-name {
 left: 105px;
