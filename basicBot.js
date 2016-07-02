@@ -99,7 +99,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://rawgit.com/basicBot/source/master/lang/langIndex.json", function (json) {
+        $.get("https://rawgit.com/Shadow-Slayer/source/master/pt-br.json", function (json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -240,9 +240,9 @@
         status: false,
         name: "basicBot",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
+        scriptLink: "https://rawgit.com/Shadow-Slayer/source/master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
-        chatLink: "https://rawgit.com/basicBot/source/master/lang/en.json",
+        chatLink: "https://rawgit.com/Shadow-Slayer/source/master/pt-br.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -250,8 +250,8 @@
         settings: {
             botName: "basicBot",
             language: "english",
-            chatLink: "https://rawgit.com/basicBot/source/master/lang/en.json",
-            scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
+            chatLink: "https://rawgit.com/Shadow-Slayer/source/master/pt-br.json",
+            scriptLink: "https://rawgit.com/Shadow-Slayer/source/master/basicBot.js",
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
@@ -261,7 +261,7 @@
             smartSkip: true,
             cmdDeletion: true,
             maximumAfk: 120,
-            afkRemoval: true,
+            afkRemoval: false,
             maximumDc: 60,
             bouncerPlus: true,
             blacklistEnabled: true,
@@ -270,17 +270,17 @@
             maximumLocktime: 10,
             cycleGuard: true,
             maximumCycletime: 10,
-            voteSkip: false,
-            voteSkipLimit: 10,
-            historySkip: false,
+            voteSkip: true,
+            voteSkipLimit: 5,
+            historySkip: true,
             timeGuard: true,
-            maximumSongLength: 10,
+            maximumSongLength: 7,
             autodisable: true,
             commandCooldown: 30,
             usercommandsEnabled: true,
             thorCommand: false,
             thorCooldown: 10,
-            skipPosition: 3,
+            skipPosition: 1,
             skipReasons: [
                 ["theme", "This song does not fit the room theme. "],
                 ["op", "This song is on the OP list. "],
@@ -288,30 +288,34 @@
                 ["mix", "You played a mix, which is against the rules. "],
                 ["sound", "The song you played had bad sound quality or no sound. "],
                 ["nsfw", "The song you contained was NSFW (image or sound). "],
-                ["unavailable", "The song you played was not available for some users. "]
+                ["unavailable", "The song you played was not available for some users. "],
+                ["som" , "A música tocada tinha qualidade de som ruim ou não tinha som. "],
+                ["tema" , "Sua música não estava de acordo com o tema da sala."],
+                ["nudes" , "A música continha conteúdo impróprio NSFW :underage:"],
+                ["ind" , "A música não estava disponível para alguns usuários"]
             ],
             afkpositionCheck: 15,
             afkRankCheck: "ambassador",
             motdEnabled: false,
             motdInterval: 5,
             motd: "Temporary Message of the Day",
-            filterChat: true,
+            filterChat: false,
             etaRestriction: false,
             welcome: true,
-            opLink: null,
-            rulesLink: null,
-            themeLink: null,
-            fbLink: null,
+            opLink: "https://rawgit.com/Shadow-Slayer/moveit/master/op.json",
+             rulesLink: "http://goo.gl/Nw0Jth",
+            themeLink: "http://goo.gl/Nw0Jth",
+            fbLink: "http://www.fb.com/groups/MoveItBrasil ",
             youtubeLink: null,
-            website: null,
-            intervalMessages: [],
-            messageInterval: 5,
-            songstats: true,
+            website: "http://goo.gl/O4tlVo",
+            intervalMessages: ["!roleta",":large_orange_diamond: Roleta a cada 6 músicas, fique atento ;) :large_orange_diamond:",":large_orange_diamond: Participe do nosso Grupo no Facebook http://www.fb.com/groups/MoveItBrasil <3 :large_orange_diamond:"],
+            messageInterval: 2,
+            songstats: false,
             commandLiteral: "!",
             blacklists: {
-                NSFW: "https://rawgit.com/basicBot/custom/master/blacklists/NSFWlist.json",
-                OP: "https://rawgit.com/basicBot/custom/master/blacklists/OPlist.json",
-                BANNED: "https://rawgit.com/basicBot/custom/master/blacklists/BANNEDlist.json"
+                NSFW: "https://rawgit.com/Shadow-Slayer/moveit/master/NSFW.json",
+                OP: "https://rawgit.com/Shadow-Slayer/moveit/master/op.json",
+                BANNED: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/BANNEDlist.json"
             }
         },
         room: {
@@ -1188,6 +1192,9 @@
                     API.sendChat(subChat(basicBot.chat.adfly, {name: chat.un}));
                     return true;
                 }
+                if (msg.indexOf('!clearchat') > -1) {
+                    API.sendChat('/clear');                    
+                }
                 if (msg.indexOf('autojoin was not enabled') > 0 || msg.indexOf('AFK message was not enabled') > 0 || msg.indexOf('!afkdisable') > 0 || msg.indexOf('!joindisable') > 0 || msg.indexOf('autojoin disabled') > 0 || msg.indexOf('AFK message disabled') > 0) {
                     API.moderateDeleteChat(chat.cid);
                     return true;
@@ -1885,7 +1892,7 @@
             },
 
             commandsCommand: {
-                command: 'commands',
+                command: ['commands','cmd','comandos'],
                 rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
@@ -1918,7 +1925,7 @@
             },
 
             cookieCommand: {
-                command: 'cookie',
+                command: ['cookie','biscoito'],
                 rank: 'user',
                 type: 'startsWith',
                 getCookie: function (chat) {
@@ -2695,7 +2702,7 @@
             },
 
             maxlengthCommand: {
-                command: 'maxlength',
+                command: ['maxlength','tempo','duracao'],
                 rank: 'manager',
                 type: 'startsWith',
                 functionality: function (chat, cmd) {
@@ -2943,7 +2950,7 @@
             },
 
             rouletteCommand: {
-                command: 'roulette',
+                command: ['roulette','roleta'],
                 rank: 'mod',
                 type: 'exact',
                 functionality: function (chat, cmd) {
@@ -2958,7 +2965,7 @@
             },
 
             rulesCommand: {
-                command: 'rules',
+                command: ['rules','regras'],
                 rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
@@ -3252,7 +3259,7 @@
             },
 
             themeCommand: {
-                command: 'theme',
+                command: ['theme','tema'],
                 rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
