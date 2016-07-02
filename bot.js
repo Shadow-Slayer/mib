@@ -376,10 +376,12 @@
                     basicBot.room.roulette.countdown = setTimeout(function () {
                         basicBot.room.roulette.endRoulette();
                     }, 60 * 1000);
-                    API.sendChat(basicBot.chat.isopen);
+                    setTimeout(function () {
+                        API.sendChat(basicBot.chat.isopen);
+                    }, 1 * 1000);
                     setTimeout(function () {
                         API.sendChat(basicBot.chat.isopen2);
-                    }, 3 * 1000);
+                    }, 1 * 1000);
                 },
                 endRoulette: function () {
                     basicBot.room.roulette.rouletteStatus = false;
@@ -1195,6 +1197,10 @@
                     API.sendChat(subChat(basicBot.chat.adfly, {name: chat.un}));
                     return true;
                 }
+                if (msg.indexOf('!clearchat') > -1) {
+                    API.sendChat('/clear');
+                    return true;
+                
                 if (msg.indexOf('autojoin was not enabled') > 0 || msg.indexOf('AFK message was not enabled') > 0 || msg.indexOf('!afkdisable') > 0 || msg.indexOf('!joindisable') > 0 || msg.indexOf('autojoin disabled') > 0 || msg.indexOf('AFK message disabled') > 0) {
                     API.moderateDeleteChat(chat.cid);
                     return true;
@@ -1875,7 +1881,7 @@
             },
 
             clearchatCommand: {
-                command: 'clearchat',
+                command: 'limpa',
                 rank: 'manager',
                 type: 'exact',
                 functionality: function (chat, cmd) {
@@ -1892,7 +1898,7 @@
             },
 
             commandsCommand: {
-                command: 'commands',
+                command: ['commands','comandos','cmd'],
                 rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
@@ -1925,7 +1931,7 @@
             },
 
             cookieCommand: {
-                command: 'cookie',
+                command: ['cookie','biscoito','bolacha'],
                 rank: 'user',
                 type: 'startsWith',
                 getCookie: function (chat) {
@@ -2454,7 +2460,7 @@
 
             killCommand: {
                 command: 'kill',
-                rank: 'bouncer',
+                rank: 'host',
                 type: 'exact',
                 functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
@@ -2687,7 +2693,7 @@
 
             logoutCommand: {
                 command: 'logout',
-                rank: 'manager',
+                rank: 'host',
                 type: 'exact',
                 functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
@@ -2702,7 +2708,7 @@
             },
 
             maxlengthCommand: {
-                command: 'maxlength',
+                command: ['maxlength','tempo','duracao'],
                 rank: 'manager',
                 type: 'startsWith',
                 functionality: function (chat, cmd) {
@@ -2861,7 +2867,7 @@
 
             refreshCommand: {
                 command: 'refresh',
-                rank: 'manager',
+                rank: 'host',
                 type: 'exact',
                 functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
@@ -2965,7 +2971,7 @@
             },
 
             rulesCommand: {
-                command: 'rules',
+                command: ['rules','regras'],
                 rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
@@ -3259,7 +3265,7 @@
             },
 
             themeCommand: {
-                command: 'theme',
+                command: ['theme','tema'],
                 rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
