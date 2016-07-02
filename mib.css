@@ -1,0 +1,133 @@
+/**
+.badge-box.clickable {
+    display: none;
+}
+/*http://i.imgur.com/Ht8aNc5.png?1 -- emblema molde */
+
+/*shadow
+.id-4080795 {
+    background-image: url(https://s.gravatar.com/avatar/6b339b1d098965c7496e3b7e58573962?s=80);
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    background-size: 35px;
+}
+/*duda
+.id-xxxxx {
+    background-image: url(duda);
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    background-size: 35px;
+}
+/*away
+.id-1380997 {
+    background-image: url(http://i.imgur.com/BTvhqX2.jpg?1);
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    background-size: 35px;
+}
+/*sabota
+.id-3851265 {
+    background-image: url(http://i.imgur.com/DHoUE4d.jpg?1);
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    background-size: 35px;
+}
+/*vzack
+.id-4371581 {
+    background-image: url(http://image.prntscr.com/image/7cc4df7a823c405fb372de83140b52fc.png);
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    background-size: 35px;
+}
+/*dig
+.id-5495125 {
+    background-image: url(http://i.imgur.com/DtznPYN.jpg?1);
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    background-size: 35px;
+}
+/*tuskas
+.cm.message.id-5594653 {
+    background-image: url(http://i.imgur.com/VfMrCMd.jpg?1);
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    background-size: 35px;
+}
+/*freddie
+.cm.message.id-5007596 {
+    background-image: url(http://i.imgur.com/doWh73r.jpg?1);
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    background-size: 35px;
+}
+**/
+
+
+
+
+
+#room-host, #room-name {
+left: 105px;
+}
+
+#room-bar .icon-room {
+    top: 7px;
+    left: 7px;
+}
+i.icon.icon-room {
+    width: 130px;
+    height: 50px;
+}
+
+.icon-room {
+    background: url(http://i.imgur.com/KkMZsiH.png?1) no-repeat;
+    width: 0px;
+    height: 0px;
+    background-size: 65%;
+}
+
+.from.staff {
+    text-shadow: 0px 0px 1px #ac76ff;
+}
+
+#chat .emote .text {
+    font-family: 'Open Sans',sans-serif;
+}
+#chat-messages .text {
+    font-family: 'Comic Sans', 'Comic Sans MS', cursive;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+#chat .from {
+    position: relative;
+    margin-bottom: 3px;
+    font-size: 13px;
+    font-family: 'Comic Sans', 'Comic Sans MS', cursive;
+}
+
+#chat-input-field {
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    width: 305px;
+    outline: 0;
+    border: 0;
+    background: 0 0;
+    color: #eee;
+    font-weight: 400;
+    font-family: 'Comic Sans', 'Comic Sans MS', cursive;
+    font-size: 13px;
+}
+
+
+#woot.selected {
+    background: #42ad2f;
+}
+.votes-rs .title.woot {
+    background: #42ad2f;
+}
+
+.votes-rs .title.grab {
+    background: #0550ad;
+}
