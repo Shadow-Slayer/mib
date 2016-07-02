@@ -60,7 +60,6 @@
     background-position: 5px 5px;
     background-size: 35px;
 }
-
 /*blea*/
 .cm.message.id-4915184 {
     background-image: url(https://secure.gravatar.com/avatar/a684823b8c6ad09e45cded6e1870b56f);
@@ -68,7 +67,6 @@
     background-position: 5px 5px;
     background-size: 35px;
 }
-
 /*feluz*/
 .cm.message.id-3839549 {
     background-image: url(https://s.gravatar.com/avatar/681557ed224ed2027533bd41f38faac7?s=80);
@@ -83,8 +81,13 @@
     background-position: 5px 5px;
     background-size: 35px;
 }
-
-
+/*bot*/
+.cm.message.id-5394376 {
+    background-image: url(https://s.gravatar.com/avatar/795a00fa0d523c1bce9bc73cab3f9915?s=80);
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    background-size: 35px;
+}
 
 
 
