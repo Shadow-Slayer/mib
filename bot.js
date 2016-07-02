@@ -381,7 +381,7 @@
                     }, 1 * 1000);
                     setTimeout(function () {
                         API.sendChat(basicBot.chat.isopen2);
-                    }, 1 * 1000);
+                    }, 2 * 1000);
                 },
                 endRoulette: function () {
                     basicBot.room.roulette.rouletteStatus = false;
