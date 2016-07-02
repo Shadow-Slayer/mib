@@ -377,7 +377,7 @@
                         basicBot.room.roulette.endRoulette();
                     }, 60 * 1000);
                     API.sendChat(basicBot.chat.isopen);
-                    setTimeout(function{
+                    setTimeout(function () {
                         API.sendChat(basicBot.chat.isopen2);
                     }, 3 * 1000);
                 },
