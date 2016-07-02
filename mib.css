@@ -1,66 +1,66 @@
-/**
 .badge-box.clickable {
-    display: none;
+    position: absolute;
+    left: -9999px;
 }
 /*http://i.imgur.com/Ht8aNc5.png?1 -- emblema molde */
 
-/*shadow
+/*shadow*/
 .id-4080795 {
     background-image: url(https://s.gravatar.com/avatar/6b339b1d098965c7496e3b7e58573962?s=80);
     background-repeat: no-repeat;
     background-position: 5px 5px;
     background-size: 35px;
 }
-/*duda
+/*duda*/
 .id-xxxxx {
     background-image: url(duda);
     background-repeat: no-repeat;
     background-position: 5px 5px;
     background-size: 35px;
 }
-/*away
+/*away*/
 .id-1380997 {
     background-image: url(http://i.imgur.com/BTvhqX2.jpg?1);
     background-repeat: no-repeat;
     background-position: 5px 5px;
     background-size: 35px;
 }
-/*sabota
+/*sabota*/
 .id-3851265 {
     background-image: url(http://i.imgur.com/DHoUE4d.jpg?1);
     background-repeat: no-repeat;
     background-position: 5px 5px;
     background-size: 35px;
 }
-/*vzack
+/*vzack*/
 .id-4371581 {
     background-image: url(http://image.prntscr.com/image/7cc4df7a823c405fb372de83140b52fc.png);
     background-repeat: no-repeat;
     background-position: 5px 5px;
     background-size: 35px;
 }
-/*dig
+/*dig*/
 .id-5495125 {
     background-image: url(http://i.imgur.com/DtznPYN.jpg?1);
     background-repeat: no-repeat;
     background-position: 5px 5px;
     background-size: 35px;
 }
-/*tuskas
+/*tuskas*/
 .cm.message.id-5594653 {
     background-image: url(http://i.imgur.com/VfMrCMd.jpg?1);
     background-repeat: no-repeat;
     background-position: 5px 5px;
     background-size: 35px;
 }
-/*freddie
+/*freddie*/
 .cm.message.id-5007596 {
     background-image: url(http://i.imgur.com/doWh73r.jpg?1);
     background-repeat: no-repeat;
     background-position: 5px 5px;
     background-size: 35px;
 }
-**/
+
 
 
 
@@ -111,6 +111,7 @@ i.icon.icon-room {
     top: 7px;
     left: 10px;
     width: 305px;
+    height: 18px; !important
     outline: 0;
     border: 0;
     background: 0 0;
