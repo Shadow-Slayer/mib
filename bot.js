@@ -99,7 +99,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://rawgit.com/Shadow-Slayer/source/master/pt-br.json", function (json) {
+        $.get("https://rawgit.com/Shadow-Slayer/mib/master/pt-br.json", function (json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -236,22 +236,22 @@
     var botCreatorIDs = ["3851534", "4105209"];
 
     var basicBot = {
-        version: "Macho",
+        version: "1",
         status: false,
-        name: "Move It Bot",
+        name: "Move It-Bot",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
+        scriptLink: "https://rawgit.com/basicBot/mib/master/bot.js",
         cmdLink: "http://git.io/245Ppg",
-        chatLink: "https://rawgit.com/Shadow-Slayer/source/master/pt-br.json",
+        chatLink: "https://rawgit.com/Shadow-Slayer/mib/master/pt-br.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "Move It Bot",
+            botName: "Move It-Bot",
             language: "portuguese",
-            chatLink: "https://rawgit.com/Shadow-Slayer/source/master/pt-br.json",
-            scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
+            chatLink: "https://rawgit.com/Shadow-Slayer/mib/master/pt-br.json",
+            scriptLink: "https://rawgit.com/basicBot/mib/master/bot.js",
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
