@@ -109,7 +109,13 @@
     background-position: 5px 5px;
     background-size: 35px;
 }
-
+/*fernandogamer*/
+.cm.message.id-4799567 {
+    background-image: url(https://s.gravatar.com/avatar/bfd33fc955958cb28ee611a77f440358?s=80);
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    background-size: 35px;
+}
 
 #room-host, #room-name {
 left: 105px;
@@ -174,6 +180,14 @@ i.icon.icon-room {
     background: #42ad2f;
 }
 
+#grab .bottom, #grab.selected {
+    background: #c6b016;
+}
 .votes-rs .title.grab {
-    background: #0550ad;
+    background: #c6b016;
+}
+.icon .icon-grab {
+    width: 30px;
+    height: 30px;
+    background: url('http://i.imgur.com/toSF1Ae.png?1');
 }
