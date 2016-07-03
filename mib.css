@@ -155,11 +155,11 @@ i.icon.icon-room {
 }*/
 
 #chat .emote .text {
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Fira Sans',sans-serif;
 }
 #chat-messages .text {
     font-family: 'Fira Sans', 'Fira Sans Bold', cursive;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 600;
 }
 
@@ -182,7 +182,7 @@ i.icon.icon-room {
     color: #eee;
     font-weight: 400;
     font-family: 'Fira Sans', 'Fira Sans Bold', cursive;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 
