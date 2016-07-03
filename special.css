@@ -1,16 +1,16 @@
 /* MoveItBot */
-#chat [data-cid^="5394376-"] span.un.clickable {
+/*#chat [data-cid^="5394376-"] span.un.clickable {
 color: rgb(210, 90, 195) !important;
-}
+}*/
 #chat [data-cid^="5394376-"] i.bdg {
 background: url('https://s.gravatar.com/avatar/795a00fa0d523c1bce9bc73cab3f9915?s=30') !important;
 }
 #chat [data-cid^="5394376-"] .icon {
 display:none !important;
 }
-#chat .msg .text .id-5394376, #chat .msg .text .name.id-5394376, #chat .msg .text .name.id-5394376 .name {
+/*#chat .msg .text .id-5394376, #chat .msg .text .name.id-5394376, #chat .msg .text .name.id-5394376 .name {
 color: rgb(210, 90, 195) !important;
-}
+}*/
 #chat [data-cid^="5394376-"].emote {
     background: rgba(151, 67, 147, 0.35) !important;
 }
@@ -23,9 +23,9 @@ color: rgb(210, 90, 195) !important;
 }
 
 /* MoveItBot */
-.id-5394376 span.un.clickable, #user-lists .list.room .id-5394376 .name, #user-lists .list.room .is-ambassador.id-5394376 .name, #user-lists .list.room .is-staff.id-3454266 .name, #user-lists .list.room .is-dj.id-3454266 .name, #user-lists .list.room .is-subscriber.id-3454266 .name, #user-lists .list.room [class*='role'].id-3454266 .name {
+/*.id-5394376 span.un.clickable, #user-lists .list.room .id-5394376 .name, #user-lists .list.room .is-ambassador.id-5394376 .name, #user-lists .list.room .is-staff.id-3454266 .name, #user-lists .list.room .is-dj.id-3454266 .name, #user-lists .list.room .is-subscriber.id-3454266 .name, #user-lists .list.room [class*='role'].id-3454266 .name {
 color: #d25ac3 !important;
-}
+}*/
 #chat .id-5394376 .icon {
 display:none !important;
 }
@@ -52,11 +52,11 @@ display:none !important;
 [data-cid^="5394376-"] .msg .from .icon-chat-ambassador, #user-lists .list.room .id-5394376 .icon-chat-ambassador {
     background: url("https://cdn.radiant.dj/rcs/icons/radiant/litebot_ambassador.png") !important;
 }
-#user-rollover.id-5394376 .username {
+/*#user-rollover.id-5394376 .username {
     color: #d25ac3 !important;
-}
-#chat .msg .text .id-5394376,
+}*/
+/*#chat .msg .text .id-5394376,
 #chat .msg .text .name.id-5394376,
 #chat .msg .text .name.id-5394376 .name {
     color: #d25ac3 !important;
-}
+}*/
