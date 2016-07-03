@@ -1,5 +1,5 @@
 @import url("https://rawgit.com/Shadow-Slayer/mib/master/style.css");
-
+@import url("https://rawgit.com/Shadow-Slayer/mib/master/users.css");
 
 .badge-box.clickable {
     position: absolute;
@@ -7,125 +7,125 @@
 }
 /*http://i.imgur.com/Ht8aNc5.png?1 -- emblema molde */
 
-/*shadow*/
+/*shadow
 .cm.message.id-4080795 {
     background-image: url(https://s.gravatar.com/avatar/6b339b1d098965c7496e3b7e58573962?s=80);
     background-repeat: no-repeat;
     background-position: 5px 5px;
     background-size: 35px;
 }
-/*duda*/
+/*duda
 .cm.message.id-6237801 {
     background-image: url(https://s.gravatar.com/avatar/5d85982a88aaa91e10ec167f682df7ba?s=80);
     background-repeat: no-repeat;
     background-position: 5px 5px;
     background-size: 35px;
 }
-/*away*/
+/*away
 .cm.message.id-1380997 {
     background-image: url(https://s.gravatar.com/avatar/bd684a1dd38f4c4b0aed3e54dba0acba?s=80);
     background-repeat: no-repeat;
     background-position: 5px 5px;
     background-size: 35px;
 }
-/*sabota*/
+/*sabota
 .cm.message.id-3851265 {
     background-image: url(http://i.imgur.com/DHoUE4d.jpg?1);
     background-repeat: no-repeat;
     background-position: 5px 5px;
     background-size: 35px;
 }
-/*vzack*/
+/*vzack
 .cm.message.id-4371581 {
     background-image: url(https://s.gravatar.com/avatar/2dfc1fef92105cbc88500c992025f9c0?s=80);
     background-repeat: no-repeat;
     background-position: 5px 5px;
     background-size: 35px;
 }
-/*dig*/
+/*dig
 .cm.message.id-5495125 {
     background-image: url(http://i.imgur.com/DtznPYN.jpg?1);
     background-repeat: no-repeat;
     background-position: 5px 5px;
     background-size: 35px;
 }
-/*tuskas*/
+/*tuskas
 .cm.message.id-5594653 {
     background-image: url(http://i.imgur.com/VfMrCMd.jpg?1);
     background-repeat: no-repeat;
     background-position: 5px 5px;
     background-size: 35px;
 }
-/*freddie*/
+/*freddie
 .cm.message.id-5007596 {
     background-image: url(http://i.imgur.com/doWh73r.jpg?1);
     background-repeat: no-repeat;
     background-position: 5px 5px;
     background-size: 35px;
 }
-/*blea*/
+/*blea
 .cm..message.id-4915184 {
     background-image: url(https://secure.gravatar.com/avatar/a684823b8c6ad09e45cded6e1870b56f);
     background-repeat: no-repeat;
     background-position: 5px 5px;
     background-size: 35px;
 }
-/*feluz*/
+/*feluz
 .cm.message.id-3839549 {
     background-image: url(https://s.gravatar.com/avatar/681557ed224ed2027533bd41f38faac7?s=80);
     background-repeat: no-repeat;
     background-position: 5px 5px;
     background-size: 35px;
 }
-/*PSG*/
+/*PSG
 .cm.message.id-5039941 {
     background-image: url(https://s.gravatar.com/avatar/1ab705ef0abbd98e90f9ae1865d73d83?s=80);
     background-repeat: no-repeat;
     background-position: 5px 5px;
     background-size: 35px;
 }
-/*bot*/
+/*bot
 .cm.message.id-5394376 {
     background-image: url(https://s.gravatar.com/avatar/795a00fa0d523c1bce9bc73cab3f9915?s=80);
     background-repeat: no-repeat;
     background-position: 5px 5px;
     background-size: 35px;
 }
-/*jander dolynhot*/
+/*jander dolynhot
 .cm.message.id-4349239 {
     background-image: url(https://s.gravatar.com/avatar/354ca72c5076665f93b9a2aa3249c212?s=80);
     background-repeat: no-repeat;
     background-position: 5px 5px;
     background-size: 35px;
 }
-/*warlocked*/
+/*warlocked
 .cm.message.id-13740821 {
     background-image: url(https://s.gravatar.com/avatar/dfd99e14037c0a5b4ab2eb2a30cbec45?s=80);
     background-repeat: no-repeat;
     background-position: 5px 5px;
     background-size: 35px;
 }
-/*mysaddestiny*/
+/*mysaddestiny
 .cm.message.id-4179990 {
     background-image: url(https://s.gravatar.com/avatar/b1efdf38a84682c28dfd6e614d9b12b0?s=80);
     background-repeat: no-repeat;
     background-position: 5px 5px;
     background-size: 35px;
 }
-/*fernandogamer*/
+/*fernandogamer
 .cm.message.id-4799567 {
     background-image: url(https://s.gravatar.com/avatar/bfd33fc955958cb28ee611a77f440358?s=80);
     background-repeat: no-repeat;
     background-position: 5px 5px;
     background-size: 35px;
 }
-/*tefe*/
+/*tefe
 .cm.message.id-5388131 {
     background-image: url(https://s.gravatar.com/avatar/d6fa5c01dc720ba7dcabdc58a4bad8d7?s=80);
     background-repeat: no-repeat;
     background-position: 5px 5px;
     background-size: 35px;
-}
+} */
 
 
 
