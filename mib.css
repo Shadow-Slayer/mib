@@ -195,14 +195,4 @@ i.icon.icon-room {
     background: #42ad2f;
 }
 
-#grab .bottom, #grab.selected {
-    background: #c6b016;
-}
-.votes-rs .title.grab {
-    background: #c6b016;
-}
-.icon .icon-grab {
-    width: 30px;
-    height: 30px;
-    background: url('http://i.imgur.com/toSF1Ae.png?1');
-}
+
