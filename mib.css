@@ -158,7 +158,7 @@ i.icon.icon-room {
     font-family: 'Fira Sans', sans-serif;
 }
 #chat-messages .text {
-    font-family: 'Fira Sans', 'Fira Sans Bold', cursive;
+    font-family: 'Fira Sans', sans-serif;
     font-size: 12px;
     font-weight: 600;
 }
@@ -167,7 +167,7 @@ i.icon.icon-room {
     position: relative;
     margin-bottom: 3px;
     font-size: 13px;
-    font-family: 'Fira Sans', 'Fira Sans Bold', cursive;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 #chat-input-field {
@@ -181,7 +181,7 @@ i.icon.icon-room {
     background: 0 0;
     color: #eee;
     font-weight: 400;
-    font-family: 'Fira Sans', 'Fira Sans Bold', cursive;
+    font-family: 'Fira Sans', sans-serif;
     font-size: 12px;
 }
 
