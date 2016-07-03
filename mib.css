@@ -3,6 +3,127 @@
 @import url("https://rawgit.com/Shadow-Slayer/mib/master/special.css");
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:700");
 
+
+
+
+
+#room-host, #room-name {
+left: 105px;
+}
+
+#room-bar .icon-room {
+    top: 8px;
+    left: 10px;
+}
+i.icon.icon-room {
+    width: 130px;
+    height: 50px;
+}
+
+.icon-room {
+    background: url(http://i.imgur.com/KkMZsiH.png?1) no-repeat;
+    width: 0px;
+    height: 0px;
+    background-size: 65%;
+}
+
+/*.from.staff {
+    text-shadow: 0px 0px 1px #ac76ff;
+}*/
+
+#chat .emote .text {
+    font-family: 'Ubuntu', sans-serif;
+}
+#chat-messages .text {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+#chat .from {
+    position: relative;
+    margin-bottom: 3px;
+    font-size: 13px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#chat-input-field {
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    width: 305px;
+    height: 18px; !important
+    outline: 0;
+    border: 0;
+    background: 0 0;
+    color: #eee;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+}
+
+
+
+.app-header {
+    background: rgba(28, 31, 37, 0.59);
+}
+
+
+#woot .bottom, #woot.selected {
+    background: #55e662;
+}
+.votes-rs .title.woot {
+    background: #55e662; !important
+}
+
+#grab .bottom, #grab.selected {
+    background: #ecc536;
+}
+.votes-rs .title.grab {
+    background: #ecc536; !important
+}
+.icon {background: url('http://i.imgur.com/0qIMZLo.png?1');
+}
+
+
+
+/* cabeçalho alternativo inicio*/
+/* Text settings */ 
+#room-host, #now-playing-dj{color: #808691 !important; }
+#room-bar *, 
+#now-playing-bar *{font-weight: lighter !important; } 
+#room-bar span, 
+#now-playing-bar span, 
+#now-playing-time span, 
+#volume span, 
+#rcs-time-elapsed{font-size: 20px !important; } 
+#room-bar:hover > #room-name, #room-bar > #room-host, #now-playing-bar:hover > #now-playing-media, 
+#now-playing-bar > #now-playing-dj{opacity: 0 !important; transition: opacity 0.25s !important; } 
+#room-bar > #room-name, #room-bar:hover > #room-host, #now-playing-bar > 
+#now-playing-media, #now-playing-bar:hover >
+#now-playing-dj{opacity: 1 !important; 
+transition: opacity 0.25s !important; transition-delay: 0.25s !important; } 
+/* Positioning and sizing */ 
+/* Z-position */ 
+#volume span, #now-playing-time{z-index: 11 !important; } #volume .button{z-index: 12 !important; } 
+/* Position and sizing */ 
+#room-bar > #room-name, #now-playing-bar > 
+#now-playing-media{margin-top: 7px !important; } #room-bar > 
+#room-host, #now-playing-bar > #now-playing-dj{margin-top: -15px !important; } 
+#now-playing-time{margin-top: -2px !important; } #volume{margin-top: -26px !important; margin-right: 58px !important; } 
+#volume .button{margin-top: 2px !important; right: 0px !important; width: 48px !important; height: 27px !important; } 
+/* + Always show volume */ 
+#volume .slider{display: block !important; top: 26px !important; right: -62px !important; } 
+/* Colour settings for overlap */ 
+#volume .slider{background-color: rgba(28, 31, 37, 0.50) !important; 
+box-shadow: 0px -19px 0px 6px rgba(28, 31, 37, 0.50), 0px 18px 0px 6px rgba(28, 31, 37, 0.50) !important; } 
+/* Disappearing elapsing */ .elapsing{opacity: 0.0 !important; transition: opacity 1.0s !important; } 
+/* Disappear */ #now-playing-bar > :not(#history-button) :not(#rs-skip-button) i, .dark-label{display: none !important; }
+#now-playing-time i {display:none !important;}
+/* cabeçalho alternativo fim*/
+
+
+
 /*
 .badge-box.clickable {
     position: absolute;
@@ -129,127 +250,4 @@
     background-position: 5px 5px;
     background-size: 35px;
 } */
-
-
-
-#room-host, #room-name {
-left: 105px;
-}
-
-#room-bar .icon-room {
-    top: 8px;
-    left: 10px;
-}
-i.icon.icon-room {
-    width: 130px;
-    height: 50px;
-}
-
-.icon-room {
-    background: url(http://i.imgur.com/KkMZsiH.png?1) no-repeat;
-    width: 0px;
-    height: 0px;
-    background-size: 65%;
-}
-
-/*.from.staff {
-    text-shadow: 0px 0px 1px #ac76ff;
-}*/
-
-#chat .emote .text {
-    font-family: 'Ubuntu', sans-serif;
-}
-#chat-messages .text {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 13px;
-    font-weight: 600;
-}
-
-#chat .from {
-    position: relative;
-    margin-bottom: 3px;
-    font-size: 13px;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-#chat-input-field {
-    position: absolute;
-    top: 7px;
-    left: 10px;
-    width: 305px;
-    height: 18px; !important
-    outline: 0;
-    border: 0;
-    background: 0 0;
-    color: #eee;
-    font-weight: 400;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 13px;
-}
-
-
-#woot.selected {
-    background: #42ad2f;
-}
-.votes-rs .title.woot {
-    background: #42ad2f;
-}
-
-.app-header {
-    background: rgba(28, 31, 37, 0.59);
-}
-
-
-
-
-/* cabeçalho alternativo inicio*/
-/* Text settings */ 
-#room-host, #now-playing-dj{color: #808691 !important; }
-#room-bar *, 
-#now-playing-bar *{font-weight: lighter !important; } 
-#room-bar span, 
-#now-playing-bar span, 
-#now-playing-time span, 
-#volume span, 
-#rcs-time-elapsed{font-size: 20px !important; } 
-#room-bar:hover > #room-name, #room-bar > #room-host, #now-playing-bar:hover > #now-playing-media, 
-#now-playing-bar > #now-playing-dj{opacity: 0 !important; transition: opacity 0.25s !important; } 
-#room-bar > #room-name, #room-bar:hover > #room-host, #now-playing-bar > 
-#now-playing-media, #now-playing-bar:hover >
-#now-playing-dj{opacity: 1 !important; 
-transition: opacity 0.25s !important; transition-delay: 0.25s !important; } 
-/* Positioning and sizing */ 
-/* Z-position */ 
-#volume span, #now-playing-time{z-index: 11 !important; } #volume .button{z-index: 12 !important; } 
-/* Position and sizing */ 
-#room-bar > #room-name, #now-playing-bar > 
-#now-playing-media{margin-top: 7px !important; } #room-bar > 
-#room-host, #now-playing-bar > #now-playing-dj{margin-top: -15px !important; } 
-#now-playing-time{margin-top: -2px !important; } #volume{margin-top: -26px !important; margin-right: 58px !important; } 
-#volume .button{margin-top: 2px !important; right: 0px !important; width: 48px !important; height: 27px !important; } 
-/* + Always show volume */ 
-#volume .slider{display: block !important; top: 26px !important; right: -62px !important; } 
-/* Colour settings for overlap */ 
-#volume .slider{background-color: rgba(28, 31, 37, 0.50) !important; 
-box-shadow: 0px -19px 0px 6px rgba(28, 31, 37, 0.50), 0px 18px 0px 6px rgba(28, 31, 37, 0.50) !important; } 
-/* Disappearing elapsing */ .elapsing{opacity: 0.0 !important; transition: opacity 1.0s !important; } 
-/* Disappear */ #now-playing-bar > :not(#history-button) :not(#rs-skip-button) i, .dark-label{display: none !important; }
-#now-playing-time i {display:none !important;}
-/* cabeçalho alternativo fim*/
-
-#woot .bottom, #woot.selected {
-    background: #55e662;
-}
-.votes-rs .title.woot {
-    background: #55e662; !important
-}
-
-#grab .bottom, #grab.selected {
-    background: #f2f45f;
-}
-.votes-rs .title.grab {
-    background: #f2f45f; !important
-}
-.icon {background: url('http://i.imgur.com/0qIMZLo.png?1');
-}
 
