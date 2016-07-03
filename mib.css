@@ -1,6 +1,6 @@
 @import url("https://rawgit.com/Shadow-Slayer/mib/master/style.css");
 @import url("https://rawgit.com/Shadow-Slayer/mib/master/users.css");
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:700);
 
 /*
 .badge-box.clickable {
@@ -156,11 +156,11 @@ i.icon.icon-room {
 }*/
 
 #chat .emote .text {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 #chat-messages .text {
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
     font-weight: 600;
 }
 
@@ -168,7 +168,7 @@ i.icon.icon-room {
     position: relative;
     margin-bottom: 3px;
     font-size: 13px;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 #chat-input-field {
@@ -182,7 +182,7 @@ i.icon.icon-room {
     background: 0 0;
     color: #eee;
     font-weight: 400;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 12px;
 }
 
