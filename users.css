@@ -316,5 +316,17 @@
     border-radius: 0;
 }
 
+/*nu.clear*/
+#chat-messages .fromID-13443778 .badge-box i,
+#chat-messages  .id-13443778 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/711763bdba63425aa9ea55dd313fac14?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
 
 
