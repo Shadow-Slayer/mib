@@ -3,6 +3,17 @@
 @import url("https://rawgit.com/Shadow-Slayer/mib/master/special.css");
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:700");
 
+#dj-button {
+    background: rgba(34, 34, 36, 0.59);
+    border-radius: 8px;
+}
+#dj-button.is-quit .left {
+    background: #aa74ff;
+}
+#vote .crowd-response {
+    background: rgba(34, 34, 36, 0.4);
+}
+
 #chat .from .un {
     color: rgb(172, 118, 255);
 }
