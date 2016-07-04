@@ -276,3 +276,16 @@
     border: none;
     border-radius: 0;
 }
+
+/*ladycarol*/
+#chat-messages .fromID-5581816 .badge-box i,
+#chat-messages  .id-5581816 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/7a1b9772abc8b3d830134d001f49f50e?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
