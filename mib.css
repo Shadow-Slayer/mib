@@ -7,7 +7,7 @@
     background: rgba(34, 34, 36, 0.59);
     border-radius: 8px;
 }
-#dj-button.is-quit .left {
+.left {
     background: #aa74ff;
 }
 #vote .crowd-response {
