@@ -3,10 +3,6 @@
 @import url("https://rawgit.com/Shadow-Slayer/mib/master/special.css");
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:700");
 
-div#room-host {
-    margin-left: 60px;
-}
-
 #room-host, #room-name {
 left: 105px;
 }
