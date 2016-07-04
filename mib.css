@@ -3,7 +3,7 @@
 @import url("https://rawgit.com/Shadow-Slayer/mib/master/special.css");
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:700");
 
-
+#ecc536
 
 
 
@@ -77,12 +77,6 @@ i.icon.icon-room {
     background: #55e662; !important
 }
 
-#grab .bottom, #grab.selected {
-    background: #ecc536;
-}
-.votes-rs .title.grab {
-    background: #ecc536; !important
-}
 /*.icon {background: url('http://i.imgur.com/0qIMZLo.png?1');
 }*/
 
