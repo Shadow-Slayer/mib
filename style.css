@@ -115,7 +115,7 @@
     background: rgba(28, 31, 37, 0.59);
 }
 #dj-button.is-locked .left,#dj-button.is-full .left,#vote .crowd-response.disabled .bottom {
-    background: #222224;
+    background: rgba(255, 255, 255, 0);
 }
 #dj-button.is-quit .left, #dj-button.is-leave .left, #dj-button.is-wait .left, #dj-button.is-locked .left, #dj-button.is-full .left {
 background: #121214;
@@ -142,7 +142,7 @@ background: #222224;
 border-radius: 8px;
 }
 #vote .crowd-response {
-background: #222224;
+background: rgba(255, 255, 255, 0);
 }
 #woot .bottom, #woot.selected {
 background: #90ad2f;
