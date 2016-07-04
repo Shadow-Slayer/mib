@@ -289,3 +289,32 @@
     border: none;
     border-radius: 0;
 }
+
+/*danielmac*/
+#chat-messages .fromID-3742812 .badge-box i,
+#chat-messages  .id-3742812 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/d013158a16aa4da980436b693533a60d?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
+
+/*lorma*/
+#chat-messages .fromID-5682160 .badge-box i,
+#chat-messages  .id-5682160 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/a037914f672e3c01f3729d2c14abcdae?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
+
+
+
