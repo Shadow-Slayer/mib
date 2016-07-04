@@ -13,9 +13,6 @@
 .top {
     background: rgba(34, 34, 36, 0.4) !important;
 }
-#vote .crowd-response {
-    background: rgba(34, 34, 36, 0) !important;
-}
 
 #chat .from .un {
     color: rgb(172, 118, 255);
