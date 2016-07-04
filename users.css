@@ -263,3 +263,16 @@
     border: none;
     border-radius: 0;
 }
+
+/*fanny*/
+#chat-messages .fromID-3733591 .badge-box i,
+#chat-messages  .id-3733591 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/043718571213349ef0787867abdac4d6?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
