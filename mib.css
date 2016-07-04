@@ -63,18 +63,15 @@ i.icon.icon-room {
     font-size: 13px;
 }
 
-
-
 .app-header {
     background: rgba(28, 31, 37, 0.59);
 }
 
-
 #woot .bottom, #woot.selected {
-    background: #55e662;
+    background: #25b961 !important;
 }
 .votes-rs .title.woot {
-    background: #55e662; !important
+    background: #25b961 !important;
 }
 
 /*.icon {background: url('http://i.imgur.com/0qIMZLo.png?1');
