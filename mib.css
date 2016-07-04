@@ -8,10 +8,10 @@
     border-radius: 8px;
 }
 .left {
-    background: #aa74ff;
+    background: #aa74ff !important;
 }
-#vote {
-    background: rgba(34, 34, 36, 0.4);
+.top {
+    background: rgba(34, 34, 36, 0.4) !important;
 }
 
 #chat .from .un {
