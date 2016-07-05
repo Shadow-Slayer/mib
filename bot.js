@@ -2432,6 +2432,21 @@
                     }
                 }
             },
+            entraCommand: {
+                command: 'entra',
+                rank: 'user',
+                type: 'exact',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        if (basicBot.room.roulettetroll.rouletteStatus && basicBot.room.roulettetroll.participants.indexOf(chat.uid) < 0) {
+                            basicBot.room.roulettetroll.participants.push(chat.uid);
+                            API.sendChat(subChat(basicBot.chat.roulettejoin, {name: chat.un}));
+                        }
+                    }
+                }
+            },
 
             jointimeCommand: {
                 command: 'jointime',
