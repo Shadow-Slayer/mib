@@ -354,3 +354,30 @@
     border: none;
     border-radius: 0;
 }
+
+/*kennedy*/
+#chat-messages .fromID-5005365 .badge-box i,
+#chat-messages  .id-5005365 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/a82a13263d613a98c32906c4856fdbf0?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
+
+/*xITzGaMeSPr0zTIx*/
+#chat-messages .fromID-4404834 .badge-box i,
+#chat-messages  .id-4404834 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/eabe6c9ca5eeca7315c43fb9ef4d8581?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
+
