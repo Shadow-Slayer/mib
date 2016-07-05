@@ -304,7 +304,7 @@
             welcome: true,
             opLink: "https://rawgit.com/Shadow-Slayer/master/blacklists/OP.json",
             rulesLink: "http://goo.gl/Nw0Jth",
-            themeLink: "http://goo.gl/Nw0Jth",
+            themeLink: ":arrow_forward: Eletrônica :arrow_forward: Pop :arrow_forward: Rock :arrow_forward: Hip Hop :arrow_forward: Reggae :arrow_forward: Sertanejo",
             fbLink: "http://www.fb.com/groups/MoveItBrasil ",
             youtubeLink: null,
             website: "http://goo.gl/O4tlVo",
