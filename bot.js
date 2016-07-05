@@ -408,6 +408,37 @@
                     }, 1 * 1000, winner, pos);
                 }
             },
+            roulettetroll: {
+                rouletteStatus: false,
+                participants: [],
+                countdown: null,
+                startRoulette: function () {
+                    var pos = (basicBot.settings.roulettepos);
+                    basicBot.room.roulette.rouletteStatus = true;
+                    basicBot.room.roulette.countdown = setTimeout(function () {
+                        basicBot.room.roulette.endRoulette();
+                    }, 60 * 1000);
+                    setTimeout(function () {
+                        API.sendChat(basicBot.chat.isopen);
+                    }, 1 * 1000);
+                    setTimeout(function () {
+                        API.sendChat(subChat(basicBot.chat.isopen2, { position: pos}));
+                    }, 2 * 1000);
+                },
+                endRoulette: function () {
+                    basicBot.room.roulette.rouletteStatus = false;
+                    var ind = Math.floor(Math.random() * basicBot.room.roulette.participants.length);
+                    var winner = basicBot.room.roulette.participants[ind];
+                    basicBot.room.roulette.participants = [];
+                    var pos = Math.floor((Math.random() * API.getWaitList().length) + 1);
+                    var user = basicBot.userUtilities.lookupUser(winner);
+                    var name = user.username;
+                    API.sendChat(subChat(basicBot.chat.winnerpicked, {name: name, position: pos}));
+                    setTimeout(function (winner, pos) {
+                        basicBot.userUtilities.moveUser(winner, pos, false);
+                    }, 1 * 1000, winner, pos);
+                }
+            },
             usersUsedThor: []
         },
         User: function (id, name) {
@@ -2966,7 +2997,7 @@
                 }
             },
 
-            /**rouletteCommand: {
+            rouletteCommand: {
                 command: ['roletatroll'],
                 rank: 'mod',
                 type: 'exact',
@@ -2974,12 +3005,12 @@
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
-                        if (!basicBot.room.roulette.rouletteStatus) {
-                            basicBot.room.roulette.startRoulette();
+                        if (!basicBot.room.roulettetroll.rouletteStatus) {
+                            basicBot.room.roulettetroll.startRoulette();
                         }
                     }
                 }
-            },**/
+            },
             roletaCommand: {
                 command: 'roleta',
                 rank: 'manager',
