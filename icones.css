@@ -1,7 +1,7 @@
 .icon {
     background-image: url('http://i.imgur.com/GYpbtIP.png?1');
 }
-
+/**
 #user-lists .group.host ~ .user, #user-lists .group.manager ~ .user, #user-lists .group.bouncer ~ .user, #user-lists .group.dj ~ .user {
     color: #6093C6 !important;
 }
@@ -78,9 +78,9 @@
 #dj-button.is-leave .left, #dj-button.is-quit .left {
     background: #202020;
 }
-
+**/
 /* private chat */
-
+/**
 #pm-main {
     position: absolute;
     right: 350px;
@@ -457,3 +457,4 @@ div[class^="pm-from-"] small {
 #footer-user .buttons .button.store:hover {
     background: #323742;
 }
+**/
