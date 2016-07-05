@@ -422,7 +422,7 @@
                         API.sendChat(basicBot.chat.isopen);
                     }, 1 * 1000);
                     setTimeout(function () {
-                        API.sendChat(subChat(basicBot.chat.isopen2, { position: pos}));
+                        API.sendChat(subChat(basicBot.chat.isopen3, { position: pos}));
                     }, 2 * 1000);
                 },
                 endRoulette: function () {
