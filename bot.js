@@ -410,7 +410,7 @@
             },
             roulettetroll: {
                 rouletteStatus: false,
-                participantsx: [],
+                participants: [],
                 countdown: null,
                 startRoulette: function () {
                     basicBot.room.roulettetroll.rouletteStatus = true;
@@ -426,9 +426,9 @@
                 },
                 endRoulette: function () {
                     basicBot.room.roulettetroll.rouletteStatus = false;
-                    var ind = Math.floor(Math.random() * basicBot.room.roulettetroll.participantsx.length);
-                    var winner = basicBot.room.roulettetroll.participantsx[ind];
-                    basicBot.room.roulettetroll.participantsx = [];
+                    var ind = Math.floor(Math.random() * basicBot.room.roulettetroll.participants.length);
+                    var winner = basicBot.room.roulettetroll.participants[ind];
+                    basicBot.room.roulettetroll.participants = [];
                     var posx = Math.floor((Math.random() * API.getWaitList().length) + 1);
                     var user = basicBot.userUtilities.lookupUser(winner);
                     var name = user.username;
