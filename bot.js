@@ -413,23 +413,22 @@
                 participants: [],
                 countdown: null,
                 startRoulette: function () {
-                    var pos = (basicBot.settings.roulettepos);
-                    basicBot.room.roulette.rouletteStatus = true;
-                    basicBot.room.roulette.countdown = setTimeout(function () {
-                        basicBot.room.roulette.endRoulette();
+                    basicBot.room.roulettetroll.rouletteStatus = true;
+                    basicBot.room.roulettetroll.countdown = setTimeout(function () {
+                        basicBot.room.roulettetroll.endRoulette();
                     }, 60 * 1000);
                     setTimeout(function () {
                         API.sendChat(basicBot.chat.isopen);
                     }, 1 * 1000);
                     setTimeout(function () {
-                        API.sendChat(subChat(basicBot.chat.isopen3, { position: pos}));
+                        API.sendChat(basicBot.chat.isopen3);
                     }, 2 * 1000);
                 },
                 endRoulette: function () {
-                    basicBot.room.roulette.rouletteStatus = false;
-                    var ind = Math.floor(Math.random() * basicBot.room.roulette.participants.length);
-                    var winner = basicBot.room.roulette.participants[ind];
-                    basicBot.room.roulette.participants = [];
+                    basicBot.room.roulettetroll.rouletteStatus = false;
+                    var ind = Math.floor(Math.random() * basicBot.room.roulettetroll.participants.length);
+                    var winner = basicBot.room.roulettetroll.participants[ind];
+                    basicBot.room.roulettetroll.participants = [];
                     var posx = Math.floor((Math.random() * API.getWaitList().length) + 1);
                     var user = basicBot.userUtilities.lookupUser(winner);
                     var name = user.username;
