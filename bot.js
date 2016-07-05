@@ -381,6 +381,7 @@
                 participants: [],
                 countdown: null,
                 startRoulette: function () {
+                    var pos = (basicBot.settings.roulettepos);
                     basicBot.room.roulette.rouletteStatus = true;
                     basicBot.room.roulette.countdown = setTimeout(function () {
                         basicBot.room.roulette.endRoulette();
