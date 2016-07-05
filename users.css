@@ -329,4 +329,16 @@
     border-radius: 0;
 }
 
+/*skywalker*/
+#chat-messages .fromID-4376080 .badge-box i,
+#chat-messages  .id-4376080 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/77f37c7072866da9302d655e340771d5?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
 
