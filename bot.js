@@ -276,6 +276,8 @@
             timeGuard: true,
             maximumSongLength: 7,
             autodisable: true,
+            autoroulette: true,
+	        roulettepos: 2,
             commandCooldown: 30,
             usercommandsEnabled: true,
             thorCommand: false,
@@ -338,6 +340,13 @@
                     API.sendChat('!joindisable');
                 }
             },
+            autorouletteInterval: null,
+            autorouletteFunc: function () {
+                if (basicBot.status && basicBot.settings.autoroulette) {
+                    API.chatLog('!roleta');
+					API.sendChat('/me Roleta automatica');
+                }
+            },
             queueing: 0,
             queueable: true,
             currentDJID: null,
@@ -388,7 +397,8 @@
                     var ind = Math.floor(Math.random() * basicBot.room.roulette.participants.length);
                     var winner = basicBot.room.roulette.participants[ind];
                     basicBot.room.roulette.participants = [];
-                    var pos = Math.floor((Math.random() * API.getWaitList().length) + 1);
+                    /*var pos = Math.floor((Math.random() * API.getWaitList().length) + 1);*/
+                    var pos = (basicBot.settings.roulettepos);
                     var user = basicBot.userUtilities.lookupUser(winner);
                     var name = user.username;
                     API.sendChat(subChat(basicBot.chat.winnerpicked, {name: name, position: pos}));
@@ -2955,8 +2965,8 @@
                 }
             },
 
-            rouletteCommand: {
-                command: ['roulette','roleta'],
+            /**rouletteCommand: {
+                command: ['roletatroll'],
                 rank: 'mod',
                 type: 'exact',
                 functionality: function (chat, cmd) {
@@ -2966,6 +2976,39 @@
                         if (!basicBot.room.roulette.rouletteStatus) {
                             basicBot.room.roulette.startRoulette();
                         }
+                    }
+                }
+            },**/
+            roletaCommand: {
+                command: 'roleta',
+                rank: 'manager',
+                type: 'exact',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        if (!basicBot.room.roulette.rouletteStatus) {
+                            basicBot.room.roulette.startRoulette();
+                        }
+                    }
+                }
+            },
+			
+			rouletteposCommand: {
+                command: 'rpos',
+                rank: 'cohost',
+                type: 'startsWith',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        var msg = chat.message;
+                        var pos = msg.substring(cmd.length + 1);
+                        if (!isNaN(pos)) {
+                            basicBot.settings.roulettepos = pos;
+                            return API.sendChat(subChat(basicBot.chat.roletapos, {name: chat.un, position: basicBot.settings.roulettepos}));
+                        }
+                        else return API.sendChat(subChat(basicBot.chat.invalidpositionspecified, {name: chat.un}));
                     }
                 }
             },
