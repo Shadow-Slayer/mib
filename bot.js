@@ -1239,8 +1239,10 @@
                     return true;
                 }
                 if (msg.indexOf('ganhou a posição 4') > -1) {
-                    API.sendChat(subChat(basicBot.chat.pos4));
-                    return true;
+                	setTimeout(function () {
+                		API.sendChat(subChat(basicBot.chat.pos4));
+                	}, 2 * 1000);
+                	return true;
                 }
                 if (msg.indexOf('!clearchat') > -1) {
                     API.sendChat('/clear');
