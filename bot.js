@@ -1239,7 +1239,7 @@
                     return true;
                 }
                 if (msg.indexOf('ganhou a posição 4') > -1) {
-                    API.sendChat(subChat(basicBot.chat.pos4, {name: name, position: pos}));
+                    API.sendChat(subChat(basicBot.chat.pos4));
                     return true;
                 }
                 if (msg.indexOf('!clearchat') > -1) {
