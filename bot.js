@@ -442,9 +442,9 @@
                     		setTimeout(function (winner, posx) {
                     			basicBot.userUtilities.moveUser(winner, posx, false);
                     		}, 1 * 1000, winner, posx);
-                    	     } 
-                    	} 
-                }
+                    	     }, 
+                    	}, 
+                },
             },
             usersUsedThor: []
         },
