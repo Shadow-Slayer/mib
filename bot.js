@@ -418,10 +418,10 @@
                         basicBot.room.roulettetroll.endRoulette();
                     }, 60 * 1000);
                     setTimeout(function () {
-                        API.sendChat(basicBot.chat.isopen);
+                        API.sendChat(basicBot.chat.isopentroll);
                     }, 1 * 1000);
                     setTimeout(function () {
-                        API.sendChat(basicBot.chat.isopen3);
+                        API.sendChat(basicBot.chat.isopentroll2);
                     }, 2 * 1000);
                 },
                 endRoulette: function () {
@@ -2432,22 +2432,7 @@
                     }
                 }
             },
-            entraCommand: {
-                command: 'entra',
-                rank: 'user',
-                type: 'exact',
-                functionality: function (chat, cmd) {
-                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
-                    else {
-                        if (basicBot.room.roulettetroll.rouletteStatus && basicBot.room.roulettetroll.participants.indexOf(chat.uid) < 0) {
-                            basicBot.room.roulettetroll.participants.push(chat.uid);
-                            API.sendChat(subChat(basicBot.chat.roulettejoin, {name: chat.un}));
-                        }
-                    }
-                }
-            },
-
+            
             jointimeCommand: {
                 command: 'jointime',
                 rank: 'bouncer',
@@ -2573,6 +2558,39 @@
                         if (ind > -1) {
                             basicBot.room.roulette.participants.splice(ind, 1);
                             API.sendChat(subChat(basicBot.chat.rouletteleave, {name: chat.un}));
+                        }
+                    }
+                }
+            },
+            
+            entraCommand: {
+                command: 'entra',
+                rank: 'user',
+                type: 'exact',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        if (basicBot.room.roulettetroll.rouletteStatus && basicBot.room.roulettetroll.participants.indexOf(chat.uid) < 0) {
+                            basicBot.room.roulettetroll.participants.push(chat.uid);
+                            API.sendChat(subChat(basicBot.chat.rouletteentra, {name: chat.un}));
+                        }
+                    }
+                }
+            },
+            
+            sairCommand: {
+                command: 'sair',
+                rank: 'user',
+                type: 'exact',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        var ind = basicBot.room.roulettetroll.participants.indexOf(chat.uid);
+                        if (ind > -1) {
+                            basicBot.room.roulettetroll.participants.splice(ind, 1);
+                            API.sendChat(subChat(basicBot.chat.roulettesair, {name: chat.un}));
                         }
                     }
                 }
