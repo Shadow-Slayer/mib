@@ -432,10 +432,18 @@
                     var posx = Math.floor((Math.random() * API.getWaitList().length) + 1);
                     var user = basicBot.userUtilities.lookupUser(winner);
                     var name = user.username;
-                    API.sendChat(subChat(basicBot.chat.winnerpicked, {name: name, position: posx}));
-                    setTimeout(function (winner, posx) {
+                    if ((basicBot.settings.roulettepos) == 4 ) {
+                    	API.sendChat(subChat(basicBot.chat.pos4, {name: name, position: pos}));
+                    	setTimeout(function (winner, posx) {
                         basicBot.userUtilities.moveUser(winner, posx, false);
-                    }, 1 * 1000, winner, posx);
+                    	}, 1 * 1000, winner, posx);
+                    	else {
+                    		API.sendChat(subChat(basicBot.chat.winnerpicked, {name: name, position: posx}));
+                    		setTimeout(function (winner, posx) {
+                    			basicBot.userUtilities.moveUser(winner, posx, false);
+                    		}, 1 * 1000, winner, posx);
+                    	     } 
+                    	} 
                 }
             },
             usersUsedThor: []
