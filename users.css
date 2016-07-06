@@ -381,3 +381,15 @@
     border-radius: 0;
 }
 
+/*vendedor de droga?*/
+#chat-messages .fromID-3512941 .badge-box i,
+#chat-messages  .id-3512941 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/610952887521b4aab912ed40b3375fe1?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
