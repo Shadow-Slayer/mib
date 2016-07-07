@@ -406,3 +406,16 @@
     border: none;
     border-radius: 0;
 }
+
+/*flavia botelho*/
+#chat-messages .fromID-4256491 .badge-box i,
+#chat-messages  .id-4256491 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/5f6be7033a73b116e5d479350b7ebc11?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
