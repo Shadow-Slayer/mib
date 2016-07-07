@@ -304,7 +304,7 @@
             filterChat: false,
             etaRestriction: false,
             welcome: true,
-            opLink: "https://rawgit.com/Shadow-Slayer/master/blacklists/OP.json",
+            opLink: "https://rawgit.com/Shadow-Slayer/mib/master/op.json",
             rulesLink: "http://goo.gl/Nw0Jth",
             themeLink: ":arrow_forward: Eletrônica :arrow_forward: Pop :arrow_forward: Rock :arrow_forward: Hip Hop :arrow_forward: Reggae :arrow_forward: Sertanejo",
             fbLink: "http://www.fb.com/groups/MoveItBrasil ",
@@ -316,7 +316,7 @@
             commandLiteral: "!",
             blacklists: {
                 NSFW: "https://rawgit.com/Shadow-Slayer/master/blacklists/NSFW.json",
-                OP: "https://rawgit.com/Shadow-Slayer/master/blacklists/OP.json",
+                OP: "https://rawgit.com/Shadow-Slayer/mib/master/op.json",
                 BANNED: "https://rawgit.com/basicBot/custom/master/blacklists/BANNEDlist.json"
             }
         },
