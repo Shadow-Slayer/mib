@@ -2,7 +2,7 @@
 @import url("https://rawgit.com/Shadow-Slayer/mib/master/users.css");
 @import url("https://rawgit.com/Shadow-Slayer/mib/master/special.css");
 /*@import url("https://rawgit.com/Shadow-Slayer/mib/master/icones.css");*/
-@import url("https://fonts.googleapis.com/css?family=Ubuntu:700");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:500");
 
 #dj-button {
     background: rgba(34, 34, 36, 0.59);
@@ -49,7 +49,6 @@ i.icon.icon-room {
 #chat-messages .text {
     font-family: 'Ubuntu', sans-serif;
     font-size: 13px;
-    font-weight: 600;
 }
 
 #chat .from {
@@ -69,7 +68,6 @@ i.icon.icon-room {
     border: 0;
     background: 0 0;
     color: #eee;
-    font-weight: 400;
     font-family: 'Ubuntu', sans-serif;
     font-size: 13px;
 }
