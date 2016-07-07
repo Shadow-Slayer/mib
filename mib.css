@@ -19,6 +19,10 @@
     color: rgb(172, 118, 255);
 }
 
+#room .app-right {
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.70) 0,rgba(0, 0, 0, 1) 100%);
+}
+
 #room-host, #room-name {
 left: 105px;
 }
