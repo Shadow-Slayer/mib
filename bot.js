@@ -27,6 +27,7 @@
 
     var kill = function () {
         clearInterval(basicBot.room.autodisableInterval);
+        clearInterval(basicBot.room.autorouletteInterval);
         clearInterval(basicBot.room.afkInterval);
         basicBot.status = false;
     };
@@ -85,7 +86,7 @@
         if (typeof chat === "undefined") {
             API.chatLog("There is a chat text missing.");
             console.log("There is a chat text missing.");
-            return "[Error] No text message found.";
+            return "[Error] Nenhuma mensagem de texto encontrada.";
 
             // TODO: Get missing chat messages from source.
         }
@@ -340,11 +341,11 @@
                     API.sendChat('!joindisable');
                 }
             },
-            autorouletteInterval: 1,
+            autorouletteInterval: null,
             autorouletteFunc: function () {
                 if (basicBot.status && basicBot.settings.autoroulette) {
                     API.chatLog('!roleta');
-					API.sendChat('/me Roleta automatica');
+                    API.sendChat('/me Roleta automatica');
                 }
             },
             queueing: 0,
@@ -1479,6 +1480,9 @@
             basicBot.room.autodisableInterval = setInterval(function () {
                 basicBot.room.autodisableFunc();
             }, 60 * 60 * 1000);
+            basicBot.room.autorouletteInterval = setInterval(function () {
+                basicBot.room.autorouletteFunc();
+            }, 60 * 1000);
             basicBot.loggedInID = API.getUser().id;
             basicBot.status = true;
             API.sendChat('/cap ' + basicBot.settings.startupCap);
