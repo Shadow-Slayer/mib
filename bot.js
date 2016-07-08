@@ -341,7 +341,7 @@
                     API.sendChat('!joindisable');
                 }
             },
-            autorouletteInterval: 60,
+            autorouletteInterval: 1,
             autorouletteFunc: function () {
                 if (basicBot.status && basicBot.settings.autoroulette) {
                     API.chatLog('!roleta');
@@ -1482,7 +1482,7 @@
             }, 60 * 60 * 1000);
             basicBot.room.autorouletteInterval = setInterval(function () {
                 basicBot.room.autorouletteFunc();
-            }, 1800 * 1000);
+            }, basicBot.settings.roletaInterval * 60 * 1000);
             /*var roltime = (basicBot.settings.roletaInterval);
             basicBot.room.autorouletteInterval = setInterval(function () {
 	    basicBot.room.autorouletteFunc();
