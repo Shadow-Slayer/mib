@@ -1480,9 +1480,13 @@
             basicBot.room.autodisableInterval = setInterval(function () {
                 basicBot.room.autodisableFunc();
             }, 60 * 60 * 1000);
-            basicBot.room.autorouletteInterval = setInterval(function () {
+            /*basicBot.room.autorouletteInterval = setInterval(function () {
                 basicBot.room.autorouletteFunc();
-            }, 1800 * 1000);
+            }, 1800 * 1000);*/
+            var roltime = (basicBot.settings.roletaInterval);
+            basicBot.room.autorouletteInterval = setInterval(function () {
+	    basicBot.room.autorouletteFunc();
+	    }, 60 * 1000 * , roltime);
             basicBot.loggedInID = API.getUser().id;
             basicBot.status = true;
             API.sendChat('/cap ' + basicBot.settings.startupCap);
@@ -2884,6 +2888,28 @@
                         else {
                             basicBot.settings.motdInterval = argument;
                             API.sendChat(subChat(basicBot.chat.motdintervalset, {interval: basicBot.settings.motdInterval}));
+                        }
+                    }
+                }
+            },
+            
+            roletaintervalCommand: {
+                command: 'roletatime',
+                rank: 'bouncer',
+                type: 'startsWith',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        var argument = msg.substring(cmd.length + 1);
+                        if (!basicBot.settings.autoroulette) basicBot.settings.autoroulette = !basicBot.settings.autoroulette;
+                        if (isNaN(argument)) {
+                            basicBot.settings.msgroleta = argument;
+                            API.sendChat(subChat(basicBot.chat.roletaerror, {msg: basicBot.settings.msgroleta}));
+                        }
+                        else {
+                            basicBot.settings.roletaInterval = argument;
+                            API.sendChat(subChat(basicBot.chat.rouletteintervalset, {interval: basicBot.settings.roletaInterval}));
                         }
                     }
                 }
