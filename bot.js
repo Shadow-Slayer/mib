@@ -277,7 +277,7 @@
             timeGuard: true,
             maximumSongLength: 7,
             autodisable: true,
-            roletaInterval: 1,
+            roletaInterval: 5,
             autoroulette: true,
 	        roulettepos: 2,
             commandCooldown: 30,
@@ -2927,9 +2927,9 @@
                         var roletaTime = msg.substring(cmd.length + 1);
                         if (!isNaN(roletaTime) && roletaTime !== "") {
                             basicBot.settings.roletaInterval = roletaTime;
-                            return API.sendChat(subChat(basicBot.chat.rouletteintervalset, {name: chat.un, time: basicBot.settings.roletaInterval}));
+                            return API.sendChat(subChat(basicBot.chat.rouletteintervalset, {name: chat.un, interval: basicBot.settings.roletaInterval}));
                         }
-                        else return API.sendChat(subChat(basicBot.chat.roletaerror, {name: chat.un, msg: basicBot.settings.msgroleta}));
+                        else return API.sendChat(subChat(basicBot.chat.roletaerror, {name: chat.un, interval: basicBot.settings.msgroleta}));
                     }
                 }
             },
