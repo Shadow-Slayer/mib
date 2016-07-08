@@ -3057,7 +3057,20 @@
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
-                        API.sendChat(basicBot.chat.pong)
+                        var user = basicBot.userUtilities.lookupUserName(name);	
+                        var meh = vratio.meh;
+			var pos = API.getWaitListPosition(user.id);
+                        API.sendChat(subChat(basicBot.chat.voteratio, {name: chat.un, username: name, mehs: vratio.meh}));												
+			if ((mehs) >= (3)) {
+			API.sendChat(subChat(basicBot.chat.voteskipexceededlimit, {name: dj.username, limit: basicBot.settings.voteSkipLimit}));
+			var pos = pos - 1;
+				if (basicBot.settings.smartSkip && timeLeft > timeElapsed){
+				basicBot.userUtilities.moveUser(user.id, pos, false);
+				}
+					else {
+						API.moderateForceSkip();
+					}
+			}
                     }
                 }
             },
