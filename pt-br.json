@@ -128,6 +128,7 @@
     "afksremoved": "AFKs removidos",
     "afklimit": "Limite AFK",
     "autodisable": "autodisable",
+    "autoroulette": "Roleta Automática",
     "autoskip": "autoskip",
     "newblacklisted": "\/me [@%%NAME%%] Essa m\u00fasica est\u00e1 na lista negra %%BLACKLIST%%! [ %%AUTHOR%% - %%TITLE%% - %%MID%% ]",
     "blinfo": "[@%%NAME%%] Info da Blacklist - autor: %%AUTHOR%%, t\u00edtulo: %%TITLE%%, ID: %%SONGID%%",
