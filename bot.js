@@ -341,7 +341,7 @@
                     API.sendChat('!joindisable');
                 }
             },
-            autorouletteInterval: null,
+            autorouletteInterval: 1,
             autorouletteFunc: function () {
                 if (basicBot.status && basicBot.settings.autoroulette) {
                     API.chatLog('!roleta');
