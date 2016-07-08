@@ -1480,13 +1480,13 @@
             basicBot.room.autodisableInterval = setInterval(function () {
                 basicBot.room.autodisableFunc();
             }, 60 * 60 * 1000);
-            /*basicBot.room.autorouletteInterval = setInterval(function () {
+            basicBot.room.autorouletteInterval = setInterval(function () {
                 basicBot.room.autorouletteFunc();
-            }, 1800 * 1000);*/
-            var roltime = (basicBot.settings.roletaInterval);
+            }, 1800 * 1000);
+            /*var roltime = (basicBot.settings.roletaInterval);
             basicBot.room.autorouletteInterval = setInterval(function () {
 	    basicBot.room.autorouletteFunc();
-	    }, 60 * 1000 * roltime);
+	    }, 60 * 1000 * roltime);*/
             basicBot.loggedInID = API.getUser().id;
             basicBot.status = true;
             API.sendChat('/cap ' + basicBot.settings.startupCap);
