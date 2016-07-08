@@ -3809,7 +3809,9 @@
                         var ratio = vratio.woot / vratio.meh;
                         API.sendChat(subChat(basicBot.chat.voteratio, {name: chat.un, username: name, woot: vratio.woot, mehs: vratio.meh, ratio: ratio.toFixed(2)}));
 			if ((vratio.meh) >= (2)) {
-				API.sendChat('ooooiiiiii');
+				setTimeout(function () {
+					API.sendChat('ooooiiiiii');
+				}, 2 * 1000);
 			}
                     }
                 }
