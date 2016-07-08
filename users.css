@@ -419,3 +419,16 @@
     border: none;
     border-radius: 0;
 }
+
+/*   */
+#chat-messages .fromID-14160670 .badge-box i,
+#chat-messages  .id-14160670 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/f37703fd4584fa276c4822e5d74d8208?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
