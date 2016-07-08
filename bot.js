@@ -1486,7 +1486,7 @@
             var roltime = (basicBot.settings.roletaInterval);
             basicBot.room.autorouletteInterval = setInterval(function () {
 	    basicBot.room.autorouletteFunc();
-	    }, 60 * 1000 * , roltime);
+	    }, 60 * 1000 * roltime);
             basicBot.loggedInID = API.getUser().id;
             basicBot.status = true;
             API.sendChat('/cap ' + basicBot.settings.startupCap);
