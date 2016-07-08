@@ -1737,6 +1737,27 @@
                     }
                 }
             },
+            
+            autorouletteCommand: {
+                command: 'autoroulette',
+                rank: 'bouncer',
+                type: 'exact',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        if (basicBot.settings.autoroulette) {
+                            basicBot.settings.autoroulette = !basicBot.settings.autoroulette;
+                            return API.sendChat(subChat(basicBot.chat.toggleoff, {name: chat.un, 'function': basicBot.chat.autoroulette}));
+                        }
+                        else {
+                            basicBot.settings.autoroulette = !basicBot.settings.autoroulette;
+                            return API.sendChat(subChat(basicBot.chat.toggleon, {name: chat.un, 'function': basicBot.chat.autoroulette}));
+                        }
+
+                    }
+                }
+            },
 
             autoskipCommand: {
                 command: 'autoskip',
