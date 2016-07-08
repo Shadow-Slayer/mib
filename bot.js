@@ -311,7 +311,7 @@
             fbLink: "http://www.fb.com/groups/MoveItBrasil ",
             youtubeLink: null,
             website: "http://goo.gl/O4tlVo",
-            intervalMessages: ["!roleta",":large_orange_diamond: Roleta a cada 6 músicas, fique atento :large_orange_diamond:",":large_orange_diamond: Participe do nosso Grupo no Facebook http://www.fb.com/groups/MoveItBrasil :large_orange_diamond:"],
+            intervalMessages: [":large_orange_diamond: Veja as regras da sala digitando !regras e os gêneros permitidos digitando !tema :large_orange_diamond:",":large_orange_diamond: Roleta a cada 30 minutoss, fique atento! :large_orange_diamond:",":large_orange_diamond: Participe do nosso Grupo no Facebook http://www.fb.com/groups/MoveItBrasil :large_orange_diamond:"],
             messageInterval: 2,
             songstats: false,
             commandLiteral: "!",
@@ -1480,13 +1480,12 @@
             basicBot.room.autodisableInterval = setInterval(function () {
                 basicBot.room.autodisableFunc();
             }, 60 * 60 * 1000);
-            basicBot.room.autorouletteInterval = setInterval(function () {
+            /*basicBot.room.autorouletteInterval = setInterval(function () {
                 basicBot.room.autorouletteFunc();
-            }, 30 * 60 * 1000);
-            /*var roltime = (basicBot.settings.roletaInterval);
+            }, 30 * 60 * 1000);*/
             basicBot.room.autorouletteInterval = setInterval(function () {
 	    basicBot.room.autorouletteFunc();
-	    }, 60 * 1000 * roltime);*/
+	    }, basicBot.settings.roletaInterval * 60 * 1000);
             basicBot.loggedInID = API.getUser().id;
             basicBot.status = true;
             API.sendChat('/cap ' + basicBot.settings.startupCap);
@@ -2893,7 +2892,7 @@
                 }
             },
             
-            roletainCommand: {
+            /**roletainCommand: {
                 command: 'roletatime',
                 rank: 'bouncer',
                 type: 'startsWith',
@@ -2913,8 +2912,27 @@
                         }
                     }
                 }
+            },**/
+            
+            roletainCommand: {
+                command: 'roletatime',
+                rank: 'manager',
+                type: 'startsWith',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        var msg = chat.message;
+                        var roletaTime = msg.substring(cmd.length + 1);
+                        if (!isNaN(roletaTime) && roletaTime !== "") {
+                            basicBot.settings.roletaInterval = roletaTime;
+                            return API.sendChat(subChat(basicBot.chat.rouletteintervalset, {name: chat.un, time: basicBot.settings.roletaInterval}));
+                        }
+                        else return API.sendChat(subChat(basicBot.chat.roletaerror, {name: chat.un, msg: basicBot.settings.msgroleta}));
+                    }
+                }
             },
-
+            
             moveCommand: {
                 command: 'move',
                 rank: 'mod',
