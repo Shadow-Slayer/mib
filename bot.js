@@ -341,7 +341,7 @@
                     API.sendChat('!joindisable');
                 }
             },
-            autorouletteInterval: 1,
+            autorouletteInterval: null,
             autorouletteFunc: function () {
                 if (basicBot.status && basicBot.settings.autoroulette) {
                     API.chatLog('!roleta');
@@ -1482,7 +1482,7 @@
             }, 60 * 60 * 1000);
             basicBot.room.autorouletteInterval = setInterval(function () {
                 basicBot.room.autorouletteFunc();
-            }, basicBot.settings.roletaInterval * 60 * 1000);
+            }, 30 * 60 * 1000);
             /*var roltime = (basicBot.settings.roletaInterval);
             basicBot.room.autorouletteInterval = setInterval(function () {
 	    basicBot.room.autorouletteFunc();
@@ -2893,7 +2893,7 @@
                 }
             },
             
-            roletaintervalCommand: {
+            roletainCommand: {
                 command: 'roletatime',
                 rank: 'bouncer',
                 type: 'startsWith',
