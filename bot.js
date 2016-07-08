@@ -277,6 +277,7 @@
             timeGuard: true,
             maximumSongLength: 7,
             autodisable: true,
+            roletaInterval: 1,
             autoroulette: true,
 	        roulettepos: 2,
             commandCooldown: 30,
