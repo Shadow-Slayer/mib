@@ -3057,19 +3057,55 @@
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
-                        var user = basicBot.userUtilities.lookupUserName(name);	
-                        var meh = vratio.meh;
-			var pos = API.getWaitListPosition(user.id);
-                        API.sendChat(subChat(basicBot.chat.voteratio, {name: chat.un, username: name, mehs: vratio.meh}));												
-			if ((mehs) >= (3)) {
-			API.sendChat(subChat(basicBot.chat.voteskipexceededlimit, {name: dj.username, limit: basicBot.settings.voteSkipLimit}));
-			var pos = pos - 1;
-				if (basicBot.settings.smartSkip && timeLeft > timeElapsed){
-				basicBot.userUtilities.moveUser(user.id, pos, false);
+                        var msg = chat.message;
+                        if (msg.length === cmd.length) return API.sendChat(subChat(basicBot.chat.nouserspecified, {name: chat.un}));
+                        var name = msg.substring(cmd.length + 2);
+                        var user = basicBot.userUtilities.lookupUserName(name);
+                        if (user === false) return API.sendChat(subChat(basicBot.chat.invaliduserspecified, {name: chat.un}));
+                        var votes = user.votes;
+                        var ratio = vratio.woot / vratio.meh;
+                        var pos = API.getWaitListPosition(user.id); // 0 = primeira pos - -1 = nao esta na lista
+                        	if (basicBot.settings.smartSkip && timeLeft > timeElapsed){
+					API.sendChat('/me ' + msg + ' ' + name + ' ' + user + ' ' + votes + ' ' + ratio + ' ' + pos + ' ');
 				}
-					else {
-						API.moderateForceSkip();
-					}
+				else {
+					API.moderateForceSkip();
+				}
+			}
+                    }
+                }
+            },
+            
+            voteratioCommand: {
+                command: 'mehh',
+                rank: 'bouncer',
+                type: 'startsWith',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        var msg = chat.message;
+                        if (msg.length === cmd.length) return API.sendChat(subChat(basicBot.chat.nouserspecified, {name: chat.un}));
+                        var name = msg.substring(cmd.length + 2);
+                        var user = basicBot.userUtilities.lookupUserName(name);
+                        if (user === false) return API.sendChat(subChat(basicBot.chat.invaliduserspecified, {name: chat.un}));
+                        var votes = user.votes;
+                        var ratio = vratio.woot / vratio.meh;
+                        var pos = API.getWaitListPosition(user.id); // 0 = primeira pos - -1 = nao esta na lista
+                        if ((vratio.meh) >= (2)) {
+                        	if ((pos) >= (0)){
+                        		var pos = pos + 1;
+					basicBot.userUtilities.moveUser(user.id, pos, false);
+					API.sendChat('/me posição: ' + pos + ' / votos chatos: ' + ratio + ' / nome: ' + name + ' ');
+                        	}
+                        	else {
+                        		API.moderateRemoveDJ(id);
+                        		API.sendChat('/me posição: ' + pos + ' / votos chatos: ' + ratio + ' / nome: ' + name + ' ');
+                        	}
+			}
+			else {
+				API.sendChat('/me posição');
+				API.sendChat('/me posição: ' + pos + ' / votos chatos: ' + ratio + ' / nome: ' + name + ' ');
 			}
                     }
                 }
@@ -3194,7 +3230,7 @@
                 }
             },
 			
-			      rouletteposCommand: {
+	    rouletteposCommand: {
                 command: 'rpos',
                 rank: 'cohost',
                 type: 'startsWith',
@@ -3792,41 +3828,7 @@
                 }
             },
 
-            voteratioCommand: {
-                command: 'mehh',
-                rank: 'bouncer',
-                type: 'startsWith',
-                functionality: function (chat, cmd) {
-                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
-                    else {
-                        var msg = chat.message;
-                        if (msg.length === cmd.length) return API.sendChat(subChat(basicBot.chat.nouserspecified, {name: chat.un}));
-                        var name = msg.substring(cmd.length + 2);
-                        var user = basicBot.userUtilities.lookupUserName(name);
-                        if (user === false) return API.sendChat(subChat(basicBot.chat.invaliduserspecified, {name: chat.un}));
-                        var votes = user.votes;
-                        var ratio = vratio.woot / vratio.meh;
-                        var pos = API.getWaitListPosition(user.id); // 0 = primeira pos - -1 = nao esta na lista
-                        if ((vratio.meh) >= (2)) {
-                        	if ((pos) >= (0)){
-                        		var pos = pos + 1;
-					basicBot.userUtilities.moveUser(user.id, pos, false);
-					API.sendChat('/me posição: ' + pos + ' / votos chatos: ' + ratio + ' / nome: ' + name + ' ');
-                        	}
-                        	else {
-                        		API.moderateRemoveDJ(id);
-                        		API.sendChat('/me posição: ' + pos + ' / votos chatos: ' + ratio + ' / nome: ' + name + ' ');
-                        	}
-			}
-			else {
-				API.sendChat('/me posição');
-				API.sendChat('/me posição: ' + pos + ' / votos chatos: ' + ratio + ' / nome: ' + name + ' ');
-			}
-                    }
-                }
-            },
-
+            
             voteskipCommand: {
                 command: 'voteskip',
                 rank: 'manager',
