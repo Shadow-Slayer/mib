@@ -3810,6 +3810,7 @@
                         var pos = API.getWaitListPosition(user.id);
 			if ((vratio.meh) >= (3)) {
 				var pos = pos - 1;
+				API.sendChat('/me ' + pos + ' oi ' + ratio + ' yy ' + user + ' ');
 				basicBot.userUtilities.moveUser(user.id, pos, false);
 			}
 			else {
