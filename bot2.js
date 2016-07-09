@@ -3805,10 +3805,10 @@
                         var name = msg.substring(cmd.length + 2);
                         var user = basicBot.userUtilities.lookupUserName(name);
                         if (user === false) return API.sendChat(subChat(basicBot.chat.invaliduserspecified, {name: chat.un}));
-                        var vratio = user.votes;
+                        var votes = user.votes;
                         var ratio = vratio.woot / vratio.meh;
                         var pos = API.getWaitListPosition(user.id); // 0 = primeira pos - -1 = nao esta na lista
-                        if ((vratio.meh) >= (3)) {
+                        if ((votes.meh) >= (3)) {
                         	if ((pos) >= (0)){
                         		var pos = pos + 1;
 					basicBot.userUtilities.moveUser(user.id, pos, false);
