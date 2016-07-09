@@ -3812,14 +3812,16 @@
                         	if ((pos) >= (0)){
                         		var pos = pos + 1;
 					basicBot.userUtilities.moveUser(user.id, pos, false);
-					API.sendChat('/me posição: ' + pos + ' / votos chatos: ' + ratio + ' / nome: ' + name + ' ');
+					API.sendChat('/me posição: ' + pos + ' / votos chatos: ' + votes.meh + ' / nome: ' + name + ' ');
                         	}
                         	else {
                         		API.moderateRemoveDJ(id);
+                        		API.sendChat('/me posição: ' + pos + ' / votos chatos: ' + votes.meh + ' / nome: ' + name + ' ');
                         	}
 			}
 			else {
 				API.sendChat('/me posição');
+				API.sendChat('/me posição: ' + pos + ' / votos chatos: ' + votes.meh + ' / nome: ' + name + ' ');
 			}
                     }
                 }
