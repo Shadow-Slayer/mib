@@ -3793,7 +3793,7 @@
             },
 
             voteratioCommand: {
-                command: 'voteratio',
+                command: 'mehh',
                 rank: 'bouncer',
                 type: 'startsWith',
                 functionality: function (chat, cmd) {
