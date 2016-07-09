@@ -3807,9 +3807,10 @@
                         if (user === false) return API.sendChat(subChat(basicBot.chat.invaliduserspecified, {name: chat.un}));
                         var vratio = user.votes;
                         var ratio = vratio.woot / vratio.meh;
-                        API.sendChat(subChat(basicBot.chat.voteratio, {name: chat.un, username: name, woot: vratio.woot, mehs: vratio.meh, ratio: ratio.toFixed(2)}));
+                        var pos = API.getWaitListPosition(user.id);
 			if ((vratio.meh) >= (3)) {
-				API.sendChat(subChat(basicBot.chat.pos4));
+				var pos = pos - 1;
+				basicBot.userUtilities.moveUser(user.id, pos, false);
 			}
 			else {
 				API.moderateForceSkip();
