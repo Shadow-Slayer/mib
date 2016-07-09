@@ -115,7 +115,7 @@
     background: rgba(28, 31, 37, 0.59);
 }
 #dj-button.is-locked .left,#dj-button.is-full .left,#vote .crowd-response.disabled .bottom {
-    background: rgba(255, 255, 255, 0);
+    background: rgba(34, 34, 36, 0.4)
 }
 #dj-button.is-quit .left, #dj-button.is-leave .left, #dj-button.is-wait .left, #dj-button.is-locked .left, #dj-button.is-full .left {
 background: #121214;
