@@ -3808,20 +3808,20 @@
                         var votes = user.votes;
                         var ratio = vratio.woot / vratio.meh;
                         var pos = API.getWaitListPosition(user.id); // 0 = primeira pos - -1 = nao esta na lista
-                        if ((votes) >= (3)) {
+                        if ((vratio.meh) >= (2)) {
                         	if ((pos) >= (0)){
                         		var pos = pos + 1;
 					basicBot.userUtilities.moveUser(user.id, pos, false);
-					API.sendChat('/me posição: ' + pos + ' / votos chatos: ' + votes + ' / nome: ' + name + ' ');
+					API.sendChat('/me posição: ' + pos + ' / votos chatos: ' + ratio + ' / nome: ' + name + ' ');
                         	}
                         	else {
                         		API.moderateRemoveDJ(id);
-                        		API.sendChat('/me posição: ' + pos + ' / votos chatos: ' + votes + ' / nome: ' + name + ' ');
+                        		API.sendChat('/me posição: ' + pos + ' / votos chatos: ' + ratio + ' / nome: ' + name + ' ');
                         	}
 			}
 			else {
 				API.sendChat('/me posição');
-				API.sendChat('/me posição: ' + pos + ' / votos chatos: ' + votes + ' / nome: ' + name + ' ');
+				API.sendChat('/me posição: ' + pos + ' / votos chatos: ' + ratio + ' / nome: ' + name + ' ');
 			}
                     }
                 }
