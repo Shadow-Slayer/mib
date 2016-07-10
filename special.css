@@ -16,7 +16,7 @@ color: rgb(210, 90, 195) !important;
     border-left: rgb(14, 131, 216) 3px solid !important;
 }
 #chat [data-cid^="5394376-"].from.staff .un {
-    color: rgb(14, 131, 216);
+    color: rgb(14, 131, 216) !important;
 }
 #chat [data-cid^="5394376-"].emote .timestamp {
     color: #A993C7 !important;
