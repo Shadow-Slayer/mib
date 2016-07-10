@@ -28,10 +28,6 @@ background: rgba(28, 31, 37, 0) !important;
     background: rgba(34, 34, 36, 0.4) !important;
 }
 
-#chat .from .un {
-    color: rgb(172, 118, 255);
-}
-
 #room .app-right {
     background: linear-gradient(to right,rgba(0, 0, 0, 0.70) 0,rgba(0, 0, 0, 1) 100%);
 }
