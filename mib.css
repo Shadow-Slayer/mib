@@ -4,6 +4,19 @@
 /*@import url("https://rawgit.com/Shadow-Slayer/mib/master/icones.css");*/
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:500");
 
+#rs-skip-button {
+    background: rgba(28, 31, 37, 0.59) !important;
+}
+
+#history-button {
+background: rgba(28, 31, 37, 0.59) !important;
+}
+
+#app-menu, #app-menu .list {    
+    background: rgba(28, 31, 37, 0.59) !important;
+}
+
+
 #dj-button {
     background: rgba(34, 34, 36, 0.59);
     border-radius: 8px;
