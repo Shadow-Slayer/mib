@@ -65,9 +65,6 @@
     /*padding-left: 25px;*/
     border-left: #7681FF 3px solid;
 }
-#chat .emote .from {
-     color: #ac76ff !important;
-}
 
 #chat-messages .emote .icon {
     /*left: 4px;*/
