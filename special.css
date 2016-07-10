@@ -12,7 +12,11 @@ display:none !important;
 color: rgb(210, 90, 195) !important;
 }*/
 #chat [data-cid^="5394376-"].emote {
-    background: rgba(151, 67, 147, 0.35) !important;
+    background: rgba(37, 117, 185, 0.5) !important;
+    border-left: rgb(14, 131, 216) 3px solid !important;
+}
+#chat [data-cid^="5394376-"].from .un {
+    color: rgb(14, 131, 216);
 }
 #chat [data-cid^="5394376-"].emote .timestamp {
     color: #A993C7 !important;
