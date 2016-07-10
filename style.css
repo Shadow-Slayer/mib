@@ -68,10 +68,7 @@
 #chat .emote .from {
      color: #ac76ff !important;
 }
-#chat .emote {
-    border-left: rgba(174, 69, 189, 1) 3px solid !important;   
-    background: rgba(151, 67, 147, 0.35) !important;
-}
+
 #chat-messages .emote .icon {
     /*left: 4px;*/
 }
