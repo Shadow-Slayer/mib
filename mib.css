@@ -5,15 +5,15 @@
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:500");
 
 #rs-skip-button {
-    background: rgba(28, 31, 37, 0.59) !important;
+    background: rgba(28, 31, 37, 0) !important;
 }
 
 #history-button {
-background: rgba(28, 31, 37, 0.59) !important;
+background: rgba(28, 31, 37, 0) !important;
 }
 
 #app-menu, #app-menu .list {    
-    background: rgba(28, 31, 37, 0.59) !important;
+    background: rgba(28, 31, 37, 0.40) !important;
 }
 
 
