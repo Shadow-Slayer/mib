@@ -4,6 +4,15 @@
 /*@import url("https://rawgit.com/Shadow-Slayer/mib/master/icones.css");*/
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:500");
 
+#user-view {
+    background: rgba(17, 19, 23, 0.8) !important;
+}
+
+#user-menu {
+    
+    background: rgba(28, 31, 37, 0) !important;
+}
+
 #rs-skip-button {
     background: rgba(28, 31, 37, 0) !important;
 }
