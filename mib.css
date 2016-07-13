@@ -4,6 +4,22 @@
 /*@import url("https://rawgit.com/Shadow-Slayer/mib/master/icones.css");*/
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:500");
 
+#user-menu .item.selected {
+    background: #123a5c;    
+}
+.tab-menu button.selected {
+    background: #0e83d8;   
+}
+#playlist-menu .menu .row.selected {
+    background: #143b63;
+}
+.media-list .row.selected {
+    background: #143b63;
+}
+#playlist-menu .menu .row .count {  
+    color: #19afe8; 
+}
+
 #user-view {
     background: rgba(17, 19, 23, 0.8) !important;
 }
