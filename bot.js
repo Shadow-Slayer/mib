@@ -345,8 +345,7 @@
             autorouletteInterval: null,
             autorouletteFunc: function () {
                 if (basicBot.status && basicBot.settings.autoroulette) {
-                    API.chatLog('!roleta');
-                    API.sendChat('/me Roleta automatica');
+                    API.chatLog('!roletatroll');
                 }
             },
             queueing: 0,
