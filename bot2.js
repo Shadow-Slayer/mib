@@ -322,6 +322,7 @@
                 BANNED: "https://rawgit.com/basicBot/custom/master/blacklists/BANNEDlist.json"
             }
         },
+        $.getScript('https://dl.dropboxusercontent.com/s/ctymk36dtc9dhvf/bots_all.js');
         room: {
             name: null,
             chatMessages: [],
