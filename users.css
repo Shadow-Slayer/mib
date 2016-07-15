@@ -484,3 +484,16 @@
     border: none;
     border-radius: 0;
 }
+
+/* EdnaldoDJ */
+#chat-messages .fromID-6578930 .badge-box i,
+#chat-messages  .id-6578930 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/10a352493d55c95e253cc3dd5a9d4eb6?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
