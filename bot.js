@@ -241,8 +241,8 @@
         status: false,
         name: "Move It-Bot",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/basicBot/mib/master/bot.js",
-        cmdLink: "http://git.io/245Ppg",
+        scriptLink: "https://rawgit.com/Shadow-Slayer/mib/master/bot.js",
+        cmdLink: "http://betamoveit.esy.es/comandos-do-bot.html",
         chatLink: "https://rawgit.com/Shadow-Slayer/mib/master/pt-br.json",
         chat: null,
         loadChat: loadChat,
@@ -252,7 +252,7 @@
             botName: "Move It-Bot",
             language: "portuguese",
             chatLink: "https://rawgit.com/Shadow-Slayer/mib/master/pt-br.json",
-            scriptLink: "https://rawgit.com/basicBot/mib/master/bot.js",
+            scriptLink: "https://rawgit.com/Shadow-Slayer/mib/master/bot.js",
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
@@ -307,11 +307,11 @@
             etaRestriction: false,
             welcome: true,
             opLink: "https://rawgit.com/Shadow-Slayer/mib/master/op.json",
-            rulesLink: "http://goo.gl/Nw0Jth",
+            rulesLink: "http://betamoveit.esy.es/regras.html",
             themeLink: ":arrow_forward: Eletrônica :arrow_forward: Pop :arrow_forward: Rock :arrow_forward: Hip Hop :arrow_forward: Reggae :arrow_forward: Sertanejo",
             fbLink: "http://www.fb.com/groups/MoveItBrasil ",
             youtubeLink: null,
-            website: "http://goo.gl/O4tlVo",
+            website: "http://betamoveit.esy.es/",
             intervalMessages: [":large_orange_diamond: Veja as regras da sala digitando !regras e os gêneros permitidos digitando !tema :large_orange_diamond:",":large_orange_diamond: Roleta a cada 30 minutos, fique atento! :large_orange_diamond:",":large_orange_diamond: Participe do nosso Grupo no Facebook http://www.fb.com/groups/MoveItBrasil :large_orange_diamond:"],
             messageInterval: 2,
             songstats: false,
