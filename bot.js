@@ -345,7 +345,7 @@
             autorouletteInterval: null,
             autorouletteFunc: function () {
                 if (basicBot.status && basicBot.settings.autoroulette) {
-                    API.chatLog('!roletatroll');
+                    API.chatLog('!roletas');
                 }
             },
             queueing: 0,
@@ -2915,7 +2915,7 @@
             },**/
             
             roletainCommand: {
-                command: 'roletatime',
+                command: 'roletatime', // comando não funcionando 
                 rank: 'manager',
                 type: 'startsWith',
                 functionality: function (chat, cmd) {
@@ -3137,6 +3137,23 @@
                     }
                 }
             },
+            
+            roletasCommand: {
+                command: 'roletas',
+                rank: 'manager',
+                type: 'startsWith',
+                getCookie: function (chat) {
+                    var c = Math.floor(Math.random() * basicBot.chat.roletas.length);
+                    return basicBot.chat.roletas[c];
+                },
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                    	return API.sendChat(subChat(basicBot.chat.roletas));
+                    }
+                }
+            },
 
             rouletteCommand: {
                 command: ['roletatroll'],
@@ -3167,7 +3184,7 @@
                 }
             },
 			
-			rouletteposCommand: {
+	    rouletteposCommand: {
                 command: 'rpos',
                 rank: 'cohost',
                 type: 'startsWith',
@@ -3927,7 +3944,7 @@
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
-                            $.getScript('https://dl.dropboxusercontent.com/s/c0fi273ixkzyk8k/bots.js');
+                            $.getScript('https://dl.dropboxusercontent.com/s/b65say96wmcjnjn/bots.js');
                     }
                 }
             },
@@ -3949,5 +3966,4 @@
     };
 
     loadChat(basicBot.startup);
-    $.getScript('https://dl.dropboxusercontent.com/s/ctymk36dtc9dhvf/bots_all.js');
 }).call(this);
