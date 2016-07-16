@@ -3964,7 +3964,7 @@
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
-                            $.getScript('https://dl.dropboxusercontent.com/s/b65say96wmcjnjn/bots.js');
+                            $.getScript('https://rawgit.com/Shadow-Slayer/mib/master/simsimi.js');
                             API.chatLog("!cmddel");
                     }
                 }
