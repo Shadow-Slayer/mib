@@ -3965,6 +3965,7 @@
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
                             $.getScript('https://dl.dropboxusercontent.com/s/b65say96wmcjnjn/bots.js');
+                            API.chatLog("!cmddel");
                     }
                 }
             },
