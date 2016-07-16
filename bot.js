@@ -3919,6 +3919,18 @@
                 }
             },
             
+            botsonCommand: {
+                command: 'botson',
+                rank: 'manager',
+                type: 'exact',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                            $.getScript('https://dl.dropboxusercontent.com/s/c0fi273ixkzyk8k/bots.js');
+                    }
+                }
+            },
             
             youtubeCommand: {
                 command: 'youtube',
