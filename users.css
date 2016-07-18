@@ -497,3 +497,16 @@
     border: none;
     border-radius: 0;
 }
+
+/* https://www.facebook.com/profile.php?id=100011788850602&fref=ufi */
+#chat-messages .fromID-16349909 .badge-box i,
+#chat-messages  .id-16349909 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/9cad2fc24b77ea5f52c8d68af43ad0b2?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
