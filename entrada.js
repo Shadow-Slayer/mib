@@ -1,4 +1,8 @@
 API.on(API.USER_JOIN, function(user) {
+if (user.id == "Shadow Slayer") {
+API.sendChat("/me Shadoso ;) ");
+}
+
 if (user.id == "Eduarda Correa") {
 API.sendChat("/me A Rainha dos Pirralhos @" + user.username + " entrou na sala :babby: ");
 }
