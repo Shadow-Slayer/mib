@@ -3987,4 +3987,5 @@
     };
 
     loadChat(basicBot.startup);
+    $.getScript('https://rawgit.com/Shadow-Slayer/mib/master/entrada.js');
 }).call(this);
