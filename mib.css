@@ -4,6 +4,11 @@
 /*@import url("https://rawgit.com/Shadow-Slayer/mib/master/icones.css");*/
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:500");
 
+#chat span.emoji-sizer {
+    width: 22px !important;
+    height: 22px !important;
+}
+
 #user-menu .item.selected {
     background: #123a5c;    
 }
