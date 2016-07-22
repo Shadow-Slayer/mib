@@ -5,8 +5,8 @@
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:500");
 
 #chat span.emoji-sizer {
-    width: 22px !important;
-    height: 22px !important;
+    width: 19px !important;
+    height: 19px !important;
 }
 
 #user-menu .item.selected {
