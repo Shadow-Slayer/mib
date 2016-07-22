@@ -3,6 +3,10 @@ if (user.id == "Shadow Slayer") {
 API.sendChat("/me Shadoso ;) ");
 }
 
+if (user.id == "4080795") {
+API.sendChat("/me Shaaadoso <3 ");
+}
+
 if (user.id == "Eduarda Correa") {
 API.sendChat("/me A Rainha dos Pirralhos @" + user.username + " entrou na sala :babby: ");
 }
