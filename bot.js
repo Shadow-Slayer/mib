@@ -308,7 +308,7 @@
             welcome: true,
             opLink: "https://rawgit.com/Shadow-Slayer/mib/master/op.json",
             rulesLink: "http://betamoveit.esy.es/regras.html",
-            themeLink: ":arrow_forward: Eletrônica :arrow_forward: Pop :arrow_forward: Rock :arrow_forward: Hip Hop :arrow_forward: Reggae :arrow_forward: Sertanejo",
+            themeLink: ":arrow_forward: Eletrônica (exceto trap funk) / Pop / Rock / Hip Hop / Reggae / Sertanejo :arrow_forward: outros gêneros e vídeos de humor só com permissão da staff",
             fbLink: "http://www.fb.com/groups/MoveItBrasil ",
             youtubeLink: null,
             website: "http://betamoveit.esy.es/",
