@@ -129,10 +129,6 @@ border-left: 3px solid #734ba9;
 #dj-button.is-full .left {
 border-left: 3px solid #CCCCCC;
 }*/
-#dj-button {
-background: #222224;
-border-radius: 8px;
-}
 #vote .crowd-response {
 background: rgba(255, 255, 255, 0);
 }
