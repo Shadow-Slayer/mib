@@ -562,3 +562,16 @@
     border: none;
     border-radius: 0;
 }
+ 
+/* SmoKingalac  */
+#chat-messages .fromID-3985954 .badge-box i,
+#chat-messages  .id-3985954 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/0280d89d39be38d59d540cb59f5eda30?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
