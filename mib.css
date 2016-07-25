@@ -133,7 +133,7 @@ background-color: #ce1937;}
 }
 
 #user-menu .item.selected {
-    background: #123a5c;    
+    background-color: rgba(206,25,55,0.5)   
 }
 .tab-menu button.selected {
     background: #0e83d8;   
