@@ -312,7 +312,7 @@
             fbLink: "http://www.fb.com/groups/MoveItBrasil ",
             youtubeLink: null,
             website: "http://betamoveit.esy.es/",
-            intervalMessages: [":large_orange_diamond: Veja as regras da sala digitando !regras e os gêneros permitidos digitando !tema :large_orange_diamond:",":large_orange_diamond: Roleta a cada 30 minutos, fique atento! :large_orange_diamond:",":large_orange_diamond: Participe do nosso Grupo no Facebook http://www.fb.com/groups/MoveItBrasil :large_orange_diamond:"],
+            intervalMessages: ["Veja as regras da sala digitando !regras e os gêneros permitidos digitando !tema ","Roleta a cada 30 minutos, fique atento!","Participe do nosso Grupo no Facebook http://www.fb.com/groups/MoveItBrasil"],
             messageInterval: 2,
             songstats: false,
             commandLiteral: "!",
