@@ -16,9 +16,7 @@
 #plug-dj {
     background: linear-gradient(to bottom,#0268AC 0,#02225C 100%);
 }
-.header-panel-button.selected {
-    background: rgba(37, 117, 185, 0.5) !important;
-}
+
 #plug-menu {
     background: rgba(40, 44, 53, 0.94) !important;
 }
