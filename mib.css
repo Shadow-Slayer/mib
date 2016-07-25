@@ -4,6 +4,133 @@
 /*@import url("https://rawgit.com/Shadow-Slayer/mib/master/icones.css");*/
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:500");
 
+
+/* Interface */
+
+/* Chat Botões cima */
+
+.header-panel-button.selected {
+background-color: rgba(206,25,55,0.5) !important;}
+
+/* Botões direita */
+#footer-user .buttons .button.store:hover {
+background: rgba(206,25,55,0.2);}
+
+#footer-user .buttons .button.inventory:hover {
+box-shadow: none}
+
+#footer-user .buttons .button:hover {
+background-color: rgba(206,25,55,0.2);}
+
+/* ------------------------------------------- */
+/* Fundo top e bottom */
+
+
+/* ------------------------------------------- */
+/* Área texto */
+
+#chat-input {
+border-radius: 10px;
+}
+
+/* ------------------------------------------- */
+/* Icones */
+
+.icon-check-purple {
+background: url('http://i.imgur.com/unM3UpT.png');
+background-repeat: no-repeat;
+background-position: 5px;}
+
+.icon-next-track {
+background: url('http://i.imgur.com/rcw4Etb.png');
+background-repeat: no-repeat;
+background-position: 3px;}
+
+.icon-site-logo {
+background: url('http://i.imgur.com/V8Pdpd7.png') no-repeat;}
+
+.icon-grab {
+background: url('http://i.imgur.com/cAkFbAh.png') no-repeat;
+background-position: 0px;}
+
+/* ------------------------------------------- */
+
+#footer .bar-button .section .chevron:before {
+background: rgba(206,25,55,0.5);}
+#footer .bar-button .section .chevron:after {
+background: rgba(206,25,55,0.5);}
+
+/* ------------------------------------------- */
+/* Botão DJ */
+
+#dj-button .left {
+background: rgba(206,25,55,0.5) !important;
+border-radius: 100px 0px 0px 100px;}
+
+#dj-button {
+border-radius: 50px 10px 10px 50px;
+background: #0b0d0f;}
+
+/* ------------------------------------------- */
+/* Botão Playlist */
+
+#playlist-button {
+background: rgba(206,25,55,0.5);}
+/* ------------------------------------------- */
+/* Configurações */
+
+/* Fundo */
+
+#user-view, #waitlist .list .sortable-placeholder {
+background: #21070b;}
+
+#dashboard {
+background: #21070b;}
+
+/* ------------------------------------------- */
+
+.tab-menu button {
+border-radius: 15px;}
+
+.tab-menu button:hover {
+background: rgba(206,25,55,0.5);}
+
+.tab-menu button.selected {
+background: #ce1937;}
+
+#footer-user .back {
+background: rgba(206,25,55,0.5);}
+
+/* ------------------------------------------- */
+/* Playlist */
+
+.icon-check-circle {
+background: url('http://i.imgur.com/B8V1LCo.png');}
+
+#playlist-activate-button span {
+color: #ce1937;}
+
+.media-list .row.selected {
+background: rgba(206,25,55,0.5);}
+
+#playlist-menu .menu .row.selected {
+background: rgba(206,25,55,0.5);}
+
+#playlist-menu .menu .row .count {
+color: #cecece;
+}
+
+#playlist-activate-button {
+background: rgba(206,25,55,0.3);;
+}
+
+.media-list .selected .actions {
+background-color: #ce1937;}
+
+/*----------------fim css feluz -----------------*/
+
+
+
 #chat span.emoji-sizer {
     width: 19px !important;
     height: 19px !important;
