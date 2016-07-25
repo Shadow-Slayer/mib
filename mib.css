@@ -116,10 +116,6 @@ background: rgba(206,25,55,0.5);}
 #playlist-menu .menu .row.selected {
 background: rgba(206,25,55,0.5);}
 
-#playlist-menu .menu .row .count {
-color: #cecece;
-}
-
 #playlist-activate-button {
 background: rgba(206,25,55,0.3);;
 }
@@ -149,7 +145,7 @@ background-color: #ce1937;}
     background: #143b63;
 }
 #playlist-menu .menu .row .count {  
-    color: #19afe8; 
+    color: #ce1937;
 }
 
 #user-view {
