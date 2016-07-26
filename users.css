@@ -575,3 +575,29 @@
     border: none;
     border-radius: 0;
 }
+
+/* Ary   */
+#chat-messages .fromID-3466367 .badge-box i,
+#chat-messages  .id-3466367 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/ec9a7186a5df2144fff86fb1da1a2399?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
+
+/* Drake-fox-BR  */
+#chat-messages .fromID-4460832 .badge-box i,
+#chat-messages  .id-4460832 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/6abc7e434764678c64f629499502088a?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
