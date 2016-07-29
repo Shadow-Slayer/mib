@@ -1,9 +1,8 @@
 /* zoom nas fotos */
-#chat-messages .badge-box i, #chat-messages .badge-box i:hover {
+#chat-messages .fromID- .badge-box i, #chat-messages .badge-box i:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s;
-    float: right;
 }
 #chat-messages .clickable:hover {
     width: 75px;
