@@ -1,14 +1,3 @@
-/* zoom nas fotos */
-#chat-messages .fromID- .badge-box i, #chat-messages .badge-box i:hover {
-    width: 75px;
-    height: 75px;
-    transition: 0.5s;
-}
-#chat-messages .clickable:hover {
-    width: 75px;
-    height: 75px;
-}
-/* fim css zoom nas fotos */
 
 /*shadow*/
 #chat-messages .fromID-4080795 .badge-box i,
