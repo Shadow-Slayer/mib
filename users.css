@@ -1,5 +1,5 @@
 /* zoom nas fotos */
-.badge-box i:hover {
+#chat-messages .badge-box i, #chat-messages .badge-box i:hover {
     width: 75px;
     height: 75px;
     background-position: initial;
