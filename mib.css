@@ -10,6 +10,7 @@
     height: 75px;
     transition: 0.5s;
     background-position: initial;
+    background-repeat: no-repeat !important;
 }
 #chat-messages .clickable:hover {
     width: 75px;
