@@ -1,6 +1,4 @@
 /*shadow*/
-.bdg.bdg-og-g.g i .id-4080795,
-.bdg.bdg-ea-g.g i .id-4080795,
 #chat-messages .fromID-4080795 .badge-box i,
 #chat-messages  .id-4080795 .badge-box i {
     background-image: url(https://s.gravatar.com/avatar/6b339b1d098965c7496e3b7e58573962?s=300);
@@ -489,19 +487,6 @@
 #chat-messages .fromID-6578930 .badge-box i,
 #chat-messages  .id-6578930 .badge-box i {
     background-image: url(https://s.gravatar.com/avatar/10a352493d55c95e253cc3dd5a9d4eb6?s=300);
-    background-size: cover;
-    width: 30px;
-    height: 30px;
-    top: 0;
-    left: 0;
-    border: none;
-    border-radius: 0;
-}
-
-/* zOverKillz https://www.facebook.com/profile.php?id=100011788850602&fref=ufi */
-#chat-messages .fromID-16349909 .badge-box i,
-#chat-messages  .id-16349909 .badge-box i {
-    background-image: url(https://s.gravatar.com/avatar/9cad2fc24b77ea5f52c8d68af43ad0b2?s=300);
     background-size: cover;
     width: 30px;
     height: 30px;
