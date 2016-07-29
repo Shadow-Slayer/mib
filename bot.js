@@ -242,7 +242,7 @@
         name: "Move It-Bot",
         loggedInID: null,
         scriptLink: "https://rawgit.com/Shadow-Slayer/mib/master/bot.js",
-        cmdLink: "http://betamoveit.esy.es/comandos-do-bot.html",
+        cmdLink: "http://moveitbrasil.esy.es/comandos-do-bot.html",
         chatLink: "https://rawgit.com/Shadow-Slayer/mib/master/pt-br.json",
         chat: null,
         loadChat: loadChat,
@@ -3965,7 +3965,6 @@
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
                             $.getScript('https://rawgit.com/Shadow-Slayer/mib/master/simsimi.js');
-                            API.chatLog("!cmddel");
                     }
                 }
             },
