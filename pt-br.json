@@ -73,7 +73,7 @@
         "Papel"
     ],
     
-    "jokenpo": "\/me %%NAME%% jogou: \"%%QUESTION%%\" a jogada de %%BOTNAME%% foi: \"%%RESPONSE%%\"",
+    "jokenpo": "\/me Jokenpo: %%NAME%% jogou: \"%%QUESTION%%\" x %%BOTNAME%% jogou: \"%%RESPONSE%%\"",
     "nodatafound": "Dados anteriores n\u00e3o encontrados.",
     "pos4": "/me Parece que alguém ficará de 4 na fila :lenny:.",
     "roletapos": "/me [@%%NAME%%] Posição da roleta definida para %%POSITION%%.",
