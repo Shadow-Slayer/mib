@@ -587,3 +587,16 @@
     border: none;
     border-radius: 0;
 }
+
+/*  hu3hu3hu3hu3hue  */
+#chat-messages .fromID-3422505 .badge-box i,
+#chat-messages  .id-3422505 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/50d2da7e55c1e5e16c7c6b71219d9e14?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
