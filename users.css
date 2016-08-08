@@ -652,3 +652,16 @@
     border: none;
     border-radius: 0;
 }
+
+/*   Biel King  */
+#chat-messages .fromID-17058370 .badge-box i,
+#chat-messages  .id-17058370 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/2426c41754e6926be84efed57ac6bf15?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
