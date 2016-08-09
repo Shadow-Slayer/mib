@@ -665,3 +665,16 @@
     border: none;
     border-radius: 0;
 }
+
+/*  Rafael Do Gera  */
+#chat-messages .fromID-8042566 .badge-box i,
+#chat-messages  .id-8042566 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/1a7587241c5a24db9e85c0e7b092cc61?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
