@@ -678,3 +678,16 @@
     border: none;
     border-radius: 0;
 }
+
+/*  https://www.facebook.com/joaocarlos.silvabatista?fref=ufi  */
+#chat-messages .fromID-5063697 .badge-box i,
+#chat-messages  .id-5063697 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/fc9af321039609b8e1ca56db5edacbf5?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
