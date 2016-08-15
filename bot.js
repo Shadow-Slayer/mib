@@ -308,7 +308,7 @@
             welcome: true,
             opLink: "https://rawgit.com/Shadow-Slayer/mib/master/op.json",
             rulesLink: "http://moveitbrasil.esy.es/regras.html",
-            themeLink: ":arrow_forward: Eletrônica (exceto trap funk) / Pop / Rock / Hip Hop / Reggae / Sertanejo :arrow_forward: outros gêneros e vídeos de humor só com permissão da staff",
+            themeLink: "Eletrônica (exceto trap funk) / Pop / Rock / Hip Hop / Reggae / Sertanejo / outros gêneros e vídeos de humor só com permissão da staff",
             fbLink: "http://www.fb.com/groups/MoveItBrasil ",
             youtubeLink: null,
             website: "http://moveitbrasil.esy.es/",
