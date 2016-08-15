@@ -312,7 +312,7 @@
             fbLink: "http://www.fb.com/groups/MoveItBrasil ",
             youtubeLink: null,
             website: "http://moveitbrasil.esy.es/",
-            intervalMessages: ["Veja as regras da sala digitando !regras e os gêneros permitidos digitando !tema ","Roleta a cada 30 minutos, fique atento!","Participe do nosso Grupo no Facebook http://www.fb.com/groups/MoveItBrasil"],
+            intervalMessages: ["Veja as regras da sala digitando !regras e os gêneros permitidos digitando !tema ","Roleta a cada 30 minutos, fique atento!","Participe do nosso Grupo no Facebook http://www.fb.com/groups/MoveItBrasil","Participe do Discord da sala https://discord.gg/2z6RHyj"],
             messageInterval: 2,
             songstats: false,
             commandLiteral: "!",
