@@ -691,3 +691,16 @@
     border: none;
     border-radius: 0;
 }
+
+/*  https://www.facebook.com/profile.php?id=100013216594624&fref=ufi  */
+#chat-messages .fromID-3878563 .badge-box i,
+#chat-messages  .id-3878563 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/8bc93c0d2e506174f2186c5bd2a91d2d?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
