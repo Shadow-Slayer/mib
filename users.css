@@ -1,4 +1,3 @@
-
 /*shadow*/
 #chat-messages .fromID-4080795 .badge-box i,
 #chat-messages  .id-4080795 .badge-box i {
@@ -696,6 +695,19 @@
 #chat-messages .fromID-3878563 .badge-box i,
 #chat-messages  .id-3878563 .badge-box i {
     background-image: url(https://s.gravatar.com/avatar/8bc93c0d2e506174f2186c5bd2a91d2d?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
+
+/* capusso */
+#chat-messages .fromID-17574893 .badge-box i,
+#chat-messages  .id-17574893 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/66928d364d444968a212f35885ff9d69?s=300);
     background-size: cover;
     width: 30px;
     height: 30px;
