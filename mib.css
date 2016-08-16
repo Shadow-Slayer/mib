@@ -31,7 +31,11 @@
 /* Interface */
 
 #footer-user .info {
-background: rgba(0, 0, 0, 0.70);}
+background: rgba(0, 0, 0, 0.70);
+}
+#dashboard {
+    background: #000000 !important;
+}
 
 /* Chat Botões cima */
 
