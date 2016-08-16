@@ -30,6 +30,9 @@
 
 /* Interface */
 
+#footer-user .info {
+background: rgba(0, 0, 0, 0.70);}
+
 /* Chat Botões cima */
 
 .header-panel-button.selected {
