@@ -25,11 +25,10 @@
 #chat [data-cid^="5394376-"].emote {
     overflow: hidden;
 }
-
 /* fim css zoom nas fotos */
 
-/* Interface */
 
+/* Interface */
 #footer-user .info {
 background: rgba(0, 0, 0, 0.70);
 }
@@ -246,6 +245,7 @@ i.icon.icon-room {
 #chat-messages .text {
     font-family: 'Ubuntu', sans-serif;
     font-size: 13px;
+    line-height: 20px;
 }
 
 #chat .from {
@@ -380,4 +380,8 @@ box-shadow: 0px -19px 0px 6px rgba(28, 31, 37, 0.50), 0px 18px 0px 6px rgba(28, 
     width: 43px;
     height: 43px;
     background: rgba(206,25,55,0.7);
+}
+
+#chat .welcome {
+    color: #dd153b;
 }
