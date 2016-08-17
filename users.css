@@ -729,3 +729,17 @@
     border: none;
     border-radius: 0;
 }
+
+/* zKaique */
+#chat-messages .fromID-7451925 .badge-box i,
+#chat-messages  .id-7451925 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/7d5cdd316d74455f574d4a1ca3d5b2eb?s=80);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
+
