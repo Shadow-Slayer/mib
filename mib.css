@@ -63,7 +63,8 @@ background-color: rgba(206,25,55,0.2);}
 /* Área texto */
 
 #chat-input {
-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(111,101,101,0.1) !important;
 }
 
 /* ------------------------------------------- */
@@ -450,10 +451,6 @@ box-shadow: 0px -19px 0px 6px rgba(28, 31, 37, 0.50), 0px 18px 0px 6px rgba(28, 
 /*Icone de XP*/
 .icon {
     background-image: url('http://i.imgur.com/PeXTkSh.png');
-}
-/*Chat bg*/
-#chat-input {
-    background: rgba(111,101,101,0.1) !important;
 }
 
 /*Caixas de dialogo(borda)*/
