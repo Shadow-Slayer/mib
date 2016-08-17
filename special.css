@@ -1,19 +1,19 @@
 /* MoveItBot */
 #chat [data-cid^="5394376-"] span.un.clickable {
-color: rgb(29, 175, 232) !important;
+    color: rgb(244, 23, 59) !important;
 }
 #chat [data-cid^="5394376-"] i.bdg {
 background: url('https://s.gravatar.com/avatar/795a00fa0d523c1bce9bc73cab3f9915?s=30') !important;
 }
 #chat [data-cid^="5394376-"] .icon {
-display:none !important;
+    display:none !important;
 }
 /*#chat .msg .text .id-5394376, #chat .msg .text .name.id-5394376, #chat .msg .text .name.id-5394376 .name {
 color: rgb(210, 90, 195) !important;
 }*/
 #chat [data-cid^="5394376-"].emote {
-    background: rgba(37, 117, 185, 0.5) !important;
-    border-left: rgb(14, 131, 216) 3px solid !important;
+    background: rgba(206,25,55,0.30) !important;
+    border-left: rgb(206, 25, 55) 3px solid !important;
 }
 #chat [data-cid^="5394376-"].emote .timestamp {
     color: #A993C7 !important;
