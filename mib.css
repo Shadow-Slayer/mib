@@ -441,3 +441,66 @@ box-shadow: 0px -19px 0px 6px rgba(28, 31, 37, 0.50), 0px 18px 0px 6px rgba(28, 
     background-size: 35px;
 } */
 
+/*Barra de XP*/
+.experience .xp .bar .progress {
+    background: rgba(206,25,55,0.8);
+}
+#footer-user .info .bar .progress {
+    background: rgba(206,25,55,0.8);
+/*Icone de XP*/
+.icon {
+    background-image: url('http://i.imgur.com/PeXTkSh.png');
+}
+/*Chat bg*/
+#chat-input {
+    background: rgba(111,101,101,0.1) !important;
+}
+
+/*Caixas de dialogo(borda)*/
+.focused {
+   -webkit-box-shadow: inset 0 0 0 1px rgba(206,25,55,0.8) !important;
+
+/*BG Dashboard*/
+#dashboard {
+    background: rgba(0,0,0,0.5) !important;
+}
+/*Menu dashboard*/
+.tab-menu button.selected {
+    background: rgba(206,25,55,0.8);
+}
+.tab-menu button {
+    background: rgba(0,0,0,0.5);
+}
+/*Lista das salas*/
+.communities .grid .cell .bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    width: 100%;
+    height: 43px;
+    background: rgba(0,0,0,0.5);
+}
+.communities .grid .cell {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 0 15px 15px 0;
+    width: 250px;
+    height: 300px;
+    background: rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.communities .grid .cell:hover>.meta {
+    margin-top: 43px;
+    height: 257px;
+    background: rgba(40,40,40,0.7);
+    transition: all .15s ease-out;
+}
+.communities .grid .cell .favorite {
+    top: 0;
+    right: 0;
+    width: 43px;
+    height: 43px;
+    background: rgba(206,25,55,0.7);
+}
