@@ -3,8 +3,8 @@ if (user.id == "4080795") {
 API.sendChat("/me Shaaadoso <3 ");
 }
 
- (user.username == "5401598") {
-API.sendChat("/me A Rainha dos Pirralhos @" + user.username + " entrou na sala :babby: ");
+if (user.username == "5401598") {
+API.sendChat("/me Cuidem de seus corações,pois a conquistadora  @" + user.username + " acaba de entrar na sala :kappa:");
 }
 
 if (user.username == "1380997") {
