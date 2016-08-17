@@ -36,6 +36,9 @@ background: rgba(0, 0, 0, 0.70);
 #dashboard {
     background: #000000 !important;
 }
+#rcs-progress-container .bar {    
+    background-color: #f4173b;    
+}
 
 /* Chat Botões cima */
 
