@@ -120,14 +120,8 @@ background: #21070b;}
 
 /* ------------------------------------------- */
 
-.tab-menu button {
-border-radius: 15px;}
-
 .tab-menu button:hover {
 background: rgba(206,25,55,0.5);}
-
-.tab-menu button.selected {
-background: #ce1937;}
 
 #footer-user .back {
 background: rgba(206,25,55,0.5);}
@@ -165,9 +159,6 @@ background-color: #ce1937;}
 
 #user-menu .item.selected {
     background-color: rgba(206,25,55,0.5)   
-}
-.tab-menu button.selected {
-    background: #0e83d8;   
 }
 
 #playlist-menu .menu .row .count {  
@@ -462,9 +453,12 @@ box-shadow: 0px -19px 0px 6px rgba(28, 31, 37, 0.50), 0px 18px 0px 6px rgba(28, 
 .tab-menu button.selected {
     background: rgba(206,25,55,0.8);
 }
+
 .tab-menu button {
     background: rgba(0,0,0,0.5);
+    border-radius: 15px;
 }
+
 /*Lista das salas*/
 .communities .grid .cell .bar {
     position: absolute;
