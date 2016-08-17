@@ -6,7 +6,7 @@
    "rules": {
       "allowAutorespond": true,
       "allowAutowoot": true,
-      "allowAutojoin": false,
+      "allowAutojoin": true,
       "allowAutograb": true,
       "allowSmartVote": true,
       "allowEmotes": true,
@@ -24,7 +24,7 @@
       "subscriber": null,
       "silversubscriber": null,
       "friend": null,
-      "user": "#ac76ff"
+      "user": "#f4173b"
    },
    "images": {
       "background": "http://i.imgur.com/rVRTzNt.jpg",
