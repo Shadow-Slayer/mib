@@ -376,6 +376,15 @@ box-shadow: 0px -19px 0px 6px rgba(28, 31, 37, 0.50), 0px 18px 0px 6px rgba(28, 
     height: 43px;
     background: rgba(206,25,55,0.7);
 }
+.communities .grid .cell .meta {
+    position: relative;
+    z-index: 2;
+    margin-top: 186px;
+    width: 100%;
+    height: 90px;
+    background: rgba(0,0,0,0.5);
+    transition: all .25s ease-in;
+}
 
 #chat .welcome {
     color: #dd153b;
