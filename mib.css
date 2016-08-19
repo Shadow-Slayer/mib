@@ -418,3 +418,7 @@ box-shadow: 0px -19px 0px 6px rgba(28, 31, 37, 0.50), 0px 18px 0px 6px rgba(28, 
     background: rgba(206, 25, 55, 0.75) !important;
     border-radius: 5px;
 }
+/*BG Icone avatar*/
+.thumb .background {
+    background: rgba(0,0,0,0.6);
+}
