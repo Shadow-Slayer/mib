@@ -755,3 +755,16 @@
     border: none;
     border-radius: 0;
 }
+
+/* https://www.facebook.com/SpeedFreakUniverse?fref=ufi */
+#chat-messages .fromID-3425138 .badge-box i,
+#chat-messages  .id-3425138 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/181c0e31c40b91a247158896bd0ddc72?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
