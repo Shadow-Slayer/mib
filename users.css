@@ -718,7 +718,7 @@
 }
 
 /* Guc */
-/* #chat-messages .fromID-5134707 .badge-box i,
+#chat-messages .fromID-5134707 .badge-box i,
 #chat-messages  .id-5134707 .badge-box i {
     background-image: url(https://s.gravatar.com/avatar/59fd87cb86fae4fc4c39941b6f7ea5e7?s=300);
     background-size: cover;
@@ -728,7 +728,7 @@
     left: 0;
     border: none;
     border-radius: 0; 
-} */
+}
 
 /* zKaique */
 #chat-messages .fromID-7451925 .badge-box i,
