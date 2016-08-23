@@ -167,9 +167,9 @@
                  
                 bots.events.on();
                 setTimeout(function () {
-                 API.sendChat("!cmddel");;
-                 }, 2000);
                 bots.util.sendChat('SimSimi e Ed ativados');
+                 }, 2000);
+                API.sendChat("!cmddel");
             }
         }
     };
