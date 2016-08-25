@@ -468,3 +468,32 @@ box-shadow: 0px -19px 0px 6px rgba(28, 31, 37, 0.50), 0px 18px 0px 6px rgba(28, 
 #dialog-user-role .role-menu .menu ul .dj span {
 	color: #7936E8 !important;
 }
+/* Hover Link's */
+#room-settings a:hover, #chat a:hover {
+    color: hsl(200,100%,55%) !important;
+    text-shadow: 0 0 5px;
+}
+/* BG Conf comu */
+#user-view, #dashboard, #room-settings, #media-panel, #playlist-panel, 
+#history-panel {
+    background: linear-gradient(hsla(210,10%,7%,.9), hsla(210,10%,5%,.9)) !important;
+}
+#user-menu, #room-settings-menu, #playlist-menu {
+    background: linear-gradient(to right, hsla(210,10%,10%,0), hsla(210,10%,10%,.2));
+}
+/* Cores menu conf comu */
+#room-settings .general-settings button, #room-settings .general-settings.option.enabled button.off {
+	background: linear-gradient(hsl(220,5%,20%), hsl(220,5%,10%)) !important;
+}
+#room-settings .general-settings button.off, #room-settings .general-settings .option.enabled button.on {
+    background: linear-gradient(hsl(350, 74%, 38%), hsl(350, 81%, 24%)) !important;
+}
+#room-settings .general-settings button:hover, #room-settings .general-settings .option.enabled button.off:hover {
+    background: linear-gradient(hsl(350, 78%, 26%), hsl(350, 89%, 15%)) !important;
+}
+.dropdown {
+background: linear-gradient(hsl(220,5%,20%), hsl(220,5%,10%));
+}
+.dropdown dd {
+    background: hsla(220, 0%, 5%, 0.8) !important;
+}
