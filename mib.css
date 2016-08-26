@@ -483,7 +483,7 @@ box-shadow: 0px -19px 0px 6px rgba(28, 31, 37, 0.50), 0px 18px 0px 6px rgba(28, 
 }
 /* Cores menu conf comu */
 #room-settings .general-settings button, #room-settings .general-settings.option.enabled button.off {
-	background: linear-gradient(hsl(220,5%,20%), hsl(220,5%,10%)) !important;
+	background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91)) !important;
 }
 #room-settings .general-settings button.off, #room-settings .general-settings .option.enabled button.on {
     background: linear-gradient(hsl(350, 74%, 38%), hsl(350, 81%, 24%)) !important;
@@ -492,7 +492,7 @@ box-shadow: 0px -19px 0px 6px rgba(28, 31, 37, 0.50), 0px 18px 0px 6px rgba(28, 
     background: linear-gradient(hsl(350, 78%, 26%), hsl(350, 89%, 15%)) !important;
 }
 .dropdown {
-background: linear-gradient(hsl(220,5%,20%), hsl(220,5%,10%));
+background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91)) !important;
 }
 .dropdown dd {
     background: hsla(220, 0%, 5%, 0.8) !important;
@@ -510,4 +510,48 @@ background: hsla(220, 0%, 5%, 0.3) !important;
 /* BG Avatar perfil*/
 #user-menu .avatar {
 background: linear-gradient(to bottom,#8e1e30 0,#542121 56%,#251313 73%,#2b2424 100%);
+}
+/* Status,Subscribe,Notificaçoes menu */
+.subscribe-button {
+background: hsla(220, 0%, 5%, 0.1) !important;
+}
+.subscribe-button:hover {
+    background: rgba(206,25,55,0.3) !important;
+}
+.user-content.profile .meta .blurb .box, .user-content.profile .meta .blurb input {
+background: hsla(220, 0%, 5%, 0.3) !important;
+}
+.experience .xp .bar {
+    background: hsla(220, 0%, 5%, 0.7) !important;
+}
+.user-content.profile .notifications .row {
+    background: hsla(220, 0%, 5%, 0.70);
+}
+/* Barra de xp (BG) */
+#footer-user .info .meta div.bar {
+    background: hsla(220, 0%, 12%, 0.6);
+}
+/* Botoes editar playlist */
+#playlist-edit-button {
+    background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));
+}
+#playlist-edit-button:hover {
+    background: linear-gradient(hsla(193, 100%, 45%, 0.78), hsla(193, 100%, 26%, 0.91));
+}
+#playlist-shuffle-button {
+    background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));
+}
+#playlist-shuffle-button:hover {
+    background: linear-gradient(hsla(263, 79%, 56%, 0.6), hsla(263, 79%, 35%, 0.6));
+}
+#playlist-delete-button {
+    background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));
+}
+#playlist-delete-button:hover {
+    background: linear-gradient(hsla(0, 79%, 50%, 0.64), hsla(0, 79%, 37%, 0.64));
+}
+/* Playlist tocando */
+.media-list .row.now-playing {
+    background: rgba(206,25,55,0.5)!important;
+    border-bottom: #000000 2px solid!important;
 }
