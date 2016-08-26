@@ -497,3 +497,17 @@ background: linear-gradient(hsl(220,5%,20%), hsl(220,5%,10%));
 .dropdown dd {
     background: hsla(220, 0%, 5%, 0.8) !important;
 }
+/* BG Avatar loja */
+.user-content .grid .cell .top {
+background: none !important;
+}
+.user-content .grid .cell, .user-content.communities .grid .cell {
+background: hsla(220, 0%, 5%, 0.3) !important;
+}
+.user-content .grid .cell:hover > .top {
+    background: rgba(206,25,55,0.3) !important;
+}
+/* BG Avatar perfil*/
+#user-menu .avatar {
+background: linear-gradient(to bottom,#8e1e30 0,#542121 56%,#251313 73%,#2b2424 100%);
+}
