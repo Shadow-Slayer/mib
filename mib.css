@@ -4,6 +4,10 @@
 @import url("https://rawgit.com/Shadow-Slayer/mib/master/icones.css");
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:500");
 
+#chat .from .un {    
+    color: #b75151;
+}
+
 /* zoom nas fotos */
 #chat-messages .fromID- .badge-box i, #chat-messages .badge-box i:hover {
     width: 75px;
