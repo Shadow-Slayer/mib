@@ -63,7 +63,7 @@
     width: 30px;
     height: 30px;
     top: 0;
-    left: 0;
+    left: 0;b
     border: none;
     border-radius: 0;
 
@@ -328,6 +328,21 @@
     border: none;
     border-radius: 0;
 
+}
+/* Zoom foto */
+#chat-messages .fromID-5394376 .badge-box i:hover,
+#chat-messages .id-5394376 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-5394376 .clickable:hover,
+#chat-messages .id-5394376 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
 }
 
 /*jander dolynhot*/
