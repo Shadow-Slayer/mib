@@ -1,5 +1,5 @@
 /* MoveItBot */
-#chat [data-cid^="5394376-"] i.bdg:hover {
+#chat [data-cid^="5394376-"] i.bdg.bdg-raveb01:hover {
 background: url('https://s.gravatar.com/avatar/795a00fa0d523c1bce9bc73cab3f9915?s=75')
     width: 75px;
     height: 75px;
