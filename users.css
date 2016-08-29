@@ -10,6 +10,7 @@
     border: none;
     border-radius: 0;
 }
+/* Zoom foto */
 #chat-messages .fromID-4080795 .badge-box i:hover, #chat-messages .fromID-4080795 .badge-box i:hover,
 #chat-messages .id-4080795 .badge-box i:hover, #chat-messages .id-4080795 .badge-box i:hover {
     width: 75px;
@@ -38,6 +39,21 @@
     border-radius: 0;
 
 }
+/* Zoom foto */
+#chat-messages .fromID-5401598 .badge-box i:hover,
+#chat-messages .id-5401598 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-5401598 .clickable:hover,
+#chat-messages .id-5401598 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
 
 /*away*/
 #chat-messages .fromID-1380997 .badge-box i,
@@ -51,6 +67,21 @@
     border: none;
     border-radius: 0;
 
+}
+/* Zoom foto */
+#chat-messages .fromID-1380997 .badge-box i:hover,
+#chat-messages .id-1380997 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-1380997 .clickable:hover,
+#chat-messages .id-1380997 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
 }
 
 /*sabota*/
@@ -66,6 +97,21 @@
     border-radius: 0;
 
 }
+/* Zoom foto */
+#chat-messages .fromID-3851265 .badge-box i:hover,
+#chat-messages .id-3851265 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-3851265 .clickable:hover,
+#chat-messages .id-3851265 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
 
 /*vzack*/
 #chat-messages .fromID-4371581 .badge-box i,
@@ -79,6 +125,21 @@
     border: none;
     border-radius: 0;
 
+}
+/* Zoom foto */
+#chat-messages .fromID-4371581 .badge-box i:hover,
+#chat-messages .id-4371581 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-4371581 .clickable:hover,
+#chat-messages .id-4371581 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
 }
 
 /*dig*/
@@ -94,6 +155,21 @@
     border-radius: 0;
 
 }
+/* Zoom foto */
+#chat-messages .fromID-5495125 .badge-box i:hover,
+#chat-messages .id-5495125 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-5495125 .clickable:hover,
+#chat-messages .id-5495125 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
 
 /*tuskas*/
 #chat-messages .fromID-5594653 .badge-box i,
@@ -107,6 +183,21 @@
     border: none;
     border-radius: 0;
 
+}
+/* Zoom foto */
+#chat-messages .fromID-5594653 .badge-box i:hover,
+#chat-messages .id-5594653 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-5594653 .clickable:hover,
+#chat-messages .id-5594653 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
 }
 
 /*freddie*/
@@ -122,6 +213,21 @@
     border-radius: 0;
 
 }
+/* Zoom foto */
+#chat-messages .fromID-5007596 .badge-box i:hover,
+#chat-messages .id-5007596 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-5007596 .clickable:hover,
+#chat-messages .id-5007596 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
 
 /*blea*/
 #chat-messages .fromID-4915184 .badge-box i,
@@ -135,6 +241,21 @@
     border: none;
     border-radius: 0;
 
+}
+/* Zoom foto */
+#chat-messages .fromID-4915184 .badge-box i:hover,
+#chat-messages .id-4915184 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-4915184 .clickable:hover,
+#chat-messages .id-4915184 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
 }
 
 /*feluz*/
@@ -150,6 +271,21 @@
     border-radius: 0;
 
 }
+/* Zoom foto */
+#chat-messages .fromID-3839549 .badge-box i:hover,
+#chat-messages .id-3839549 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-3839549 .clickable:hover,
+#chat-messages .id-3839549 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
 
 /*PSG*/
 #chat-messages .fromID-5039941 .badge-box i,
@@ -163,6 +299,21 @@
     border: none;
     border-radius: 0;
 
+}
+/* Zoom foto */
+#chat-messages .fromID-5039941 .badge-box i:hover,
+#chat-messages .id-5039941 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-5039941 .clickable:hover,
+#chat-messages .id-5039941 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
 }
 
 /*bot*/
@@ -192,6 +343,21 @@
     border-radius: 0;
 
 }
+/* Zoom foto */
+#chat-messages .fromID-4349239 .badge-box i:hover,
+#chat-messages .id-4349239 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-4349239 .clickable:hover,
+#chat-messages .id-4349239 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
 
 /*warlocked*/
 #chat-messages .fromID-13740821 .badge-box i,
@@ -205,6 +371,21 @@
     border: none;
     border-radius: 0;
 
+}
+/* Zoom foto */
+#chat-messages .fromID-13740821 .badge-box i:hover,
+#chat-messages .id-13740821 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-13740821 .clickable:hover,
+#chat-messages .id-13740821 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
 }
 
 /*mysaddestiny*/
@@ -220,6 +401,21 @@
     border-radius: 0;
 
 }
+/* Zoom foto */
+#chat-messages .fromID-4179990 .badge-box i:hover,
+#chat-messages .id-4179990 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-4179990 .clickable:hover,
+#chat-messages .id-4179990 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
 
 /*fernandogamer*/
 #chat-messages .fromID-4799567 .badge-box i,
@@ -233,6 +429,21 @@
     border: none;
     border-radius: 0;
 
+}
+/* Zoom foto */
+#chat-messages .fromID-4799567 .badge-box i:hover,
+#chat-messages .id-4799567 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-4799567 .clickable:hover,
+#chat-messages .id-4799567 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
 }
 
 /*tefe*/
@@ -248,6 +459,21 @@
     border-radius: 0;
 
 }
+/* Zoom foto */
+#chat-messages .fromID-5388131 .badge-box i:hover,
+#chat-messages .id-5388131 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-5388131 .clickable:hover,
+#chat-messages .id-5388131 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
 
 /*zol*/
 #chat-messages .fromID-3810631 .badge-box i,
@@ -260,6 +486,21 @@
     left: 0;
     border: none;
     border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-3810631 .badge-box i:hover,
+#chat-messages .id-3810631 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-3810631 .clickable:hover,
+#chat-messages .id-3810631 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
 }
 
 /*cintia*/
@@ -274,6 +515,21 @@
     border: none;
     border-radius: 0;
 }
+/* Zoom foto */
+#chat-messages .fromID-5266634 .badge-box i:hover,
+#chat-messages .id-5266634 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-5266634 .clickable:hover,
+#chat-messages .id-5266634 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
 
 /*fanny*/
 #chat-messages .fromID-3733591 .badge-box i,
@@ -286,6 +542,21 @@
     left: 0;
     border: none;
     border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-3733591 .badge-box i:hover,
+#chat-messages .id-3733591 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-3733591 .clickable:hover,
+#chat-messages .id-3733591 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
 }
 
 /*ladycarol*/
@@ -300,6 +571,21 @@
     border: none;
     border-radius: 0;
 }
+/* Zoom foto */
+#chat-messages .fromID-5581816 .badge-box i:hover,
+#chat-messages .id-5581816 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-5581816 .clickable:hover,
+#chat-messages .id-5581816 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
 
 /*danielmac*/
 #chat-messages .fromID-3742812 .badge-box i,
@@ -312,6 +598,21 @@
     left: 0;
     border: none;
     border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-3742812 .badge-box i:hover,
+#chat-messages .id-3742812 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-3742812 .clickable:hover,
+#chat-messages .id-3742812 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
 }
 
 /*lorma*/
@@ -326,6 +627,21 @@
     border: none;
     border-radius: 0;
 }
+/* Zoom foto */
+#chat-messages .fromID-5682160 .badge-box i:hover,
+#chat-messages .id-5682160 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-5682160 .clickable:hover,
+#chat-messages .id-5682160 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
 
 /*nu.clear*/
 #chat-messages .fromID-13443778 .badge-box i,
@@ -338,6 +654,21 @@
     left: 0;
     border: none;
     border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-13443778 .badge-box i:hover,
+#chat-messages .id-13443778 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-13443778 .clickable:hover,
+#chat-messages .id-13443778 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
 }
 
 /*skywalker*/
@@ -352,6 +683,21 @@
     border: none;
     border-radius: 0;
 }
+/* Zoom foto */
+#chat-messages .fromID-4376080 .badge-box i:hover,
+#chat-messages .id-4376080 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-4376080 .clickable:hover,
+#chat-messages .id-4376080 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
 
 /*apaki*/
 #chat-messages .fromID-5579813 .badge-box i,
@@ -364,6 +710,21 @@
     left: 0;
     border: none;
     border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-5579813 .badge-box i:hover,
+#chat-messages .id-5579813 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-5579813 .clickable:hover,
+#chat-messages .id-5579813 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
 }
 
 /*kennedy*/
@@ -378,6 +739,21 @@
     border: none;
     border-radius: 0;
 }
+/* Zoom foto */
+#chat-messages .fromID-5005365 .badge-box i:hover,
+#chat-messages .id-5005365 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-5005365 .clickable:hover,
+#chat-messages .id-5005365 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
 
 /*xITzGaMeSPr0zTIx*/
 #chat-messages .fromID-4404834 .badge-box i,
@@ -390,6 +766,21 @@
     left: 0;
     border: none;
     border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-4404834 .badge-box i:hover,
+#chat-messages .id-4404834 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-4404834 .clickable:hover,
+#chat-messages .id-4404834 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
 }
 
 /*vendedor de droga?*/
@@ -404,6 +795,21 @@
     border: none;
     border-radius: 0;
 }
+/* Zoom foto */
+#chat-messages .fromID-3512941 .badge-box i:hover,
+#chat-messages .id-3512941 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-3512941 .clickable:hover,
+#chat-messages .id-3512941 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
 
 /*pão*/
 #chat-messages .fromID-15511589 .badge-box i,
@@ -416,6 +822,21 @@
     left: 0;
     border: none;
     border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-15511589 .badge-box i:hover,
+#chat-messages .id-15511589 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-15511589 .clickable:hover,
+#chat-messages .id-15511589 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
 }
 
 /*flavia botelho*/
@@ -430,8 +851,23 @@
     border: none;
     border-radius: 0;
 }
+/* Zoom foto */
+#chat-messages .fromID-4256491 .badge-box i:hover,
+#chat-messages .id-4256491 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-4256491 .clickable:hover,
+#chat-messages .id-4256491 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
 
-/*   */
+/* https://www.facebook.com/ViitinhoK?fref=ufi */
 #chat-messages .fromID-14160670 .badge-box i,
 #chat-messages  .id-14160670 .badge-box i {
     background-image: url(https://s.gravatar.com/avatar/f37703fd4584fa276c4822e5d74d8208?s=300);
@@ -442,6 +878,21 @@
     left: 0;
     border: none;
     border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-14160670 .badge-box i:hover,
+#chat-messages .id-14160670 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-14160670 .clickable:hover,
+#chat-messages .id-14160670 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
 }
 
 /* cunpadi  */
@@ -456,6 +907,21 @@
     border: none;
     border-radius: 0;
 }
+/* Zoom foto */
+#chat-messages .fromID-13478318 .badge-box i:hover,
+#chat-messages .id-13478318 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-13478318 .clickable:hover,
+#chat-messages .id-13478318 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
 
 /* jaque  */
 #chat-messages .fromID-6511093 .badge-box i,
@@ -468,6 +934,21 @@
     left: 0;
     border: none;
     border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-6511093 .badge-box i:hover,
+#chat-messages .id-6511093 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-6511093 .clickable:hover,
+#chat-messages .id-6511093 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
 }
 
 /* jaque 2  */
@@ -482,6 +963,21 @@
     border: none;
     border-radius: 0;
 }
+/* Zoom foto */
+#chat-messages .fromID-15957772 .badge-box i:hover,
+#chat-messages .id-15957772 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-15957772 .clickable:hover,
+#chat-messages .id-15957772 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
 
 /* Psicó  */
 #chat-messages .fromID-6395057 .badge-box i,
@@ -494,6 +990,21 @@
     left: 0;
     border: none;
     border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-6395057 .badge-box i:hover,
+#chat-messages .id-6395057 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-6395057 .clickable:hover,
+#chat-messages .id-6395057 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
 }
 
 /* _ThomasFr */
@@ -508,6 +1019,21 @@
     border: none;
     border-radius: 0;
 }
+/* Zoom foto */
+#chat-messages .fromID-14766508 .badge-box i:hover,
+#chat-messages .id-14766508 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-14766508 .clickable:hover,
+#chat-messages .id-14766508 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
 
 /* EdnaldoDJ */
 #chat-messages .fromID-6578930 .badge-box i,
@@ -520,6 +1046,21 @@
     left: 0;
     border: none;
     border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-6578930 .badge-box i:hover,
+#chat-messages .id-6578930 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-6578930 .clickable:hover,
+#chat-messages .id-6578930 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
 }
 
 /* zOverKillz https://www.facebook.com/profile.php?id=100011788850602&fref=ufi */
@@ -534,6 +1075,21 @@
     border: none;
     border-radius: 0;
 }
+/* Zoom foto */
+#chat-messages .fromID-16349909 .badge-box i:hover,
+#chat-messages .id-16349909 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-16349909 .clickable:hover,
+#chat-messages .id-16349909 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
 
 /* @๖ۜĐﮊ.RedSkull ☊ */
 #chat-messages .fromID-3938058 .badge-box i,
@@ -546,6 +1102,21 @@
     left: 0;
     border: none;
     border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-3938058 .badge-box i:hover,
+#chat-messages .id-3938058 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-3938058 .clickable:hover,
+#chat-messages .id-3938058 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
 }
 
 /* fentyzinho */
@@ -560,6 +1131,21 @@
     border: none;
     border-radius: 0;
 }
+/* Zoom foto */
+#chat-messages .fromID-15522304 .badge-box i:hover,
+#chat-messages .id-15522304 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-15522304 .clickable:hover,
+#chat-messages .id-15522304 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
 
 /* InderFer0m0nas */
 #chat-messages .fromID-5307937 .badge-box i,
@@ -572,6 +1158,21 @@
     left: 0;
     border: none;
     border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-5307937 .badge-box i:hover,
+#chat-messages .id-5307937 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-5307937 .clickable:hover,
+#chat-messages .id-5307937 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
 }
  
 /* SmoKingalac  */
@@ -586,6 +1187,21 @@
     border: none;
     border-radius: 0;
 }
+/* Zoom foto */
+#chat-messages .fromID-3985954 .badge-box i:hover,
+#chat-messages .id-3985954 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-3985954 .clickable:hover,
+#chat-messages .id-3985954 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
 
 /* Ary   */
 #chat-messages .fromID-3466367 .badge-box i,
@@ -598,6 +1214,21 @@
     left: 0;
     border: none;
     border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-3466367 .badge-box i:hover,
+#chat-messages .id-3466367 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-3466367 .clickable:hover,
+#chat-messages .id-3466367 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
 }
 
 /* Drake-fox-BR  */
@@ -612,6 +1243,21 @@
     border: none;
     border-radius: 0;
 }
+/* Zoom foto */
+#chat-messages .fromID-4460832 .badge-box i:hover,
+#chat-messages .id-4460832 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-4460832 .clickable:hover,
+#chat-messages .id-4460832 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
 
 /*  hu3hu3hu3hu3hue  */
 #chat-messages .fromID-3422505 .badge-box i,
@@ -624,6 +1270,21 @@
     left: 0;
     border: none;
     border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-3422505 .badge-box i:hover,
+#chat-messages .id-3422505 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-3422505 .clickable:hover,
+#chat-messages .id-3422505 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
 }
 
 /*  ManoWoods  */
@@ -638,6 +1299,21 @@
     border: none;
     border-radius: 0;
 }
+/* Zoom foto */
+#chat-messages .fromID-3851353 .badge-box i:hover,
+#chat-messages .id-3851353 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-3851353 .clickable:hover,
+#chat-messages .id-3851353 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
 
 /*  andreamaro2  */
 #chat-messages .fromID-13651874 .badge-box i,
@@ -650,6 +1326,21 @@
     left: 0;
     border: none;
     border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-13651874 .badge-box i:hover,
+#chat-messages .id-13651874 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-13651874 .clickable:hover,
+#chat-messages .id-13651874 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
 }
 
 /*   jvnlxxxx  */
@@ -664,6 +1355,21 @@
     border: none;
     border-radius: 0;
 }
+/* Zoom foto */
+#chat-messages .fromID-17187228 .badge-box i:hover,
+#chat-messages .id-17187228 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-17187228 .clickable:hover,
+#chat-messages .id-17187228 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
 
 /*   Biel King  */
 #chat-messages .fromID-17058370 .badge-box i,
@@ -676,6 +1382,21 @@
     left: 0;
     border: none;
     border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-17058370 .badge-box i:hover,
+#chat-messages .id-17058370 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-17058370 .clickable:hover,
+#chat-messages .id-17058370 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
 }
 
 /*  Rafael Do Gera  */
@@ -690,6 +1411,21 @@
     border: none;
     border-radius: 0;
 }
+/* Zoom foto */
+#chat-messages .fromID-8042566 .badge-box i:hover,
+#chat-messages .id-8042566 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-8042566 .clickable:hover,
+#chat-messages .id-8042566 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
 
 /*  https://www.facebook.com/joaocarlos.silvabatista?fref=ufi  */
 #chat-messages .fromID-5063697 .badge-box i,
@@ -702,6 +1438,21 @@
     left: 0;
     border: none;
     border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-5063697 .badge-box i:hover,
+#chat-messages .id-5063697 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-5063697 .clickable:hover,
+#chat-messages .id-5063697 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
 }
 
 /*  https://www.facebook.com/profile.php?id=100013216594624&fref=ufi  */
@@ -716,6 +1467,21 @@
     border: none;
     border-radius: 0;
 }
+/* Zoom foto */
+#chat-messages .fromID-3878563 .badge-box i:hover,
+#chat-messages .id-3878563 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-3878563 .clickable:hover,
+#chat-messages .id-3878563 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
 
 /* capusso */
 #chat-messages .fromID-17574893 .badge-box i,
@@ -728,6 +1494,21 @@
     left: 0;
     border: none;
     border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-17574893 .badge-box i:hover,
+#chat-messages .id-17574893 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-17574893 .clickable:hover,
+#chat-messages .id-17574893 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
 }
 
 /* Guc */
@@ -742,6 +1523,21 @@
     border: none;
     border-radius: 0; 
 }
+/* Zoom foto */
+#chat-messages .fromID-5134707 .badge-box i:hover,
+#chat-messages .id-5134707 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-5134707 .clickable:hover,
+#chat-messages .id-5134707 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
 
 /* zKaique */
 #chat-messages .fromID-7451925 .badge-box i,
@@ -754,6 +1550,21 @@
     left: 0;
     border: none;
     border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-7451925 .badge-box i:hover,
+#chat-messages .id-7451925 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-7451925 .clickable:hover,
+#chat-messages .id-7451925 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
 }
 
 /* Marcos Vinicios */
@@ -768,6 +1579,21 @@
     border: none;
     border-radius: 0;
 }
+/* Zoom foto */
+#chat-messages .fromID-5428229 .badge-box i:hover,
+#chat-messages .id-5428229 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-5428229 .clickable:hover,
+#chat-messages .id-5428229 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
 
 /* https://www.facebook.com/SpeedFreakUniverse?fref=ufi */
 #chat-messages .fromID-3425138 .badge-box i,
@@ -780,6 +1606,21 @@
     left: 0;
     border: none;
     border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-3425138 .badge-box i:hover,
+#chat-messages .id-3425138 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-3425138 .clickable:hover,
+#chat-messages .id-3425138 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
 }
 
 /* https://www.facebook.com/profile.php?id=100009671585564&fref=ufi */
@@ -794,6 +1635,21 @@
     border: none;
     border-radius: 0;
 }
+/* Zoom foto */
+#chat-messages .fromID-11334256 .badge-box i:hover,
+#chat-messages .id-11334256 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-11334256 .clickable:hover,
+#chat-messages .id-11334256 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
 
 /* https://www.facebook.com/josue.camargo.75?fref=ufi */
 #chat-messages .fromID-3634240 .badge-box i,
@@ -806,6 +1662,21 @@
     left: 0;
     border: none;
     border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-3634240 .badge-box i:hover,
+#chat-messages .id-3634240 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-3634240 .clickable:hover,
+#chat-messages .id-3634240 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
 }
 
 /* https://www.facebook.com/EduRodriigues?fref=ufi */
@@ -820,6 +1691,21 @@
     border: none;
     border-radius: 0;
 }
+/* Zoom foto */
+#chat-messages .fromID-1222336 .badge-box i:hover,
+#chat-messages .id-1222336 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-1222336 .clickable:hover,
+#chat-messages .id-1222336 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
 
 /* https://www.facebook.com/joao.brandao.161?fref=ufi */
 #chat-messages .fromID-5336641 .badge-box i,
@@ -833,4 +1719,18 @@
     border: none;
     border-radius: 0;
 }
-
+/* Zoom foto */
+#chat-messages .fromID-5336641 .badge-box i:hover,
+#chat-messages .id-5336641 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-5336641 .clickable:hover,
+#chat-messages .id-5336641 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
