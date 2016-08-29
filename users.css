@@ -782,3 +782,42 @@
     border-radius: 0;
 }
 
+/* https://www.facebook.com/josue.camargo.75?fref=ufi */
+#chat-messages .fromID-3634240 .badge-box i,
+#chat-messages  .id-3634240 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/e7c7c95fb3028075dea3504b1bd93489?s=80);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
+
+/* https://www.facebook.com/EduRodriigues?fref=ufi */
+#chat-messages .fromID-1222336 .badge-box i,
+#chat-messages  .id-1222336 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/19b22517ecc97ebbcd2b76094d1e12de?s=80);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
+
+/* https://www.facebook.com/joao.brandao.161?fref=ufi */
+#chat-messages .fromID-5336641 .badge-box i,
+#chat-messages  .id-5336641 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/75e68a336a6165afafa2456d65889794?s=80);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
+
