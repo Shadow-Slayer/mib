@@ -1,9 +1,15 @@
 /* MoveItBot */
+#chat [data-cid^="5394376-"] i.bdg:hover {
+background: url('https://s.gravatar.com/avatar/795a00fa0d523c1bce9bc73cab3f9915?s=75')
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
 #chat [data-cid^="5394376-"] span.un.clickable {
     color: rgb(244, 23, 59) !important;
 }
 #chat [data-cid^="5394376-"] i.bdg {
-background: url('https://s.gravatar.com/avatar/795a00fa0d523c1bce9bc73cab3f9915?s=300') !important;
+background: url('https://s.gravatar.com/avatar/795a00fa0d523c1bce9bc73cab3f9915?s=30') !important;
 }
 #chat [data-cid^="5394376-"] .icon {
     display:none !important;
