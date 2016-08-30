@@ -12,7 +12,7 @@
 }
 /* Zoom foto */
 #chat-messages .fromID-4080795 .badge-box i:hover, 
-#chat-messages .id-4080795 .badge-box i:hover, {
+#chat-messages .id-4080795 .badge-box i:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s;
