@@ -11,13 +11,19 @@
     border-radius: 0;
 }
 /* Zoom foto */
-#chat-messages .fromID-4080795 .clickable:hover .badge-box i:hover, 
-#chat-messages .id-4080795 .clickable:hover .badge-box i:hover, {
+#chat-messages .fromID-4080795 .badge-box i:hover, 
+#chat-messages .id-4080795 .badge-box i:hover, {
     width: 75px;
     height: 75px;
     transition: 0.5s;
     background-position: initial;
     background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-4080795 .clickable:hover,
+#chat-messages .id-4080795 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
 }
 
 /*duda */
@@ -1784,13 +1790,19 @@
     border-radius: 0;
 }
 /* Zoom foto */
-#chat-messages .fromID-12673376 .clickable:hover .badge-box i:hover,
-#chat-messages .id-12673376 .clickable:hover .badge-box i:hover {
+#chat-messages .fromID-12673376 .badge-box i:hover,
+#chat-messages .id-12673376 .badge-box i:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s;
     background-position: initial;
     background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-12673376 .clickable:hover,
+#chat-messages .id-12673376 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
 }
 
 /* https://www.facebook.com/lucas.molinari.35?fref=ufi */
@@ -1806,13 +1818,19 @@
     border-radius: 0;
 }
 /* Zoom foto */
-#chat-messages .fromID-18332142 .clickable:hover .badge-box i:hover,
-#chat-messages .id-18332142 .clickable:hover .badge-box i:hover {
+#chat-messages .fromID-18332142 .badge-box i:hover,
+#chat-messages .id-18332142 .badge-box i:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s;
     background-position: initial;
     background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-18332142 .clickable:hover,
+#chat-messages .id-18332142 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
 }
 
 /* https://www.facebook.com/Arthur.mice */
@@ -1828,11 +1846,17 @@
     border-radius: 0;
 }
 /* Zoom foto */
-#chat-messages .fromID-6236979 .clickable:hover .badge-box i:hover,
-#chat-messages .id-6236979 .clickable:hover .badge-box i:hover {
+#chat-messages .fromID-6236979 .badge-box i:hover,
+#chat-messages .id-6236979 .badge-box i:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s;
     background-position: initial;
     background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-6236979 .clickable:hover,
+#chat-messages .id-6236979 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
 }
