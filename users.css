@@ -11,19 +11,13 @@
     border-radius: 0;
 }
 /* Zoom foto */
-#chat-messages .fromID-4080795 .badge-box i:hover, #chat-messages .fromID-4080795 .badge-box i:hover,
-#chat-messages .id-4080795 .badge-box i:hover, #chat-messages .id-4080795 .badge-box i:hover {
+#chat-messages .fromID-4080795 .clickable:hover .badge-box i:hover, 
+#chat-messages .id-4080795 .clickable:hover .badge-box i:hover, {
     width: 75px;
     height: 75px;
     transition: 0.5s;
     background-position: initial;
     background-repeat: no-repeat !important;
-}
-#chat-messages .fromID-4080795 .clickable:hover,
-#chat-messages .id-4080795 .clickable:hover {
-    width: 75px;
-    height: 75px;
-    transition: 0.5s;
 }
 
 /*duda */
