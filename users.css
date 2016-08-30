@@ -1776,3 +1776,69 @@
     height: 75px;
     transition: 0.5s;
 }
+
+/* https://www.facebook.com/mateus.ronchironconi?fref=ufi */
+#chat-messages .fromID-12673376 .badge-box i,
+#chat-messages  .id-12673376 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/483fefdf493351cb21d730f4fd7ce7f8?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-12673376 .clickable:hover .badge-box i:hover,
+#chat-messages .id-12673376 .clickable:hover .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+
+/* https://www.facebook.com/lucas.molinari.35?fref=ufi */
+#chat-messages .fromID-18332142 .badge-box i,
+#chat-messages  .id-18332142 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/84198a900a1868c3cf06118e59b31f16?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-18332142 .clickable:hover .badge-box i:hover,
+#chat-messages .id-18332142 .clickable:hover .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+
+/* https://www.facebook.com/Arthur.mice */
+#chat-messages .fromID-6236979 .badge-box i,
+#chat-messages  .id-6236979 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/99da9c02afd08930c10273891195865c?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-6236979 .clickable:hover .badge-box i:hover,
+#chat-messages .id-6236979 .clickable:hover .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
