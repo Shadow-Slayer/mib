@@ -4,9 +4,13 @@
 @import url("https://rawgit.com/Shadow-Slayer/mib/master/icones.css");
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:500");
 
+/* cor nome usuario cinza */
 #chat .from .un {    
     color: #b75151;
 }
+
+/* preview video */
+.dialog {    background: rgba(0, 0, 0, 0.42);}
 
 /* zoom nas fotos */
 /*#chat-messages .fromID- .badge-box i, #chat-messages .badge-box i:hover {
