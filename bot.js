@@ -988,12 +988,10 @@
                 if ((mehs) >= ((woots+mehs)*(basicBot.settings.voteSkipLimit))) {
                     API.sendChat(subChat(basicBot.chat.voteskipexceededlimit, {name: dj.username, limit: basicBot.settings.voteSkipLimit}));
                     if (basicBot.settings.smartSkip && timeLeft > timeElapsed){
-                        API.sendChat('/me ' + mehs + ' ' + woots + '' + dj + '' + timeLeft + '' + timeElapsed + '); 
-                        /*basicBot.roomUtilities.smartSkip();*/
+                        basicBot.roomUtilities.smartSkip();
                     }
                     else {
-                    	API.sendChat('/me ' + mehs + ' ' + woots + '' + dj + '' + timeLeft + '' + timeElapsed + '); 
-                        /*API.moderateForceSkip();*/
+                        API.moderateForceSkip();
                     }
                 }
             }
