@@ -975,13 +975,23 @@
             var timeElapsed = API.getTimeElapsed();
 
             if (basicBot.settings.voteSkip) {
-                if ((mehs) >= ((woots+mehs)*(basicBot.settings.voteSkipLimit))) {
+            	if ((mehs) >= ((woots+mehs)*(basicBot.settings.voteSkipLimit))) {
+                    API.sendChat(subChat(basicBot.chat.voteskipexceededlimit, {name: dj.username, limit: basicBot.settings.voteSkipLimit}));
+                    API.sendChat('/me ' + mehs + ' ' + woots + '' + dj + '' + timeLeft + '' + timeElapsed + '); 
+                    if (basicBot.settings.smartSkip && timeLeft > timeElapsed)0{
+                        API.sendChat(subChat(basicBot.chat.voteskipexceededlimit, {name: dj.username, limit: basicBot.settings.voteSkipLimit}));
+                        API.sendChat('/me ' + mehs + ' ' + woots + '' + dj + '' + timeLeft + '' + timeElapsed + '); 
+                    }
+                    else {
+                        API.sendChat(subChat(basicBot.chat.voteskipexceededlimit, {name: dj.username, limit: basicBot.settings.voteSkipLimit}));
+                        API.sendChat('/me ' + mehs + ' ' + woots + '' + dj + '' + timeLeft + '' + timeElapsed + '); 
+                /*if ((mehs) >= ((woots+mehs)*(basicBot.settings.voteSkipLimit))) {
                     API.sendChat(subChat(basicBot.chat.voteskipexceededlimit, {name: dj.username, limit: basicBot.settings.voteSkipLimit}));
                     if (basicBot.settings.smartSkip && timeLeft > timeElapsed){
                         basicBot.roomUtilities.smartSkip();
                     }
                     else {
-                        API.moderateForceSkip();
+                        API.moderateForceSkip();*/
                     }
                 }
             }
