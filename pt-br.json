@@ -25,6 +25,16 @@
         "!roletatroll",
         "!roleta"
     ],
+    "mensagens": [
+        "Tema: Livre (todos os gêneros permitido) Funk e Zuera a partir das 00:00",
+        "Veja as regras da sala digitando !regras",
+        "Roleta a cada 30 minutos, fique atento as roletas, uma move para 2º lugar e a outra para uma posição aleatória!",
+        "Participe do nosso Grupo no Facebook http://www.fb.com/groups/MoveItBrasil",
+        "Participe do nosso Grupo no WhatsApp https://chat.whatsapp.com/6EyjDJAeZhX7WDyUqBonlp",
+        "Participe do nosso Grupo no Discord - https://discord.gg/2z6RHyj",
+        "Comandos do bot - http://moveitbrasil.esy.es/comandos-do-bot.html",
+        
+    ],
     "love": [
         "deu-lhe <3 :purple_heart: :blue_heart: :green_heart: :yellow_heart:"
     ],
@@ -98,6 +108,7 @@
     "winnerpicked": "\/me Um vencedor foi escolhido! @%%NAME%% ganhou a posi\u00e7\u00e3o %%POSITION%%.",
     "ball": "\/me A pergunta de %%NAME%% foi: \"%%QUESTION%%\" e a resposta de %%BOTNAME%% \u00e9: \"%%RESPONSE%%\"",
     "roletamsg": "%%RESPONSE%%",
+    "msg": "%%RESPONSE%%",
     "notghosting": "[%%NAME1%%] %%NAME2%% n\u00e3o virou fantasma.",
     "ghosting": "[%%NAME1%%] %%NAME2%% deve ter virado fantasma.",
     "alreadyadding": "\/me Usu\u00e1rio j\u00e1 est\u00e1 sendo adicionado! Posi\u00e7\u00e3o desejada alterada para %%POSITION%%.",
@@ -137,6 +148,7 @@
     "afklimit": "Limite AFK",
     "autodisable": "autodisable",
     "autoroulette": "Roleta Automática",
+    "automsg": "Mensagem Automática",
     "autoskip": "autoskip",
     "newblacklisted": "\/me [@%%NAME%%] Essa m\u00fasica est\u00e1 na lista negra %%BLACKLIST%%! [ %%AUTHOR%% - %%TITLE%% - %%MID%% ]",
     "blinfo": "[@%%NAME%%] Info da Blacklist - autor: %%AUTHOR%%, t\u00edtulo: %%TITLE%%, ID: %%SONGID%%",
