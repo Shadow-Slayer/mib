@@ -272,7 +272,7 @@
             cycleGuard: true,
             maximumCycletime: 10,
             voteSkip: true,
-            voteSkipLimit: 0.4,
+            voteSkipLimit: 6,
             historySkip: true,
             timeGuard: true,
             maximumSongLength: 7,
@@ -308,11 +308,11 @@
             welcome: true,
             opLink: "https://rawgit.com/Shadow-Slayer/mib/master/op.json",
             rulesLink: "http://moveitbrasil.esy.es/regras.html",
-            themeLink: "Eletrônica (exceto trap funk) / Pop / Rock / Hip Hop / Reggae / Sertanejo / outros gêneros e vídeos de humor só com permissão da staff",
+            themeLink: "Tema: Livre (todos os gêneros permitido) Funk e Zuera a partir das 00:00 ",
             fbLink: "http://www.fb.com/groups/MoveItBrasil ",
             youtubeLink: null,
             website: "http://moveitbrasil.esy.es/",
-            intervalMessages: ["Veja as regras da sala digitando !regras e os gêneros permitidos digitando !tema ","Roleta a cada 30 minutos, fique atento!","Participe do nosso Grupo no Facebook http://www.fb.com/groups/MoveItBrasil","Participe do Discord da sala https://discord.gg/2z6RHyj"],
+            intervalMessages: ["Veja as regras da sala digitando !regras e os gêneros permitidos digitando !tema ","Roleta a cada 30 minutos, fique atento!","Participe do nosso Grupo no Facebook http://www.fb.com/groups/MoveItBrasil"],
             messageInterval: 2,
             songstats: false,
             commandLiteral: "!",
@@ -975,17 +975,7 @@
             var timeElapsed = API.getTimeElapsed();
 
             if (basicBot.settings.voteSkip) {
-            	/*if ((mehs) >= ((woots+mehs)*(basicBot.settings.voteSkipLimit))) {
-                    API.sendChat(subChat(basicBot.chat.voteskipexceededlimit, {name: dj.username, limit: basicBot.settings.voteSkipLimit}));
-                    API.sendChat('/me ' + mehs + ' ' + woots + '' + dj + '' + timeLeft + '' + timeElapsed + '); 
-                    if (basicBot.settings.smartSkip && timeLeft > timeElapsed)0{
-                        API.sendChat(subChat(basicBot.chat.voteskipexceededlimit, {name: dj.username, limit: basicBot.settings.voteSkipLimit}));
-                        API.sendChat('/me ' + mehs + ' ' + woots + '' + dj + '' + timeLeft + '' + timeElapsed + '); 
-                    }
-                    else {
-                        API.sendChat(subChat(basicBot.chat.voteskipexceededlimit, {name: dj.username, limit: basicBot.settings.voteSkipLimit}));
-                        API.sendChat('/me ' + mehs + ' ' + woots + '' + dj + '' + timeLeft + '' + timeElapsed + '); */
-                if ((mehs) >= ((woots+mehs)*(basicBot.settings.voteSkipLimit))) {
+                if ((mehs) >= (basicBot.settings.voteSkipLimit)) {
                     API.sendChat(subChat(basicBot.chat.voteskipexceededlimit, {name: dj.username, limit: basicBot.settings.voteSkipLimit}));
                     if (basicBot.settings.smartSkip && timeLeft > timeElapsed){
                         basicBot.roomUtilities.smartSkip();
@@ -1867,7 +1857,7 @@
                     else {
                             var name = chat.message.substring(cmd.length + 2);
                             var msg = chat.message;
-                            API.sendChat('/me @' + name + ', em nossa comunidade não damos "chato" nas músicas, preferimos silencia-lá. Por favor utilize o botão de silenciar. '); 
+                            API.sendChat('/me @' + name + ', evite dar muitos "chatos" seguidos nas músicas, utilize também o botão de silenciar.'); 
                      }
                 }
             },
