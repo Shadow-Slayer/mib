@@ -279,13 +279,13 @@
             maximumSongLength: 7,
             autodisable: false,
             automsg: true,
-            roletaInterval: 29,
+            roletaInterval: 30,
             autoroulette: true,
 	        roulettepos: 2,
             commandCooldown: 1,
             usercommandsEnabled: false,
             thorCommand: true,
-            thorCooldown: 10,
+            thorCooldown: 12,
             skipPosition: 1,
             skipReasons: [
                 ["theme", "This song does not fit the room theme. "],
@@ -3600,7 +3600,7 @@
                               indexArrUsedThor,
                               thorCd = false,
                               timeInMinutes = 0,
-                              worthyAlg = Math.floor(Math.random() * 1),
+                              worthyAlg = Math.floor((Math.random() * 10) + 1),
                               worthy = worthyAlg == 10 ? true : false;
 
                           for (var i = 0; i < djlist.length; i++) {
