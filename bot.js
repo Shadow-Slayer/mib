@@ -3204,7 +3204,7 @@
             },
             
             msgCommand: {
-                command: 'msg',
+                command: 'mensagens',
                 rank: 'manager',
                 type: 'startsWith',
                 functionality: function (chat, cmd) {
