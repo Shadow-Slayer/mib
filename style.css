@@ -130,15 +130,7 @@ border-left: 3px solid #CCCCCC;
 #vote .crowd-response {
 background: rgba(255, 255, 255, 0);
 }
-#woot .bottom, #woot.selected {
-background: #90ad2f;
-}
-#grab .bottom, #grab.selected {
-background: #aa74ff;
-}
-#meh .bottom, #meh.selected {
-    background: #ce1937;
-}
+
 .row:hover {
     background: linear-gradient(to right,rgba(255, 118, 118, 0) 0,rgba(41, 48, 124, 0.27) 100%) !important;
 }
