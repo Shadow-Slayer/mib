@@ -281,8 +281,20 @@ i.icon.icon-room {
 #woot .bottom, #woot.selected {
     background: #25b961 !important;
 }
+#grab .bottom, #grab.selected {
+    background: #792ab5 !important;
+}
+#meh .bottom, #meh.selected {
+    background: #ce1937 !important;
+}
 .votes-rs .title.woot {
     background: #25b961 !important;
+}
+.votes-rs .title.grab {
+    background: #792ab5 !important;
+}
+.votes-rs .title.meh {
+    background: #ce1937 !important;
 }
 .votes-rs {
     background: rgba(0,0,0,0.6) !important;
