@@ -21,10 +21,12 @@
         "deu-lhe um biscoito que foi esquecido na chuva... e est\u00e1 mofado.",
         "te trouxe biscoitos fresquinhos... parecem deliciosos!"
     ],
+    
     "roletas": [
         "!roletatroll",
         "!roleta"
     ],
+    
     "mensagens": [
         "Tema: Livre (todos os gêneros permitido) Funk e Zuera a partir das 00:00",
         "Veja as regras da sala digitando !regras",
@@ -34,9 +36,11 @@
         "Participe do nosso Grupo no Discord - https://discord.gg/2z6RHyj",
         "Comandos do bot - http://moveitbrasil.esy.es/comandos-do-bot.html"
     ],
+    
     "love": [
         "deu-lhe <3 :purple_heart: :blue_heart: :green_heart: :yellow_heart:"
     ],
+    
     "balls": [
         "Sinais apontam que sim.",
         "Sim.",
