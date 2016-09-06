@@ -310,7 +310,7 @@
             welcome: true,
             opLink: "https://rawgit.com/Shadow-Slayer/mib/master/op.json",
             rulesLink: "http://moveitbrasil.esy.es/regras.html",
-            themeLink: "Tema: Livre (todos os gêneros permitido) Funk e Zuera a partir das 00:00 ",
+            themeLink: "Tema: Livre (todos os gêneros permitido) Funk e Zuera somente das 00h às 07h ",
             fbLink: "http://www.fb.com/groups/MoveItBrasil ",
             youtubeLink: null,
             website: "http://moveitbrasil.esy.es/",
