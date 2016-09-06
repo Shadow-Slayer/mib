@@ -3217,7 +3217,9 @@
                             var randomUser = Math.floor(Math.random() * crowd.length);
                             var randomBall = Math.floor(Math.random() * basicBot.chat.msg.length);
                             var randomSentence = Math.floor(Math.random() * 1);
-                            API.sendChat(subChat(basicBot.chat.msg, {response: basicBot.chat.mensagens[randomBall]}));
+                            setTimeout(function () {
+                            	API.sendChat(subChat(basicBot.chat.msg, {response: basicBot.chat.mensagens[randomBall]}));
+                            }, 2000);
                      }
                 }
             },
