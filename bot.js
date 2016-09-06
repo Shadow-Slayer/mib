@@ -278,6 +278,7 @@
             timeGuard: true,
             maximumSongLength: 7,
             autodisable: false,
+            automsg: true,
             roletaInterval: 29,
             autoroulette: true,
 	        roulettepos: 2,
