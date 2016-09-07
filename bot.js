@@ -3582,7 +3582,7 @@
             },
 
             thorCommand: {
-              command: 'jailson',
+              command: ['jailson','thor'],
               rank: 'user',
               type: 'exact',
               functionality: function (chat, cmd) {
