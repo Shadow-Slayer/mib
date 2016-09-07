@@ -1,16 +1,3 @@
-#playback-controls .button.refresh {
-    background: rgba(1, 133, 228, 0.7)!important;
-}
-#playback-controls .button.hd {
-    background: rgba(239, 86, 47, 0.7)!important;
-}
-#playback-controls .button.snooze {
-    background: rgba(121, 42, 181, 0.7)!important;
-}
-#playback-controls .button.stream {
-    background: rgb(206, 25, 55, 0.7)!important;
-}
-
 #user-lists .list.staff .group {
     background: linear-gradient(to right,rgba(0, 0, 0, 0) 0,rgba(0, 0, 0, 1) 100%) !important;
 }
