@@ -4,20 +4,6 @@
 @import url("https://rawgit.com/Shadow-Slayer/mib/master/icones.css");
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:500");
 
-#playback-controls .button.refresh {
-    background: rgba(1, 133, 228, 0.7)!important;
-}
-#playback-controls .button.hd {
-    background: rgba(239, 86, 47, 0.7)!important;
-}
-#playback-controls .button.snooze {
-    background: rgba(121, 42, 181, 0.7)!important;
-}
-#playback-controls .button.stream {
-    background: rgb(206, 25, 55, 0.7)!important;
-}
-
-
 /* cor nome usuario cinza */
 #chat .from .un {    
     color: #b75151;
