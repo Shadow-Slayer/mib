@@ -1916,3 +1916,31 @@
     height: 75px;
     transition: 0.5s;
 }
+
+ /* Iago Guida Costa  */
+#chat-messages .fromID-6024060 .badge-box i,
+#chat-messages  .id-6024060 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/f00531717482019e272d01d8d599e691?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-6024060 .badge-box i:hover,
+#chat-messages .id-6024060 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-6024060 .clickable:hover,
+#chat-messages .id-6024060 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
