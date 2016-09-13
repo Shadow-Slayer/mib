@@ -2258,7 +2258,7 @@
 
 
             emojiCommand: {
-                command: 'emoji',
+                command: ['emoji','emote'],
                 rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
