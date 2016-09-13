@@ -1242,11 +1242,11 @@
                     }
                 }
                  **/
-                if (msg.indexOf('http://adf.ly/') > -1) {
+                /**if (msg.indexOf('http://adf.ly/') > -1) {
                     API.moderateDeleteChat(chat.cid);
                     API.sendChat(subChat(basicBot.chat.adfly, {name: chat.un}));
                     return true;
-                }
+                }**/
                 if (msg.indexOf('ganhou a posição 4') > -1) {
                 	setTimeout(function () {
                 		API.sendChat(subChat(basicBot.chat.pos4));
