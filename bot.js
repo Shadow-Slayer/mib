@@ -1886,7 +1886,7 @@
                     else {
                             var name = chat.message.substring(cmd.length + 2);
                             var msg = chat.message;
-                            API.sendChat('/me @' + name + ', evite dar muitos "chatos" seguidos nas músicas, utilize também o botão de silenciar.'); 
+                            API.sendChat('/me @' + name + ', evite dar muitos "chatos" seguidos nas músicas, utilize também o botão de silenciar. Caso persista, você poderá ser punido.'); 
                      }
                 }
             },
