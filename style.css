@@ -69,8 +69,7 @@
 }
 #chat .emote .text {
     font-style: italic;
-    font-weight: bold;
-    color: #DDC7FF;
+    color: #f4173b;
 }
 #footer {
     background: linear-gradient(to bottom,rgba(0, 0, 0, 0.25) 0,rgba(0, 0, 0, 0.75) 100%);
