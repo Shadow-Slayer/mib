@@ -4,7 +4,7 @@
  *This software is not for profit, any extension, or unauthorised person providing this software is not authorised to be in a position of any monetary gain from this use of this software. Any and all money gained under the use of the software (which includes donations) must be passed on to the original author.
  */
 
-
+re
 (function () {
 
     /*window.onerror = function() {
@@ -309,9 +309,9 @@
             etaRestriction: false,
             welcome: true,
             opLink: "https://rawgit.com/Shadow-Slayer/mib/master/op.json",
-            rulesLink: "http://moveitbrasil.esy.es/regras.html",
+            rulesLink: "http://adf.ly/14613031/regras",
             themeLink: "Tema: Livre (todos os gêneros permitido) Funk e Zuera somente das 00h às 07h ",
-            fbLink: "http://www.fb.com/groups/MoveItBrasil ",
+            fbLink: "http://adf.ly/14613031/facebook-mib",
             youtubeLink: null,
             website: "http://moveitbrasil.esy.es/",
             intervalMessages: [],
