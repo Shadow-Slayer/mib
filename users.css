@@ -1944,3 +1944,31 @@
     height: 75px;
     transition: 0.5s;
 }
+
+ /* TMPI  */
+#chat-messages .fromID-5252480 .badge-box i,
+#chat-messages  .id-5252480 .badge-box i {
+    background-image: url(http://s.gravatar.com/avatar/c4c0e87057c4b8854ac7aa7516079e49?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-5252480 .badge-box i:hover,
+#chat-messages .id-5252480 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-5252480 .clickable:hover,
+#chat-messages .id-5252480 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
