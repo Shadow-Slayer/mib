@@ -309,9 +309,9 @@
             etaRestriction: false,
             welcome: true,
             opLink: "https://rawgit.com/Shadow-Slayer/mib/master/op.json",
-            rulesLink: "http://adf.ly/14613031/regras",
+            rulesLink: "http://moveitbrasil.esy.es/regras.html",
             themeLink: "Tema: Livre (todos os gêneros permitido) Funk e Zuera somente das 00h às 07h ",
-            fbLink: "http://adf.ly/14613031/facebook-mib",
+            fbLink: "https://www.fb.com/groups/MoveItBrasil",
             youtubeLink: null,
             website: "http://moveitbrasil.esy.es/",
             intervalMessages: [],
@@ -1242,11 +1242,11 @@
                     }
                 }
                  **/
-                /**if (msg.indexOf('http://adf.ly/') > -1) {
+                if (msg.indexOf('http://adf.ly/') > -1) {
                     API.moderateDeleteChat(chat.cid);
                     API.sendChat(subChat(basicBot.chat.adfly, {name: chat.un}));
                     return true;
-                }**/
+                }
                 if (msg.indexOf('ganhou a posição 4') > -1) {
                 	setTimeout(function () {
                 		API.sendChat(subChat(basicBot.chat.pos4));
