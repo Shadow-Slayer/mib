@@ -2000,3 +2000,31 @@
     height: 75px;
     transition: 0.5s;
 }
+
+/* IDM UnBoUnD */
+#chat-messages .fromID-4767675 .badge-box i,
+#chat-messages  .id-4767675 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/f686846ca1b4fc47b519892f2c31f39b?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-4767675 .badge-box i:hover,
+#chat-messages .id-4767675 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-4767675 .clickable:hover,
+#chat-messages .id-4767675 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
