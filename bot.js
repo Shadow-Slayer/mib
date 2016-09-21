@@ -1253,6 +1253,10 @@
                 	}, 2 * 1000);
                 	return true;
                 }
+                if (msg.indexOf('!thor') > -1) {
+                	API.sendChat('Não temos !thor, temos !jailson :dlç:');
+                	return true;
+                }
                 if (msg.indexOf('!clearchat') > -1) {
                     API.sendChat('/clear');
                     return true;
@@ -3583,7 +3587,7 @@
             },
 
             thorCommand: {
-              command: ['jailson','thor'],
+              command: 'jailson',
               rank: 'user',
               type: 'exact',
               functionality: function (chat, cmd) {
