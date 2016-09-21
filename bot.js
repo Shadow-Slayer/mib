@@ -1255,7 +1255,7 @@
                 }
                 if (msg.indexOf('!thor') > -1) {
                 	API.moderateDeleteChat(chat.cid);
-                	API.sendChat('Não temos !thor, temos !jailson :dlç:');
+                	API.sendChat('Não temos thor, temos !jailson :dlç:');
                 }
                 if (msg.indexOf('!clearchat') > -1) {
                     API.sendChat('/clear');
