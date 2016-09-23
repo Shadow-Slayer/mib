@@ -540,6 +540,11 @@ background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91)) !
 .dropdown dd {
     background: hsla(220, 0%, 5%, 0.8) !important;
 }
+.dropdown dt {
+    -webkit-box-shadow: inset -39px 0 0 0 #9a1229;
+    -moz-box-shadow: inset -39px 0 0 0 #9a1229;
+    box-shadow: inset -39px 0 0 0 #9a1229;
+}
 /* BG Avatar loja */
 .user-content .grid .cell .top {
 background: none !important;
