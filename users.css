@@ -2084,3 +2084,57 @@
     height: 75px;
     transition: 0.5s;
 }
+/* GLXRick
+#chat-messages .fromID-????? .badge-box i,
+#chat-messages  .id-????? .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/7dc3f7649c8936d9181f015820366526?s=80);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+} */
+/* Zoom foto
+#chat-messages .fromID-?????? .badge-box i:hover,
+#chat-messages .id-?????? .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-?????? .clickable:hover,
+#chat-messages .id-?????? .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+} */
+/* https://www.facebook.com/arthuro.silva.10?fref=ufi */
+#chat-messages .fromID-4807274 .badge-box i,
+#chat-messages  .id-4807274 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/6ef85b1e2cb6cff198047efd589300cf?s=80);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-4807274 .badge-box i:hover,
+#chat-messages .id-4807274 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-4807274 .clickable:hover,
+#chat-messages .id-4807274 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
