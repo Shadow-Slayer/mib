@@ -1162,9 +1162,9 @@
     transition: 0.5s;
 }
 
-/* InderFer0m0nas */
-#chat-messages .fromID-5307937 .badge-box i,
-#chat-messages  .id-5307937 .badge-box i {
+/* InderFer0m0nas/-BREQUIUAVE- */
+#chat-messages .fromID-4432697 .badge-box i,
+#chat-messages  .id-4432697 .badge-box i {
     background-image: url(https://s.gravatar.com/avatar/7163273f5cc5911f47c62d53ec2b0039?s=300);
     background-size: cover;
     width: 30px;
@@ -1175,16 +1175,16 @@
     border-radius: 0;
 }
 /* Zoom foto */
-#chat-messages .fromID-5307937 .badge-box i:hover,
-#chat-messages .id-5307937 .badge-box i:hover {
+#chat-messages .fromID-4432697 .badge-box i:hover,
+#chat-messages .id-4432697 .badge-box i:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s;
     background-position: initial;
     background-repeat: no-repeat !important;
 }
-#chat-messages .fromID-5307937 .clickable:hover,
-#chat-messages .id-5307937 .clickable:hover {
+#chat-messages .fromID-4432697 .clickable:hover,
+#chat-messages .id-4432697 .clickable:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s;
