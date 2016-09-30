@@ -2138,3 +2138,30 @@
     height: 75px;
     transition: 0.5s;
 }
+/* tia_da_bala */
+#chat-messages .fromID-3557353 .badge-box i,
+#chat-messages  .id-3557353 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/3d4d92449b196f0dd3100df1d5284555?s=80);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-3557353 .badge-box i:hover,
+#chat-messages .id-3557353 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-3557353 .clickable:hover,
+#chat-messages .id-3557353 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
