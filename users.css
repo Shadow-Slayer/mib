@@ -374,9 +374,9 @@
     transition: 0.5s;
 }
 
-/*warlocked*/
-#chat-messages .fromID-13740821 .badge-box i,
-#chat-messages  .id-13740821 .badge-box i {
+/*Looney Tunes*/
+#chat-messages .fromID-16913963 .badge-box i,
+#chat-messages  .id-16913963 .badge-box i {
     background-image: url(https://s.gravatar.com/avatar/dfd99e14037c0a5b4ab2eb2a30cbec45?s=300);
     background-size: cover;
     width: 30px;
@@ -388,16 +388,16 @@
 
 }
 /* Zoom foto */
-#chat-messages .fromID-13740821 .badge-box i:hover,
-#chat-messages .id-13740821 .badge-box i:hover {
+#chat-messages .fromID-16913963 .badge-box i:hover,
+#chat-messages .id-16913963 .badge-box i:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s;
     background-position: initial;
     background-repeat: no-repeat !important;
 }
-#chat-messages .fromID-13740821 .clickable:hover,
-#chat-messages .id-13740821 .clickable:hover {
+#chat-messages .fromID-16913963 .clickable:hover,
+#chat-messages .id-16913963 .clickable:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s;
@@ -1918,8 +1918,8 @@
 }
 
  /* Iago Guida Costa  */
-#chat-messages .fromID-6024060 .badge-box i,
-#chat-messages  .id-6024060 .badge-box i {
+#chat-messages .fromID-19711306 .badge-box i,
+#chat-messages  .id-19711306 .badge-box i {
     background-image: url(https://s.gravatar.com/avatar/f00531717482019e272d01d8d599e691?s=300);
     background-size: cover;
     width: 30px;
@@ -1930,16 +1930,16 @@
     border-radius: 0;
 }
 /* Zoom foto */
-#chat-messages .fromID-6024060 .badge-box i:hover,
-#chat-messages .id-6024060 .badge-box i:hover {
+#chat-messages .fromID-19711306 .badge-box i:hover,
+#chat-messages .id-19711306 .badge-box i:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s;
     background-position: initial;
     background-repeat: no-repeat !important;
 }
-#chat-messages .fromID-6024060 .clickable:hover,
-#chat-messages .id-6024060 .clickable:hover {
+#chat-messages .fromID-19711306 .clickable:hover,
+#chat-messages .id-19711306 .clickable:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s;
