@@ -6,7 +6,7 @@
 
 /* cor nome usuario cinza */
 #chat .from .un {    
-    color: #b75151;
+    color: #cc3442;
 }
 
 /* preview video */
@@ -677,5 +677,5 @@ background: hsla(220, 0%, 5%, 0.3) !important;
  border-color: #7936e8 !important;
 }
 #user-rollover.role-user .thumb {
- border-color: #b75151 !important;
+ border-color: #cc3442 !important;
 }
