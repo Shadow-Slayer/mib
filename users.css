@@ -2111,6 +2111,7 @@
     height: 75px;
     transition: 0.5s;
 } */
+
 /* https://www.facebook.com/arthuro.silva.10?fref=ufi */
 #chat-messages .fromID-4807274 .badge-box i,
 #chat-messages  .id-4807274 .badge-box i {
@@ -2221,3 +2222,32 @@
     height: 75px;
     transition: 0.5s;
 }
+
+/* https://www.facebook.com/guilherme.fernandes2012?fref=ufi */
+#chat-messages .fromID-16967942  .badge-box i,
+#chat-messages  .id-16967942  .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/fccdda8e84bf3ddae52269b249a5b351?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-16967942  .badge-box i:hover,
+#chat-messages .id-16967942  .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-16967942  .clickable:hover,
+#chat-messages .id-16967942  .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
+
