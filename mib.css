@@ -720,3 +720,10 @@ background: hsla(220, 0%, 5%, 0.3) !important;
 #user-rollover.role-user .thumb {
  border-color: #cc3442 !important;
 }
+/* Barra de pedidos de amizade */
+.app-right .friends .header {
+    background: linear-gradient(rgba(43, 45, 48, 0.780392), rgba(12, 12, 13, 0.909804)) !important;
+}
+.app-right .friends .header:hover {
+    background: linear-gradient(rgb(169, 25, 49), rgb(111, 11, 28)) !important;
+}
