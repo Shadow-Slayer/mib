@@ -17,6 +17,10 @@ API.sendChat("/me O melhor segurança  @" + user.username + " entrou na sala!.")
 
 if (user.id == "6511093") {
 API.sendChat("/me A mulher do xado @" + user.username + " acaba de entrar na sala.");
+}
+
+if (user.id == "19711306") {
+API.sendChat("/me O viadinho mais rodado do plug @" + user.username + " acaba de entrar na sala.");
 }      
 
 });
