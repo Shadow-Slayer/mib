@@ -4,7 +4,7 @@ API.sendChat("/me Shaaadoso <3 ");
 }*/
 
 if (user.id == "5401598") {
-API.sendChat("/me Cuidem de seus corações,pois a conquistadora  @" + user.username + " acaba de entrar na sala :kappa:");
+API.sendChat("/me   @" + user.username + " Musa do Plug e Rainha da Move It acaba de entrar na sala.:crown:");
 }
 
 if (user.id == "1380997") {
