@@ -26,7 +26,7 @@
     transition: 0.5s;
 }
 
-/*duda */
+/*duda
 #chat-messages .fromID-5401598 .badge-box i,
 #chat-messages  .id-5401598 .badge-box i {
     background-image: url(https://s.gravatar.com/avatar/5d85982a88aaa91e10ec167f682df7ba?s=300);
@@ -38,8 +38,8 @@
     border: none;
     border-radius: 0;
 
-}
-/* Zoom foto */
+}*/
+/* Zoom foto
 #chat-messages .fromID-5401598 .badge-box i:hover,
 #chat-messages .id-5401598 .badge-box i:hover {
     width: 75px;
@@ -53,7 +53,7 @@
     width: 75px;
     height: 75px;
     transition: 0.5s;
-}
+}*/
 
 /*away
 #chat-messages .fromID-1380997 .badge-box i,
