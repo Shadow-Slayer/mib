@@ -2308,8 +2308,8 @@
 }
 
 /* https://www.facebook.com/englishgeek?fref=ufi */
-#chat-messages .fromID-3546433  .badge-box i,
-#chat-messages  .id-3546433  .badge-box i {
+#chat-messages .fromID-3546433 .badge-box i,
+#chat-messages  .id-3546433 .badge-box i {
     background-image: url(https://s.gravatar.com/avatar/794bc180402146536cf43c4b90369459?s=300);
     background-size: cover;
     width: 30px;
@@ -2320,16 +2320,16 @@
     border-radius: 0;
 }
 /* Zoom foto */
-#chat-messages .fromID-3546433  .badge-box i:hover,
-#chat-messages .id-3546433  .badge-box i:hover {
+#chat-messages .fromID-3546433 .badge-box i:hover,
+#chat-messages .id-3546433 .badge-box i:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s;
     background-position: initial;
     background-repeat: no-repeat !important;
 }
-#chat-messages .fromID-3546433  .clickable:hover,
-#chat-messages .id-3546433  .clickable:hover {
+#chat-messages .fromID-3546433 .clickable:hover,
+#chat-messages .id-3546433 .clickable:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s;
