@@ -1247,6 +1247,10 @@
                     API.sendChat(subChat(basicBot.chat.adfly, {name: chat.un}));
                     return true;
                 }
+		if (msg.indexOf(':shadowslayer:') > -1) {
+                    API.moderateDeleteChat(chat.cid);                    
+                    return true;
+                }
                 if (msg.indexOf('ganhou a posição 4') > -1) {
                 	setTimeout(function () {
                 		API.sendChat(subChat(basicBot.chat.pos4));
