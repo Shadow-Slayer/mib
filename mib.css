@@ -502,6 +502,16 @@ box-shadow: 0px -19px 0px 6px rgba(28, 31, 37, 0.50), 0px 18px 0px 6px rgba(28, 
     background: rgba(206, 25, 55, 0.75) !important;
     border-radius: 5px;
 }
+.jspDrag:hover, .jspTrack .jspActive, .jspTrack .jspHover {
+    background: rgba(206, 25, 55, 0.75) !important;
+}
+.jspDrag {
+    background: rgba(206, 25, 55, 0.75);
+    -webkit-box-shadow: inset 0 0 0 1px rgba(206, 25, 55, 0.45);
+    -moz-box-shadow: inset 0 0 0 1px rgba(206, 25, 55, 0.45)
+    box-shadow: inset 0 0 0 1px rgba(206, 25, 55, 0.45);
+    border-radius: 5px;
+}
 /*BG Icone avatar*/
 .thumb .background {
     background: rgba(0,0,0,0.6);
