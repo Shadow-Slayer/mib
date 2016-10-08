@@ -1251,6 +1251,10 @@
                     API.moderateDeleteChat(chat.cid);                    
                     return true;
                 }
+		if (msg.indexOf('http://image.prntscr.com/image/b052ff76400e4fec8f7d9798053858db.png') > -1) {
+                    API.moderateDeleteChat(chat.cid);                    
+                    return true;
+                }		    
                 if (msg.indexOf('ganhou a posição 4') > -1) {
                 	setTimeout(function () {
                 		API.sendChat(subChat(basicBot.chat.pos4));
