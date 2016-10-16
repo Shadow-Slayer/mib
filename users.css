@@ -2058,8 +2058,8 @@
 }
 
 /* pacman */
-#chat-messages .fromID-19204213 .badge-box i,
-#chat-messages  .id-19204213 .badge-box i {
+#chat-messages .fromID-13442483 .badge-box i,
+#chat-messages  .id-13442483 .badge-box i {
     background-image: url(https://s.gravatar.com/avatar/eb3647e1dd0abd3b2a9c690891d0d0c8?s=300);
     background-size: cover;
     width: 30px;
@@ -2070,16 +2070,16 @@
     border-radius: 0;
 }
 /* Zoom foto */
-#chat-messages .fromID-19204213 .badge-box i:hover,
-#chat-messages .id-19204213 .badge-box i:hover {
+#chat-messages .fromID-13442483 .badge-box i:hover,
+#chat-messages .id-13442483 .badge-box i:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s;
     background-position: initial;
     background-repeat: no-repeat !important;
 }
-#chat-messages .fromID-19204213 .clickable:hover,
-#chat-messages .id-19204213 .clickable:hover {
+#chat-messages .fromID-13442483 .clickable:hover,
+#chat-messages .id-13442483 .clickable:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s;
