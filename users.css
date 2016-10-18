@@ -2472,3 +2472,31 @@
     height: 75px;
     transition: 0.5s;
 }
+
+/* https://www.facebook.com/sidcoradii?fref=ufi */
+#chat-messages .fromID-5288871 .badge-box i,
+#chat-messages  .id-5288871 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/0f86294f296065b03f7ed40ce2d3226d?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-5288871 .badge-box i:hover,
+#chat-messages .id-5288871 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-5288871 .clickable:hover,
+#chat-messages .id-5288871 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
