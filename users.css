@@ -2445,3 +2445,30 @@
     height: 75px;
     transition: 0.5s;
 }
+/* https://www.facebook.com/kaio.qyl.3?fref=ufi */
+#chat-messages .fromID-3714585 .badge-box i,
+#chat-messages  .id-3714585 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/ffe5ec470980975014814c95246d868d?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-3714585 .badge-box i:hover,
+#chat-messages .id-3714585 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-3714585 .clickable:hover,
+#chat-messages .id-3714585 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
