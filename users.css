@@ -2584,3 +2584,30 @@
     height: 75px;
     transition: 0.5s;
 }
+/*https://www.facebook.com/edu.lima4?fref=ufi*/
+#chat-messages .fromID-4023220 .badge-box i,
+#chat-messages  .id-4023220 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/affbdd8e11f1fa8b3f4400858b711fa6?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+
+}
+/* Zoom foto */
+#chat-messages .fromID-4179990 .badge-box i:hover,
+#chat-messages .id-4179990 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-4179990 .clickable:hover,
+#chat-messages .id-4179990 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
