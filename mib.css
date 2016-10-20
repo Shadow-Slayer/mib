@@ -737,3 +737,15 @@ background: hsla(220, 0%, 5%, 0.3) !important;
 .app-right .friends .header:hover {
     background: linear-gradient(rgb(169, 25, 49), rgb(111, 11, 28)) !important;
 }
+/* Tooltip BG */
+#tooltip span {
+background: rgba(206,25,55,0.6) !important;
+}
+ #tooltip.right .corner {
+    border-top: 10px solid transparent !important;
+    border-right: 10px solid transparent !important;
+}
+#tooltip .corner {
+    border-top: 10px solid transparent !important;
+    border-left: 10px solid transparent !important;
+}
