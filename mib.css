@@ -749,3 +749,13 @@ background: rgba(206,25,55,0.6) !important;
     border-top: 10px solid transparent !important;
     border-left: 10px solid transparent !important;
 }
+#toast-notifications .notification .right {
+background: rgba(77, 10, 21, 0.6) !important;
+}
+#toast-notifications .notification .left {
+background: rgba(77, 10, 21, 0.9) !important;
+}
+/* BG Chat sugestão */
+#chat-suggestion {
+background: rgba(2, 1, 1, 0.9);
+}
