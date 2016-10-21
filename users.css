@@ -2612,3 +2612,31 @@
     height: 75px;
     transition: 0.5s;
 }
+
+/* Takahan */
+#chat-messages .fromID-5803103 .badge-box i,
+#chat-messages  .id-5803103 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/c5018a90c41ff7839a0c554337368e91?s=3000&r=g);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-5803103 .badge-box i:hover,
+#chat-messages .id-5803103 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-5803103 .clickable:hover,
+#chat-messages .id-5803103 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
