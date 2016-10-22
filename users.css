@@ -1218,7 +1218,7 @@
     transition: 0.5s;
 }
 
-/* Ary   */
+/* Ary  
 #chat-messages .fromID-3466367 .badge-box i,
 #chat-messages  .id-3466367 .badge-box i {
     background-image: url(https://s.gravatar.com/avatar/ec9a7186a5df2144fff86fb1da1a2399?s=300);
@@ -1230,7 +1230,7 @@
     border: none;
     border-radius: 0;
 }
-/* Zoom foto */
+/* Zoom foto 
 #chat-messages .fromID-3466367 .badge-box i:hover,
 #chat-messages .id-3466367 .badge-box i:hover {
     width: 75px;
