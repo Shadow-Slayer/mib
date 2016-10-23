@@ -2616,7 +2616,7 @@
 /* Takahan */
 #chat-messages .fromID-5803103 .badge-box i,
 #chat-messages  .id-5803103 .badge-box i {
-    background-image: url(https://s.gravatar.com/avatar/c5018a90c41ff7839a0c554337368e91?s=300&r=g);
+    background-image: url(https://s.gravatar.com/avatar/c5018a90c41ff7839a0c554337368e91?s=300);
     background-size: cover;
     width: 30px;
     height: 30px;
@@ -2636,6 +2636,34 @@
 }
 #chat-messages .fromID-5803103 .clickable:hover,
 #chat-messages .id-5803103 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
+
+/* NeskeD */
+#chat-messages .fromID-19407246 .badge-box i,
+#chat-messages  .id-19407246 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/65128dd07cfe84218c61b14ab72914c6?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-19407246 .badge-box i:hover,
+#chat-messages .id-19407246 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-19407246 .clickable:hover,
+#chat-messages .id-19407246 .clickable:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s;
