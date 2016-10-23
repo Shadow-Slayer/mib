@@ -2278,7 +2278,7 @@
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
                         var link = 'http://www.emoji-cheat-sheet.com/';
-                        var link2 = 'http://moveitbrasil.esy.es/emotes.html';
+                        var link2 = 'https://rawgit.com/Move-It-Brasil/move-it-emotes/master/moveitemotes.html';
                         API.sendChat(subChat(basicBot.chat.emojilist));
                     }
                 }
