@@ -189,7 +189,7 @@
     "cookie": "\/me @%%NAMETO%%, %%NAMEFROM%% %%COOKIE%%",
     "cycleguardtime": "\/me [@%%NAME%%] A prote\u00e7\u00e3o de ciclo agora \u00e9: %%TIME%% minuto(s).",
     "dclookuprank": "\/me [@%%NAME%%] Somente Seguran\u00e7as ou superiores podem usar !dclookup em outros usu\u00e1rios.",
-    "emojilist": "\/me Emojis Plug: http://www.emoji-cheat-sheet.com/ , Emotes RCS: http://moveitbrasil.esy.es/emotes.html",
+    "emojilist": "\/me Emojis Plug: http://www.emoji-cheat-sheet.com/ , Emotes RCS: https://rawgit.com/Move-It-Brasil/move-it-emotes/master/moveitemotes.html",
     "notinwaitlist": "@%%NAME%%, voc\u00ea n\u00e3o est\u00e1 na lista de espera.",
     "eta": "\/me @%%NAME%% voc\u00ea tocar\u00e1 em aproximadamente %%TIME%%.",
     "facebook": "/me Participe do nosso grupo no Facebook: %%LINK%%",
