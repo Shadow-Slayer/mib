@@ -1220,7 +1220,7 @@
                     return true;
                 }
                 if (basicBot.settings.lockdownEnabled) {
-                    if (perm === 0) {
+                    if (perm < 2) {
                         API.moderateDeleteChat(chat.cid);
                         return true;
                     }
