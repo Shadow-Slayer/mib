@@ -347,7 +347,7 @@
                 }
             },
             autorouletteppInterval: null,
-            autorouletteFunc: function () {
+            autorouletteppFunc: function () {
                 if (basicBot.status && basicBot.settings.autoroulettepp) {
                     API.chatLog('!roletapp');
                 }
@@ -1530,7 +1530,7 @@
                 basicBot.userUtilities.updatePosition(basicBot.room.users[ind], wlIndex);
             }
             basicBot.room.autorouletteppInterval = setInterval(function () {
-                basicBot.room.autorouletteFunc();
+                basicBot.room.autorouletteppFunc();
             }, 4 * 60 * 1000);
             basicBot.room.afkInterval = setInterval(function () {
                 basicBot.roomUtilities.afkCheck()
