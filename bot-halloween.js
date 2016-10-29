@@ -3327,10 +3327,10 @@
                             }, 2000);
                      }
                 }
-            },
-
+            },		
+	
             rouletteCommand: {
-                command: ['roletatroll'],
+                command: ['roletatroll','roletapp'],
                 rank: 'mod',
                 type: 'exact',
                 functionality: function (chat, cmd) {
