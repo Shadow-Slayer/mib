@@ -3337,8 +3337,8 @@
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
-                        if (!basicBot.room.roulettetroll.rouletteStatus) {
-                            basicBot.room.roulettetroll.startRoulette();
+                        if (!basicBot.room.roulettepp.rouletteStatus) {
+                            basicBot.room.roulettepp.startRoulette();
                         }
                     }
                 }
