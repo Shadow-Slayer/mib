@@ -1762,7 +1762,7 @@
                     else {
                         if (basicBot.room.roulettepp.rouletteStatus && basicBot.room.roulettepp.participants.indexOf(chat.uid) < 0) {
                             basicBot.room.roulettepp.participants.push(chat.uid);
-                            API.sendChat(subChat(basicBot.chat.rouletteentra, {name: chat.un}));
+                            API.sendChat(subChat(basicBot.chat.rouletteppentra, {name: chat.un}));
                         }
                     }
                 }
@@ -1778,7 +1778,7 @@
                         var ind = basicBot.room.roulettepp.participants.indexOf(chat.uid);
                         if (ind > -1) {
                             basicBot.room.roulettepp.participants.splice(ind, 1);
-                            API.sendChat(subChat(basicBot.chat.roulettesair, {name: chat.un}));
+                            API.sendChat(subChat(basicBot.chat.rouletteppsair, {name: chat.un}));
                         }
                     }
                 }
