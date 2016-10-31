@@ -1531,7 +1531,7 @@
             }
             basicBot.room.autorouletteppInterval = setInterval(function () {
                 basicBot.room.autorouletteppFunc();
-            }, 4 * 60 * 1000);
+            }, 60 * 60 * 1000);
             basicBot.room.afkInterval = setInterval(function () {
                 basicBot.roomUtilities.afkCheck()
             }, 10 * 1000);
