@@ -3329,8 +3329,8 @@
                 }
             },		
 	
-            rouletteCommand: {
-                command: ['roletatroll','roletapp'],
+            rouletteppCommand: {
+                command: 'roletapp',
                 rank: 'mod',
                 type: 'exact',
                 functionality: function (chat, cmd) {
@@ -3354,6 +3354,20 @@
                     else {
                         if (!basicBot.room.roulette.rouletteStatus) {
                             basicBot.room.roulette.startRoulette();
+                        }
+                    }
+                }
+            },
+            rouletteCommand: {
+                command: ['roletatroll'],
+                rank: 'mod',
+                type: 'exact',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        if (!basicBot.room.roulettetroll.rouletteStatus) {
+                            basicBot.room.roulettetroll.startRoulette();
                         }
                     }
                 }
