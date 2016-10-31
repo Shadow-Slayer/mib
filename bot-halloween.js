@@ -1767,7 +1767,7 @@
                     }
                 }
             },
-		sairCommand: {
+		travessuraCommand: {
                 command: 'travessura',
                 rank: 'user',
                 type: 'exact',
