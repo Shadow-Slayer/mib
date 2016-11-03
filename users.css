@@ -2836,3 +2836,31 @@
     height: 75px;
     transition: 0.5s;
 }
+
+/* https://www.facebook.com/paulinhozyzz?fref=ufi neverSTOOP */
+#chat-messages .fromID-20920478 .badge-box i,
+#chat-messages  .id-20920478 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/d808eb424af730baae615c0e178648fe?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-20920478 .badge-box i:hover,
+#chat-messages .id-20920478 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-20920478 .clickable:hover,
+#chat-messages .id-20920478 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
