@@ -11,9 +11,9 @@ if (user.id == "1380997") {
 API.sendChat("/me Preparem-se, o martelo do BAN  @" + user.username + " acabou de entrar!.");
 }
 
-if (user.id == "4371581") {
+/*if (user.id == "4371581") {
 API.sendChat("/me O melhor segurança  @" + user.username + " entrou na sala!.");
-}     
+}*/     
 
 if (user.id == "6511093") {
 API.sendChat("/me A mulher do xado @" + user.username + " acaba de entrar na sala.");
