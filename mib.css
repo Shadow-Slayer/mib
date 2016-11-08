@@ -415,6 +415,41 @@ box-shadow: 0px -19px 0px 6px rgba(28, 31, 37, 0.50), 0px 18px 0px 6px rgba(28, 
     color: #dd153b;
 }
 /* Bordas caixas de dialogo */
+#search-bar {
+    -webkit-box-shadow: inset 0 0 0 1px #692431;
+    -moz-box-shadow: inset 0 0 0 1px #692431;
+    box-shadow: inset 0 0 0 1px #692431;
+}
+#filter-bar {
+    -webkit-box-shadow: inset 0 0 0 1px #692431;
+    -moz-box-shadow: inset 0 0 0 1px #692431;
+    box-shadow: inset 0 0 0 1px #692431;
+}
+.app-right .friends .list-header .input-background {
+    -webkit-box-shadow: inset 0 0 0 1px #692431;
+    -moz-box-shadow: inset 0 0 0 1px #692431;
+    box-shadow: inset 0 0 0 1px #692431;
+}
+#user-lists .list-header .input-background {
+    -webkit-box-shadow: inset 0 0 0 1px #692431;
+    -moz-box-shadow: inset 0 0 0 1px #692431;
+    box-shadow: inset 0 0 0 1px #692431;
+}
+#dashboard .search {
+    -webkit-box-shadow: inset 0 0 0 1px #692431;
+    -moz-box-shadow: inset 0 0 0 1px #692431;
+    box-shadow: inset 0 0 0 1px #692431;
+}
+#user-friends .search {
+    -webkit-box-shadow: inset 0 0 0 1px #692431;
+    -moz-box-shadow: inset 0 0 0 1px #692431;
+    box-shadow: inset 0 0 0 1px #692431;
+}
+/* Bordas caixas de dialogo (Selecionada) */
+.app-right .friends .list-header .input-background.focused {
+   -webkit-box-shadow: inset 0 0 0 1px rgba(206,25,55,0.8) !important;
+   box-shadow: inset 0 0 0 1px rgba(206,25,55,0.8) !important;
+}
 #chat-input.focused {
    -webkit-box-shadow: inset 0 0 0 1px rgba(206,25,55,0.8) !important;
    box-shadow: inset 0 0 0 1px rgba(206,25,55,0.8) !important;
@@ -633,6 +668,20 @@ background: hsla(220, 0%, 5%, 0.3) !important;
 #footer-user .info .meta div.bar {
     background: hsla(220, 0%, 12%, 0.6);
 }
+/* Barra de pesquisa playlist */
+#search {
+background: rgba(19, 20, 23, 0.55);
+}
+/* Botao ativar playlist */
+#playlist-activate-button {
+   background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));
+}
+#playlist-activate-button:hover {
+    background: linear-gradient(hsla(350, 78%, 45%, 0.78), hsla(220, 4%, 5%, 0.51));
+}
+#playlist-activate-button.active {
+    background: linear-gradient(hsla(350, 78%, 45%, 0.78), hsla(220, 4%, 5%, 0.51));
+}
 /* Botoes editar playlist */
 #playlist-edit-button {
     background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));
@@ -765,4 +814,29 @@ border: 3px solid rgba(77, 10, 21, 0.9) !important;
 /* BG Chat sugestão */
 #chat-suggestion {
 background: rgba(2, 1, 1, 0.9);
+}
+/* Bordas aredondas caixas de dialogo */
+#search-bar {
+border-radius: 10px;
+}
+#filter-bar {
+border-radius: 10px;
+}
+#user-lists .list-header .input-background {
+border-radius: 10px;
+}
+.app-right .friends .list-header .input-background {
+border-radius: 10px;
+}
+#rcs-menu .search {
+border-radius: 10px;
+}
+#dashboard .search {
+border-radius: 10px;
+}
+#user-friends .search {
+border-radius: 10px;
+}
+#search-menu {
+border-radius: 10px;
 }
