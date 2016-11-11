@@ -734,7 +734,7 @@ background: rgba(19, 20, 23, 0.55);
     background: linear-gradient(hsla(193, 100%, 45%, 0.78), hsla(193, 100%, 26%, 0.91));
 }
 #user-friends .list .row .buttons button.negative:hover {
-    background: linear-gradient(hsla(0, 79%, 50%, 0.78), hsla(0, 79%, 37%, 0.91));
+    background: linear-gradient(hsl(350, 74%, 38%), hsl(350, 81%, 24%));
 }
 /* Menu emblemas */
 .user-content .grid .cell:hover {
