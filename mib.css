@@ -333,8 +333,8 @@ transition: opacity 0.25s !important; transition-delay: 0.25s !important; }
 /* + Always show volume */ 
 #volume .slider{display: block !important; top: 26px !important; right: -62px !important; } 
 /* Colour settings for overlap */ 
-#volume .slider{background-color: rgba(28, 31, 37, 0.50) !important; 
-box-shadow: 0px -19px 0px 6px rgba(28, 31, 37, 0.50), 0px 18px 0px 6px rgba(28, 31, 37, 0.50) !important; } 
+#volume .slider{background-color: rgba(28, 31, 37, 0.10) !important; 
+box-shadow: 0px -19px 0px 6px rgba(28, 31, 37, 0.10), 0px 18px 0px 6px rgba(28, 31, 37, 0.10) !important; } 
 /* Disappearing elapsing */ .elapsing{opacity: 0.0 !important; transition: opacity 1.0s !important; } 
 /* Disappear */ #now-playing-bar > :not(#history-button) :not(#rs-skip-button) i, .dark-label{display: none !important; }
 #now-playing-time i {display:none !important;}
@@ -482,7 +482,7 @@ box-shadow: 0px -19px 0px 6px rgba(28, 31, 37, 0.50), 0px 18px 0px 6px rgba(28, 
 
 /*Menu info user*/
 #user-rollover {
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.6);
 }
 #user-rollover .info {
     background: none;
