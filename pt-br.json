@@ -34,6 +34,18 @@
         "Puxou a cinta e deu na sua bunda :scream: :lenny:"
     ],
     
+     "cantadas": [
+        "Me chama de jedi que te ensino a mexer no meu sabre de luz :new_moon_with_face:",
+        "Não tenho 7 esferas do dragão mas com 2 satisfaço seu desejo :new_moon_with_face:",
+        "Eu não sou cachoeira mas tenho uma queda por você :new_moon_with_face:",
+        "Eu não sou jedi mas posso te fazer sentir a força :new_moon_with_face:",
+        "Eu não sou o pikachu, mas prometo que quando eu te beijar vai ser chocante :new_moon_with_face:",
+        "Mal te conheço, mas já sei só você é digna de levantar o meu martelo :new_moon_with_face:",
+        "Posso ser nub no LOL , mas por você encaro a mid sem pensar duas vezes :new_moon_with_face:",
+        "Você é o papa léguas? porque é difícil de pegar, hein :new_moon_with_face:",
+        "Você gosta de criança? porque eu sei fazer :new_moon_with_face:"
+    ],
+    
     "roletas": [
         "!roletatroll",
         "!roleta"
@@ -203,6 +215,10 @@
     "nousertretar": "\/em N\u00e3o vejo %%NAME%% na sala. Arranje briga com outra pessoa.",
     "selftretar": "\/me @%%NAME%%, Tretar sozinho não da,arrume confusão com alguém ai.",
     "tretar": "\/me @%%NAMETO%%, %%NAMEFROM%% %%TRETAR%%",
+    "eatcantada": "\/me É um dicionário de cantadas",
+    "nousercantada": "\/em N\u00e3o vejo %%NAME%% na sala. Use suas cantadas em outra pessoa.",
+    "selfcantada": "\/me @%%NAME%%, Isso tudo é carência?,use a cantada para conquistar alguém.",
+    "cantada": "\/me @%%NAMETO%%, %%NAMEFROM%% %%CANTADA%%",
     "cycleguardtime": "\/me [@%%NAME%%] A prote\u00e7\u00e3o de ciclo agora \u00e9: %%TIME%% minuto(s).",
     "dclookuprank": "\/me [@%%NAME%%] Somente Seguran\u00e7as ou superiores podem usar !dclookup em outros usu\u00e1rios.",
     "emojilist": "\/me Emojis Plug: http://www.emoji-cheat-sheet.com/ , Emotes RCS: https://rawgit.com/Move-It-Brasil/move-it-emotes/master/moveitemotes.html",
