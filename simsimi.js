@@ -81,20 +81,17 @@
                 var arr = msgData.msg.trim().split(' ');
                 var cmd = arr.shift();
                  
-                if (cmd.charAt(0) != '!') return;
+                if (cmd.charAt(0) != '@') return;
                  
                 cmd = cmd.substring(1).toLowerCase();
                  
                 switch (cmd){
-                    case 'botsoff':
+					case 'botsoff':
                         if (!msgData.staff) return;
                         bots.util.sendChat('@' + msgData.un + ' Desligando SimSimi e ED bot...');
-                        setTimeout(function () {
-                        API.sendChat("!cmddel");;
-                        }, 2000);
                         bots.events.off();
-                        break;
-                         
+                        break; 
+						
                     case 'ed':
                         bots.request.send('ed','Ed',msgData,arr.join(' '));
                         break;
@@ -103,7 +100,6 @@
                     case 'ss':
                         bots.request.send('ss','SimSimi',msgData,arr.join(' '));
                         break;
- 
                 }
             },
             on: function() {
@@ -167,9 +163,9 @@
                  
                 bots.events.on();
                 setTimeout(function () {
-                bots.util.sendChat('SimSimi e Ed ativados');
+					 API.sendChat("Use @ss para fazer sua pergunta!")
                  }, 2000);
-                API.sendChat("!cmddel");
+				   bots.util.sendChat('SimSimi e Ed ativados');
             }
         }
     };
