@@ -417,6 +417,33 @@
                     }, 1 * 1000, winner, pos);
                 }
             },
+	       roulettepp: {
+                rouletteStatus: false,
+                participants: [],
+                countdown: null,
+                startRoulette: function () {
+                    basicBot.room.roulettepp.rouletteStatus = true;
+                    basicBot.room.roulettepp.countdown = setTimeout(function () {
+                        basicBot.room.roulettepp.endRoulette();
+                    }, 60 * 1000);
+                    setTimeout(function () {
+                        API.sendChat(basicBot.chat.isopenpp);
+                    }, 1 * 1000);
+                    setTimeout(function () {
+                        API.sendChat(basicBot.chat.isopenpp2);
+                    }, 2 * 1000);
+                },
+                endRoulette: function () {
+                    basicBot.room.roulettepp.rouletteStatus = false;
+                    var ind = Math.floor(Math.random() * basicBot.room.roulettepp.participants.length);
+                    var winner = basicBot.room.roulettepp.participants[ind];
+                    basicBot.room.roulettepp.participants = [];
+                    /*var pos = Math.floor((Math.random() * API.getWaitList().length) + 1);*/
+                    var user = basicBot.userUtilities.lookupUser(winner);
+                    var name = user.username;
+                    API.sendChat(subChat(basicBot.chat.winnerpickedpp, {name: name}));
+                }
+            },
             roulettetroll: {
                 rouletteStatus: false,
                 participants: [],
@@ -2705,6 +2732,37 @@
                     }
                 }
             },
+	      ppCommand: {
+                command: 'pp',
+                rank: 'user',
+                type: 'exact',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        if (basicBot.room.roulettepp.rouletteStatus && basicBot.room.roulettepp.participants.indexOf(chat.uid) < 0) {
+                            basicBot.room.roulettepp.participants.push(chat.uid);
+                            API.sendChat(subChat(basicBot.chat.rouletteppentra, {name: chat.un}));
+                        }
+                    }
+                }
+            },
+	     sairppCommand: {
+                command: 'sair',
+                rank: 'user',
+                type: 'exact',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        var ind = basicBot.room.roulettepp.participants.indexOf(chat.uid);
+                        if (ind > -1) {
+                            basicBot.room.roulettepp.participants.splice(ind, 1);
+                            API.sendChat(subChat(basicBot.chat.rouletteppsair, {name: chat.un}));
+                        }
+                    }
+                }
+            },
 
             linkCommand: {
                 command: 'link',
@@ -3262,6 +3320,20 @@
                     else {
                         if (!basicBot.room.roulette.rouletteStatus) {
                             basicBot.room.roulette.startRoulette();
+                        }
+                    }
+                }
+            },
+	     rouletteppCommand: {
+                command: 'roletapp',
+                rank: 'manager',
+                type: 'exact',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        if (!basicBot.room.roulettepp.rouletteStatus) {
+                            basicBot.room.roulettepp.startRoulette();
                         }
                     }
                 }
