@@ -251,6 +251,7 @@
     "logout": "\/me [@%%NAME%%] Deslogando %%BOTNAME%%",
     "rouletteleave": "\/me @%%NAME%% deixou a roleta!",
     "roulettesair": "\/me @%%NAME%% saiu da roleta!",
+    "roletadj": "\/me @%%NAME%% Você está tocando!Saia da roleta agora ou será punido.",
     "songlink": "\/me [@%%NAME%%] Link para a m\u00fasica atual: %%LINK%%",
     "usedlockskip": "\/me [%%NAME%% usou 'lockskip'.]",
     "lockskippos": "\/me [@%%NAME%%] Lockskip est\u00e1 agora movendo para a posi\u00e7\u00e3o %%POSITION%%.",
