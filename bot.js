@@ -2565,6 +2565,16 @@
                         if (basicBot.room.roulette.rouletteStatus && basicBot.room.roulette.participants.indexOf(chat.uid) < 0) {
                             basicBot.room.roulette.participants.push(chat.uid);
                             API.sendChat(subChat(basicBot.chat.roulettejoin, {name: chat.un}));
+			      setTimeout(function () {
+                             var msg = chat.message;
+                             var dj = API.getDJ().username;
+                             var name;
+                              if (msg.length > cmd.length) {
+                            if (perm < 2) return void (0);
+                            name = msg.substring(cmd.length + 2);
+                             } else name = chat.un;
+                              if (name == dj) return API.sendChat(subChat(basicBot.chat.roletadj, {name: name}));
+			     }, 2 * 1000);
                         }
                     }
                 }
@@ -2711,6 +2721,16 @@
                         if (basicBot.room.roulettetroll.rouletteStatus && basicBot.room.roulettetroll.participants.indexOf(chat.uid) < 0) {
                             basicBot.room.roulettetroll.participants.push(chat.uid);
                             API.sendChat(subChat(basicBot.chat.rouletteentra, {name: chat.un}));
+		            setTimeout(function () {
+                             var msg = chat.message;
+                             var dj = API.getDJ().username;
+                             var name;
+                              if (msg.length > cmd.length) {
+                            if (perm < 2) return void (0);
+                            name = msg.substring(cmd.length + 2);
+                             } else name = chat.un;
+                              if (name == dj) return API.sendChat(subChat(basicBot.chat.roletadj, {name: name}));
+			     }, 2 * 1000);
                         }
                     }
                 }
