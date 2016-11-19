@@ -410,6 +410,14 @@ box-shadow: 0px -19px 0px 6px rgba(28, 31, 37, 0.10), 0px 18px 0px 6px rgba(28, 
     background: rgba(0,0,0,0.5);
     transition: all .25s ease-in;
 }
+.communities .grid .cell .meta .join {
+ border-radius: 10px;
+ border: 1px solid rgba(206,25,55,0.7);
+ background: #000000;
+}
+.communities .grid .cell .meta .join:hover {
+background: #b61631;
+}
 
 #chat .welcome {
     color: #dd153b;
@@ -640,9 +648,13 @@ background: none !important;
 }
 .user-content .grid .cell, .user-content.communities .grid .cell {
 background: hsla(220, 0%, 5%, 0.3) !important;
+border-radius: 15px;
 }
 .user-content .grid .cell:hover > .top {
     background: rgba(206,25,55,0.3) !important;
+}
+#user-store .misc .grid .cell .title-bar {
+background: none;
 }
 /* BG Avatar perfil*/
 #user-menu .avatar {
@@ -724,7 +736,33 @@ background: rgba(19, 20, 23, 0.55);
     background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));
 }
 #playlist-import-panel .button:hover {
-    background: linear-gradient(hsla(350, 78%, 29%, 0.98), hsla(350, 78%, 42%, 0.68));
+   background: linear-gradient(hsl(352, 91%, 37%), hsl(349, 69%, 17%));
+}
+#import-youtube .youtube-input {
+    background: rgba(25, 27, 31, 0.4);
+    box-shadow: inset 0 0 0 1px #692431;
+}
+/* Botao editar música */
+.media-list .selected .actions {
+    background: linear-gradient(hsla(350, 78%, 40%, 0.9), hsla(350, 78%, 20%, 0.9)) !important;
+}
+.media-list .actions {
+    background: linear-gradient(hsla(222, 16%, 17%, 0.88), hsla(222, 12%, 8%, 0.88)) !important;
+}
+.media-list .action.edit:hover {
+        background: linear-gradient(hsla(0, 89%, 25%, 0.72), hsla(0, 90%, 9%, 0.91));
+}
+.media-list .action.related:hover {
+         background: linear-gradient(hsla(0, 89%, 25%, 0.72), hsla(0, 90%, 9%, 0.91));
+}
+.media-list .action.move-to-bottom:hover {
+        background: linear-gradient(hsla(0, 89%, 25%, 0.72), hsla(0, 90%, 9%, 0.91));
+}
+.media-list .action.move-to-top:hover {
+           background: linear-gradient(hsla(0, 89%, 25%, 0.72), hsla(0, 90%, 9%, 0.91));
+}
+.media-list .action.delete:hover {
+      background: linear-gradient(hsla(0, 89%, 25%, 0.72), hsla(0, 90%, 9%, 0.91));
 }
 /* Botoes menu de amigos */
 #user-friends .list .row .buttons button {
@@ -859,4 +897,73 @@ border-radius: 10px;
 }
 #search-menu li:hover {
     background: rgba(177, 22, 48, 0.92);
+}
+/* Borda arredondada */
+#user-menu .item {
+  border-radius: 10px;
+}
+#user-menu .avatar {
+  border-radius: 10px;
+}
+.experience .xp .bar .progress {
+  border-radius: 10px;
+}
+.user-content.profile .notifications .row {
+ border-radius: 10px;
+}
+.dropdown dt {
+ border-radius: 10px;
+}
+.dropdown {
+ border-radius: 10px;
+}
+#user-friends .list .row .buttons button {
+ border-radius: 5px;
+}
+#user-friends .search {
+ border-radius: 10px;
+}
+#dashboard .search {
+ border-radius: 10px;
+}
+.communities .grid .cell {
+ border-radius: 15px;
+}
+.communities .grid .cell .favorite {
+ border-radius: 3px;
+}
+#footer-user .info .bar .progress {
+ border-radius: 5px;
+}
+#footer-user .info .meta div.bar {
+ border-radius: 5px;
+}
+#search-bar {
+ border-radius: 10px;
+}
+#filter-bar {
+ border-radius: 10px;
+}
+#playlist-button {
+border-radius: 7px;
+}
+.app-right .friends .list-header .input-background {
+border-radius: 7px;
+}
+#rcs-menu .search {
+border-radius: 7px;
+}
+.user-content .grid .cell, .user-content.communities .grid .cell {
+background: hsla(220, 0%, 5%, 0.3) !important;
+border-radius: 15px;
+}
+/* Menu de Grab */
+.pop-menu .bar {
+ background: rgba(206,25,55,0.63);
+}
+.pop-menu li{
+ background: rgba(00, 00, 00, 0.10);
+}
+.pop-menu li:hover{
+ background: rgba(206,25,55,0.46);
 }
