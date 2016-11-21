@@ -3028,3 +3028,57 @@
     height: 75px;
     transition: 0.5s;
 }
+/* https://www.facebook.com/Carlos.henrique580?fref=ufi */
+#chat-messages .fromID-4523162 .badge-box i,
+#chat-messages  .id-4523162 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/21f39c8c098ddfb0635c65aa61a0fcc9?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-4523162 .badge-box i:hover,
+#chat-messages .id-4523162 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-4523162 .clickable:hover,
+#chat-messages .id-4523162 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
+/* https://www.facebook.com/daniel.cavalcante.503645 */
+#chat-messages .fromID-5552698 .badge-box i,
+#chat-messages  .id-5552698 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/665a4a9192d1514a6821693d3a974c38?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-5552698 .badge-box i:hover,
+#chat-messages .id-5552698 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-5552698 .clickable:hover,
+#chat-messages .id-5552698 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
