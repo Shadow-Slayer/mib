@@ -3109,3 +3109,30 @@
     height: 75px;
     transition: 0.5s;
 }
+/* ThaisTrupada12 */
+#chat-messages .fromID-19649498 .badge-box i,
+#chat-messages  .id-19649498 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/8287f30363f115f1f8cf889641c2c418?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-19649498 .badge-box i:hover,
+#chat-messages .id-19649498 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-19649498 .clickable:hover,
+#chat-messages .id-19649498 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
