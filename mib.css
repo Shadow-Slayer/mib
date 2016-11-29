@@ -583,16 +583,16 @@ box-shadow: 0px -19px 0px 6px rgba(28, 31, 37, 0.10), 0px 18px 0px 6px rgba(28, 
 }
 /* COORDENADOR */
 #user-lists .group.manager {
-	color: #EF5636;
+	color: #BE9113;
 }
 #user-lists .group.manager ~ .user span,
 #dialog-user-role .role-menu .menu ul .manager span {
-	color: #EF5636 !important;
+	color: #BE9113 !important;
 }
 .icon-chat-manager + span,
 #user-lists .group.manager ~ .user span,
 #dialog-user-role .role-menu .menu ul .manager span {
-	color: #EF5636 !important;
+	color: #BE9113 !important;
 }
 /* SEGURANÇA */
 #user-lists .group.bouncer {
