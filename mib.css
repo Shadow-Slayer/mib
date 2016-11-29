@@ -285,7 +285,7 @@ i.icon.icon-room {
     background: #25b961 !important;
 }
 #grab .bottom, #grab.selected {
-    background: #792ab5 !important;
+    background: #000000 !important;
 }
 #meh .bottom, #meh.selected {
     background: #ce1937 !important;
@@ -294,7 +294,7 @@ i.icon.icon-room {
     background: #25b961 !important;
 }
 .votes-rs .title.grab {
-    background: #792ab5 !important;
+    background: #000000 !important;
 }
 .votes-rs .title.meh {
     background: #ce1937 !important;
