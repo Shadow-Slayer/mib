@@ -1,6 +1,6 @@
 /* MoveItBot */
 #chat [data-cid^="5394376-"] span.un.clickable {
-    color: rgb(220, 167, 60) !important;
+    color: rgba(190, 145, 19, 1) !important;
 }
 /*#chat [data-cid^="5394376-"] i.bdg {
 background: url('https://s.gravatar.com/avatar/795a00fa0d523c1bce9bc73cab3f9915?s=30') !important;
@@ -12,8 +12,8 @@ background: url('https://s.gravatar.com/avatar/795a00fa0d523c1bce9bc73cab3f9915?
 color: rgb(210, 90, 195) !important;
 }*/
 #chat [data-cid^="5394376-"].emote {
-    background: rgba(142, 103, 24, 0.7) !important;
-    border-left: rgb(218, 147, 8) 3px solid !important;
+    background: rgba(51, 46, 48, 0.58) !important;
+    border-left: rgba(134, 114, 39, 0.49) 3px solid !important;
 }
 #chat [data-cid^="5394376-"].emote .timestamp {
     color: #A993C7 !important;
