@@ -6,7 +6,7 @@
 
 /* cor nome usuario cinza */
 #chat .from .un {    
-    color: #cc3442;
+    color: #007a5a;
 }
 
 /* preview video */
@@ -835,7 +835,7 @@ div.level.earned.ep .label {
  border-color: #7936e8 !important;
 }
 #user-rollover.role-user .thumb {
- border-color: #cc3442 !important;
+ border-color: #007a5a !important;
 }
 /* Barra de pedidos de amizade */
 .app-right .friends .header {
