@@ -1318,7 +1318,43 @@
                     }, 5 * 1000, chat.cid);
                     return true;
                 }
-                return false;
+		    
+		var rlJoinChattroll = basicBot.chat.rouletteentra;
+                var rlLeaveChattroll = basicBot.chat.roulettesair;
+
+                var joinedroulettetroll = rlJoinChattroll.split('%%NAME%%');
+                if (joinedroulettetroll[1].length > joinedroulettetroll[0].length) joinedroulettetroll = joinedroulettetroll[1];
+                else joinedroulettetroll = joinedroulettetroll[0];
+
+                var leftroulettetroll = rlLeaveChattroll.split('%%NAME%%');
+                if (leftroulettetroll[1].length > leftroulettetroll[0].length) leftroulettetroll = leftroulettetroll[1];
+                else leftroulettetroll = leftroulettetroll[0];
+
+                if ((msg.indexOf(joinedroulettetroll) > -1 || msg.indexOf(leftroulettetroll) > -1) && chat.uid === basicBot.loggedInID) {
+                    setTimeout(function (id) {
+                        API.moderateDeleteChat(id);
+                    }, 8 * 1000, chat.cid);
+                    return true;
+                }
+		   
+		var rlJoinChatpp = basicBot.chat.rouletteppentra;
+                var rlLeaveChatpp = basicBot.chat.rouletteppsair;
+
+                var joinedroulettepp = rlJoinChatpp.split('%%NAME%%');
+                if (joinedroulettepp[1].length > joinedroulettepp[0].length) joinedroulettepp = joinedroulettepp[1];
+                else joinedroulettepp = joinedroulettepp[0];
+
+                var leftroulettepp = rlLeaveChatpp.split('%%NAME%%');
+                if (leftroulettepp[1].length > leftroulettepp[0].length) leftroulettepp = leftroulettepp[1];
+                else leftroulettepp = leftroulettepp[0];
+
+                if ((msg.indexOf(joinedroulettepp) > -1 || msg.indexOf(leftroulettepp) > -1) && chat.uid === basicBot.loggedInID) {
+                    setTimeout(function (id) {
+                        API.moderateDeleteChat(id);
+                    }, 8 * 1000, chat.cid);
+                    return true;
+                }
+		    return false;
             },
             commandCheck: function (chat) {
                 var cmd;
