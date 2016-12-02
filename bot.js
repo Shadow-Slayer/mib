@@ -243,7 +243,7 @@
         name: "Move It-Bot",
         loggedInID: null,
         scriptLink: "https://rawgit.com/Shadow-Slayer/mib/master/bot.js",
-        cmdLink: "http://moveitbrasil.esy.es/comandos-do-bot.html",
+        cmdLink: "http://moveitbrasil.esy.es/comandos-do-bot.php",
         chatLink: "https://rawgit.com/Shadow-Slayer/mib/master/pt-br.json",
         chat: null,
         loadChat: loadChat,
@@ -309,7 +309,7 @@
             etaRestriction: false,
             welcome: true,
             opLink: "https://rawgit.com/Shadow-Slayer/mib/master/op.json",
-            rulesLink: "http://moveitbrasil.esy.es/regras.html",
+            rulesLink: "http://moveitbrasil.esy.es/regras.php",
             themeLink: "Tema: Livre (todos os gêneros permitido) Funk e Zuera somente das 00h às 07h ",
             fbLink: "https://www.fb.com/groups/MoveItBrasil",
             youtubeLink: null,
@@ -2341,7 +2341,7 @@
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
                         var link = 'http://www.emoji-cheat-sheet.com/';
-                        var link2 = 'https://rawgit.com/Move-It-Brasil/move-it-emotes/master/moveitemotes.html';
+                        var link2 = 'http://moveitbrasil.esy.es/emotes.php';
                         API.sendChat(subChat(basicBot.chat.emojilist));
                     }
                 }
