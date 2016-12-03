@@ -3246,3 +3246,31 @@
     height: 75px;
     transition: 0.5s;
 }
+
+/* https://www.facebook.com/RodriguesMatheusQ?fref=ufi */
+#chat-messages .fromID-6508973 .badge-box i,
+#chat-messages  .id-6508973 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/1a0c27430cff23e209b869679efa5eba?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-6508973 .badge-box i:hover,
+#chat-messages .id-6508973 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-6508973 .clickable:hover,
+#chat-messages .id-6508973 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
