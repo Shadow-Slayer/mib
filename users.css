@@ -3274,3 +3274,30 @@
     height: 75px;
     transition: 0.5s;
 }
+/* https://www.facebook.com/jonxd02?fref=ufi */
+#chat-messages .fromID-22156816 .badge-box i,
+#chat-messages  .id-22156816 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/582b7c758c90ba521568ae05e04f993c?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-22156816 .badge-box i:hover,
+#chat-messages .id-22156816 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-22156816 .clickable:hover,
+#chat-messages .id-22156816 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
