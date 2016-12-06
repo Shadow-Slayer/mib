@@ -778,6 +778,9 @@ background: rgba(19, 20, 23, 0.55);
 .media-list .action.delete:hover {
       background: linear-gradient(hsl(41, 86%, 27%), hsl(40, 79%, 6%));
 }
+div.action.add:hover {
+background: linear-gradient(hsl(41, 86%, 27%), hsl(40, 79%, 6%));
+}
 /* Botoes menu de amigos */
 #user-friends .list .row .buttons button {
     background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));
@@ -976,7 +979,7 @@ border-radius: 15px;
 }
 /* Menu de Grab */
 .pop-menu .bar {
- background: rgba(196, 152, 64, 0.63);
+background: linear-gradient(hsl(40, 51%, 38%), hsl(40, 63%, 19%));
 }
 .pop-menu li{
  background: rgba(0, 0, 0, 0.4);
