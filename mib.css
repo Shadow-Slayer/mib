@@ -48,10 +48,10 @@ background: rgba(0, 0, 0, 0.70);
 }
 
 .tab-menu button.selected {
-    background: #c59840;
+    background: linear-gradient(hsl(40, 61%, 54%), hsl(40, 59%, 31%));
 }
 .tab-menu button:hover {
-    background: rgba(140, 108, 43, 1);
+    background: linear-gradient(hsla(40, 53%, 36%, 1), hsl(40, 59%, 31%));
 }
 
 .tab-menu button {
@@ -62,7 +62,7 @@ background: rgba(0, 0, 0, 0.70);
     background-color: #453706 !important;
 }
 #rcs-progress-container .bar {    
-    background-color: #c59840 !important;
+     background: linear-gradient(hsl(40, 65%, 56%), hsla(42, 62%, 30%, 0.95)) !important;
 }
 
 /* Chat Botões cima */
@@ -137,7 +137,7 @@ background: #0b0d0f;}
 /* Botão Playlist */
 
 #playlist-button {
-    background: #c59840 !important;
+    background: linear-gradient(hsl(40, 61%, 54%), hsl(40, 59%, 31%)) !important;
 }
 /* ------------------------------------------- */
 /* Configurações */
@@ -150,7 +150,7 @@ background: #21070b;}
 /* ------------------------------------------- */
 
 #footer-user .back {
-    background: #c59840;
+    background: linear-gradient(hsl(40, 61%, 53%), hsla(42, 62%, 21%, 0.95));
 }
 /* ------------------------------------------- */
 /* Playlist */
@@ -181,7 +181,7 @@ background: rgba(206,25,55,0.3);;
 }
 
 #user-menu .item.selected {
-    background: #c59840;
+    background: linear-gradient(hsl(40, 61%, 54%), hsl(40, 59%, 31%));
 }
 
 #playlist-menu .menu .row .count {  
@@ -361,7 +361,7 @@ box-shadow: 0px -19px 0px 6px rgba(28, 31, 37, 0.10), 0px 18px 0px 6px rgba(28, 
 }
 /*Barra de XP*/
 .experience .xp .bar .progress {
-    background: rgba(197, 152, 64, 1);
+    background: linear-gradient(hsl(40, 61%, 54%), hsl(40, 59%, 31%));
 }
 #footer-user .info .bar .progress {
     background: rgba(197, 152, 64, 1);
@@ -642,6 +642,9 @@ background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));
 }
 #room-settings .general-settings .option.enabled>button.on {
     background:  linear-gradient(hsl(350, 78%, 26%), hsl(350, 89%, 15%));
+}
+#room-settings-menu .item.selected {
+    background: linear-gradient(hsla(40, 53%, 51%, 10.78), hsla(42, 61%, 18%, 0.95));
 }
 .dropdown {
 background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91)) !important;
@@ -986,4 +989,14 @@ background: linear-gradient(hsl(40, 51%, 38%), hsl(40, 63%, 19%));
 }
 .pop-menu li:hover{
  background: rgba(196, 152, 64, 0.46);
+}
+/* Menu lista Ban/Mute/Ignorados */
+#user-lists .list.bans .user:hover {
+    background: linear-gradient(to right,rgba(255, 118, 118, 0) 0,rgba(255, 0, 0, 0.27) 100%) !important;
+}
+#user-lists .list.mutes .user:hover {
+    background: linear-gradient(to right,rgba(255, 118, 118, 0) 0,rgba(255, 72, 0, 0.27) 100%) !important;
+}
+#user-lists .list.ignored .user:hover {
+    background: linear-gradient(to right,rgba(255, 118, 118, 0) 0,rgba(255, 191, 0, 0.27) 100%) !important;
 }
