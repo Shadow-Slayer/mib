@@ -93,11 +93,11 @@ background: #8c6a28;
 border-radius: 8px;
 }
 #dj-button .left {
-    background: #c38e22 !important;
+    background: linear-gradient(hsl(40, 66%, 48%), hsl(40, 66%, 28%)) !important;
     border-radius: 8px !important;
 }
 #dj-button.is-leave .left, #dj-button.is-quit .left {
-    background: #956f23 !important;
+   background: linear-gradient(hsl(40, 78%, 35%), hsl(40, 64%, 23%)) !important;
     border-radius: 8px !important;
 }
 #dj-button {
