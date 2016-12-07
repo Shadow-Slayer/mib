@@ -11,6 +11,9 @@
 
 /* preview video */
 .dialog {    background: rgba(0, 0, 0, 0.42);}
+#dialog-preview .dialog-frame .button.submit {
+color: #fff;
+}
 
 /* zoom nas fotos */
 /*#chat-messages .fromID- .badge-box i, #chat-messages .badge-box i:hover {
