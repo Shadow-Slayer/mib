@@ -1007,9 +1007,6 @@ background: linear-gradient(hsl(40, 51%, 38%), hsl(40, 63%, 19%));
 .dialog-frame .button.cancel {
 background: linear-gradient(hsla(220, 6%, 18%, 1), hsla(220, 4%, 5%, 1)) !important;
 }
-.dialog-frame .button.submit, .rs .button.submit {
-background: linear-gradient(hsla(193, 100%, 45%, 1), hsla(193, 100%, 26%, 1)) !important;
-}
 #dialog-user-role .role-menu {
 background: linear-gradient(hsl(220, 5%, 12%), hsl(220, 9%, 7%)) !important;
 }
