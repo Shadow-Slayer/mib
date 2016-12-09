@@ -3329,3 +3329,31 @@
     transition: 0.5s;
 }
 
+/* https://www.facebook.com/paah.duartte?fref=ufi */
+#chat-messages .fromID-21755082 .badge-box i,
+#chat-messages  .id-21755082 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/0d618c17fe51e6fd1f1c6b24f8ed929e?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-21755082 .badge-box i:hover,
+#chat-messages .id-21755082 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-21755082 .clickable:hover,
+#chat-messages .id-21755082 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
+
