@@ -3357,4 +3357,33 @@
     transition: 0.5s;
 }
 
+/* https://www.facebook.com/augustomtos */
+#chat-messages .fromID-4656127 .badge-box i,
+#chat-messages  .id-4656127 .badge-box i {
+    background-image: url(https://br.gravatar.com/userimage/109024404/872568063f04df5974a2c40de617b12d.jpg?size=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-4656127 .badge-box i:hover,
+#chat-messages .id-4656127 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-4656127 .clickable:hover,
+#chat-messages .id-4656127 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
+
+
 
