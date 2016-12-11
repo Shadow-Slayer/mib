@@ -211,11 +211,6 @@ background: rgba(206,25,55,0.3);;
 background: rgba(28, 31, 37, 0) !important;
 }
 
-#app-menu, #app-menu .list {    
-    background: rgba(28, 31, 37, 0.40) !important;
-}
-
-
 #dj-button {
     background: rgba(34, 34, 36, 0.59);
     border-radius: 8px;
@@ -1052,4 +1047,21 @@ background: linear-gradient(hsl(220, 5%, 12%), hsl(220, 9%, 7%)) !important;
 }
 #media-panel .header .back:hover {
 background: linear-gradient(hsl(40, 61%, 54%), hsl(40, 59%, 31%)) !important;
+}
+/* Menu plug */
+#app-menu, #app-menu .list {
+    background: rgba(18, 20, 23, 0.62) !important;
+}
+#app-menu .list .item:hover {
+    background: rgba(105, 79, 28, 0.32);
+}
+#app-menu .list .rcsunload:hover {
+    border: 1px solid #836425 !important;
+    background: rgba(105, 79, 28, 0.32) !important;
+    color: #eee;
+}
+#app-menu .list .logout:hover {
+    border: 1px solid #836425 !important;
+    background: rgba(105, 79, 28, 0.32) !important;
+    color: #eee;
 }
