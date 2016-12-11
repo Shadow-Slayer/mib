@@ -3385,5 +3385,30 @@
     transition: 0.5s;
 }
 
-
-
+/* https://www.facebook.com/LollyGothabilly?fref=ufi */
+#chat-messages .fromID-20386102 .badge-box i,
+#chat-messages  .id-20386102 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/8c13165ad3d6bc1959bf800d21349e5c?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-20386102 .badge-box i:hover,
+#chat-messages .id-20386102 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-20386102 .clickable:hover,
+#chat-messages .id-20386102 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
