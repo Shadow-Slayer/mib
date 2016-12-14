@@ -101,7 +101,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://dl.dropbox.com/s/icqpp28gudhtkle/eventos.json", function (json) {
+        $.get("https://rawgit.com/Shadow-Slayer/mib/master/lang/eventos.json", function (json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -242,9 +242,9 @@
         status: false,
         name: "Move It-Bot",
         loggedInID: null,
-        scriptLink: "https://dl.dropbox.com/s/4gm5xnw6dl8gcm7/bot-eventos.js",
+        scriptLink: "https://rawgit.com/Shadow-Slayer/mib/master/bot-eventos.js",
         cmdLink: "http://moveitbrasil.esy.es/comandos-do-bot.php",
-        chatLink: "https://dl.dropbox.com/s/icqpp28gudhtkle/eventos.json",
+        chatLink: "https://rawgit.com/Shadow-Slayer/mib/master/lang/eventos.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -252,8 +252,8 @@
         settings: {
             botName: "Move It-Bot",
             language: "portuguese",
-            chatLink: "https://dl.dropbox.com/s/icqpp28gudhtkle/eventos.json",
-            scriptLink: "https://dl.dropbox.com/s/4gm5xnw6dl8gcm7/bot-eventos.js",
+            chatLink: "https://rawgit.com/Shadow-Slayer/mib/master/lang/eventos.json",
+            scriptLink: "https://rawgit.com/Shadow-Slayer/mib/master/bot-eventos.js",
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
