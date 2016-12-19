@@ -4,7 +4,7 @@ API.sendChat("/me Shaaadoso <3 ");
 }*/
   
 
-if (user.id == "6237801") {
+if (user.id == "5401598") {
 API.sendChat("/me   @" + user.username + " Musa do Plug e Rainha da Move It acaba de entrar na sala.:crown:");
 }
 
