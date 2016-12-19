@@ -3440,3 +3440,32 @@
     height: 75px;
     transition: 0.5s;
 }
+
+/* https://www.facebook.com/4RR0G4NT */
+#chat-messages .fromID-9993107 .badge-box i,
+#chat-messages  .id-9993107 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/a85d4f4ca62457d9f69fd148fce6cc09?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-9993107 .badge-box i:hover,
+#chat-messages .id-9993107 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-9993107 .clickable:hover,
+#chat-messages .id-9993107 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
+
