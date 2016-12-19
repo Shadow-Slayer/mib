@@ -27,8 +27,8 @@
 }
 
 /* duda */
-#chat-messages .fromID-6237801 .badge-box i,
-#chat-messages  .id-6237801 .badge-box i {
+#chat-messages .fromID-5401598 .badge-box i,
+#chat-messages  .id-5401598 .badge-box i {
     background-image: url(https://s.gravatar.com/avatar/5d85982a88aaa91e10ec167f682df7ba?s=300);
     background-size: cover;
     width: 30px;
@@ -40,16 +40,16 @@
 
 }
 /* Zoom foto */
-#chat-messages .fromID-6237801 .badge-box i:hover,
-#chat-messages .id-6237801 .badge-box i:hover {
+#chat-messages .fromID-5401598 .badge-box i:hover,
+#chat-messages .id-5401598 .badge-box i:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s;
     background-position: initial;
     background-repeat: no-repeat !important;
 }
-#chat-messages .fromID-6237801 .clickable:hover,
-#chat-messages .id-6237801 .clickable:hover {
+#chat-messages .fromID-5401598 .clickable:hover,
+#chat-messages .id-5401598 .clickable:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s;
