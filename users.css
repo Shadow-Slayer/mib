@@ -3470,8 +3470,8 @@
 }
 
 /* https://www.facebook.com/walisson.perucelo?fref=ufi */
-#chat-messages .fromID-22377137  .badge-box i,
-#chat-messages  .id-22377137  .badge-box i {
+#chat-messages .fromID-22377137 .badge-box i,
+#chat-messages  .id-22377137 .badge-box i {
     background-image: url(https://s.gravatar.com/avatar/2ecb491b27c06f7ef615f26cba4c201e?s=300);
     background-size: cover;
     width: 30px;
@@ -3482,18 +3482,47 @@
     border-radius: 0;
 }
 /* Zoom foto */
-#chat-messages .fromID-22377137  .badge-box i:hover,
-#chat-messages .id-22377137  .badge-box i:hover {
+#chat-messages .fromID-22377137 .badge-box i:hover,
+#chat-messages .id-22377137 .badge-box i:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s;
     background-position: initial;
     background-repeat: no-repeat !important;
 }
-#chat-messages .fromID-22377137  .clickable:hover,
-#chat-messages .id-22377137  .clickable:hover {
+#chat-messages .fromID-22377137 .clickable:hover,
+#chat-messages .id-22377137 .clickable:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s;
 }
+
+/* https://www.facebook.com/leonardo.izaguirres.9?fref=ufi */
+#chat-messages .fromID-5290742 .badge-box i,
+#chat-messages  .id-5290742 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/aac7e9ed41941f4103bc5902217bd9de?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-5290742 .badge-box i:hover,
+#chat-messages .id-5290742 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-5290742 .clickable:hover,
+#chat-messages .id-5290742 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
+
 
