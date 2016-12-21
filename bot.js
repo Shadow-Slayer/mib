@@ -3338,15 +3338,16 @@
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
-                            var crowd = API.getUsers();
-                            var msg = chat.message;
-                            var argument = msg.substring(cmd.length + 1).replace(/@/g, '');
-                            var randomUser = Math.floor(Math.random() * crowd.length);
-                            var randomBall = Math.floor(Math.random() * basicBot.chat.msg.length);
-                            var randomSentence = Math.floor(Math.random() * 1);
-                            setTimeout(function () {
-                            	API.sendChat(subChat(basicBot.chat.msg, {msg: basicBot.chat.mensagens[randomBall]}));
-                            }, 2000);
+                       var c, mensagens;
+                      mensagens = ["/me Tema: Livre (todos os gêneros permitido) Funk e Zuera somente das 00h às 07h",
+				"/me Discord da sala - https://discord.gg/2z6RHyj",
+				"/me Roleta a cada 30 minutos, fique atento as roletas, uma move para o 2º lugar e a outra para uma posição aleatória!",
+				"/me Participe do Grupo no Facebook https://www.fb.com/groups/MoveItBrasil",
+				"/me :loudspeaker: Sorteio de PP a qualquer momento fiquem atentos! :moneybag:",
+			        "/me Digite !autowoot e instale o RCS para poder ver a costumização da sala, foto no chat, etc http://i.imgur.com/X5MGCGi.png ",
+				"/me Comandos do bot http://moveitbrasil.esy.es/comandos-do-bot.php"];
+                      c = Math.floor(Math.random() * mensagens.length);
+		      return API.sendChat(mensagens[c]);
                      }
                 }
             },
