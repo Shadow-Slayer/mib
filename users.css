@@ -3553,4 +3553,31 @@
     transition: 0.5s;
 }
 
+/* https://www.facebook.com/joaovitor9926 */
+#chat-messages .fromID-3851353 .badge-box i,
+#chat-messages  .id-3851353 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/aa2e1c684e7917777a332aab22632d7f?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-3851353 .badge-box i:hover,
+#chat-messages .id-3851353 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-3851353 .clickable:hover,
+#chat-messages .id-3851353 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
 
