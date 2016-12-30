@@ -3664,3 +3664,31 @@
     height: 75px;
     transition: 0.5s;
 }
+
+/* https://www.facebook.com/alfredo.koch.35?fref=ufi */
+#chat-messages .fromID-18879409 .badge-box i,
+#chat-messages  .id-18879409 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/554015572c6b3c9977bf317bc0a216c2?s=300);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
+/* Zoom foto */
+#chat-messages .fromID-18879409 .badge-box i:hover,
+#chat-messages .id-18879409 .badge-box i:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+#chat-messages .fromID-18879409 .clickable:hover,
+#chat-messages .id-18879409 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
