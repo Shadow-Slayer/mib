@@ -426,34 +426,39 @@ box-shadow: 0px -19px 0px 6px rgba(28, 31, 37, 0.10), 0px 18px 0px 6px rgba(28, 
 }
 /* Bordas caixas de dialogo */
 #search-bar {
-    -webkit-box-shadow: inset 0 0 0 1px #534322;
-    -moz-box-shadow: inset 0 0 0 1px #534322;
-    box-shadow: inset 0 0 0 1px #534322;
+    -webkit-box-shadow: inset 0 0 0 1px #3a2f18;
+    -moz-box-shadow: inset 0 0 0 1px #3a2f18;
+    box-shadow: inset 0 0 0 1px #3a2f18;
 }
 #filter-bar {
-    -webkit-box-shadow: inset 0 0 0 1px #534322;
-    -moz-box-shadow: inset 0 0 0 1px #534322;
-    box-shadow: inset 0 0 0 1px #534322;
+    -webkit-box-shadow: inset 0 0 0 1px #3a2f18;
+    -moz-box-shadow: inset 0 0 0 1px #3a2f18;
+    box-shadow: inset 0 0 0 1px #3a2f18;
 }
 .app-right .friends .list-header .input-background {
-    -webkit-box-shadow: inset 0 0 0 1px #534322;
-    -moz-box-shadow: inset 0 0 0 1px #534322;
-    box-shadow: inset 0 0 0 1px #534322;
+    -webkit-box-shadow: inset 0 0 0 1px #3a2f18;
+    -moz-box-shadow: inset 0 0 0 1px #3a2f18;
+    box-shadow: inset 0 0 0 1px #3a2f18;
 }
 #user-lists .list-header .input-background {
-    -webkit-box-shadow: inset 0 0 0 1px #534322;
-    -moz-box-shadow: inset 0 0 0 1px #534322;
-    box-shadow: inset 0 0 0 1px #534322;
+    -webkit-box-shadow: inset 0 0 0 1px #3a2f18;
+    -moz-box-shadow: inset 0 0 0 1px #3a2f18;
+    box-shadow: inset 0 0 0 1px #3a2f18;
 }
 #dashboard .search {
-    -webkit-box-shadow: inset 0 0 0 1px #534322;
-    -moz-box-shadow: inset 0 0 0 1px #534322;
-    box-shadow: inset 0 0 0 1px #534322;
+    -webkit-box-shadow: inset 0 0 0 1px #3a2f18;
+    -moz-box-shadow: inset 0 0 0 1px #3a2f18;
+    box-shadow: inset 0 0 0 1px #3a2f18;
 }
 #user-friends .search {
-    -webkit-box-shadow: inset 0 0 0 1px #534322;
-    -moz-box-shadow: inset 0 0 0 1px #534322;
-    box-shadow: inset 0 0 0 1px #534322;
+    -webkit-box-shadow: inset 0 0 0 1px #3a2f18;
+    -moz-box-shadow: inset 0 0 0 1px #3a2f18;
+    box-shadow: inset 0 0 0 1px #3a2f18;
+}
+#rcs-menu .search { 
+    -webkit-box-shadow: inset 0 0 0 1px #3a2f18 !important;
+    -moz-box-shadow: inset 0 0 0 1px #3a2f18 !important;
+    box-shadow: inset 0 0 0 1px #3a2f18 !important;
 }
 /* Bordas caixas de dialogo (Selecionada) */
 .app-right .friends .list-header .input-background.focused {
@@ -478,6 +483,10 @@ box-shadow: 0px -19px 0px 6px rgba(28, 31, 37, 0.10), 0px 18px 0px 6px rgba(28, 
 }
 
 #user-lists .list-header .input-background.focused {
+    -webkit-box-shadow: inset 0 0 0 1px rgba(150, 111, 36, 0.70) !important;
+    box-shadow: inset 0 0 0 1px rgba(150, 111, 36, 0.70)) !important;
+}
+#rcs-menu .search.focused { 
     -webkit-box-shadow: inset 0 0 0 1px rgba(150, 111, 36, 0.70) !important;
     box-shadow: inset 0 0 0 1px rgba(150, 111, 36, 0.70)) !important;
 }
