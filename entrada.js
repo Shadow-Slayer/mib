@@ -15,5 +15,9 @@ API.sendChat("/me Preparem-se, o martelo do BAN  @" + user.username + " acabou d
 if (user.id == "6511093") {
 API.sendChat("/me A mulher do xado @" + user.username + " acaba de entrar na sala.");
 }
-
+  
+if (user.id == "4080795") {
+API.sendChat("/me Esconda-se,o dinossauro @" + user.username + " acaba de entrar na sala.");
+}
+  
 });
