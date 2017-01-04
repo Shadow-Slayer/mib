@@ -287,7 +287,7 @@
     transition: 0.5s;
 }
 
-/*PSG*/
+*PSG*/
 #chat-messages .fromID-5039941 .badge-box i,
 #chat-messages  .id-5039941 .badge-box i {
     background-image: url(https://s.gravatar.com/avatar/1ab705ef0abbd98e90f9ae1865d73d83?s=300);
@@ -300,7 +300,7 @@
     border-radius: 0;
 
 }
-/* Zoom foto */
+* Zoom foto */
 #chat-messages .fromID-5039941 .badge-box i:hover,
 #chat-messages .id-5039941 .badge-box i:hover {
     width: 75px;
