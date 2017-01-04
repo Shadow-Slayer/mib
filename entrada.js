@@ -16,8 +16,4 @@ if (user.id == "6511093") {
 API.sendChat("/me A mulher do xado @" + user.username + " acaba de entrar na sala.");
 }
   
-if (user.id == "4080795") {
-API.sendChat("/me Esconda-se,o tiranossauro rex @" + user.username + " acaba de entrar na sala.");
-}
-  
 });
