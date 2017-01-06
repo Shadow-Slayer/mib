@@ -484,7 +484,7 @@
 		    var dj = API.getDJ().username;                    
 	    	    var name = user.username;                    
 	    	    API.sendChat(subChat(basicBot.chat.winnerpicked, {name: name, position: posx}));
-		    if (name == dj) {	
+		    /*if (name == dj) {	
 			setTimeout(function () {
                                 basicBot.userUtilities.moveUser(winner, posx, false);
                         }, 10 * 1000, winner, posx);                    
@@ -492,7 +492,16 @@
 			setTimeout(function () {
 				basicBot.userUtilities.moveUser(winner, posx, false);
 	    	    	}, 1 * 1000, winner, posx);
-		    }    
+		    } */
+		    setTimeout(function (winner, posx) {
+                        if (name == dj) {
+				basicBot.userUtilities.moveUser(winner, posx, false);
+                    		}, 10 * 1000, winner, posx);
+			else {
+				basicBot.userUtilities.moveUser(winner, posx, false);
+                    		}, 1 * 1000, winner, posx);
+			}      			
+		    }			
             },
             usersUsedThor: []
         },
