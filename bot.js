@@ -460,7 +460,7 @@
                         API.sendChat(basicBot.chat.isopentroll2);
                     }, 2 * 1000);
                 },
-                /*endRoulette: function () {
+                endRoulette: function () {
                     basicBot.room.roulettetroll.rouletteStatus = false;
                     var ind = Math.floor(Math.random() * basicBot.room.roulettetroll.participants.length);
                     var winner = basicBot.room.roulettetroll.participants[ind];
@@ -472,36 +472,7 @@
                     setTimeout(function (winner, posx) {
                         basicBot.userUtilities.moveUser(winner, posx, false);
                     }, 1 * 1000, winner, posx);
-                }*/		    
-		
-		endRoulette: function () {
-                    basicBot.room.roulettetroll.rouletteStatus = false;
-                    var ind = Math.floor(Math.random() * basicBot.room.roulettetroll.participants.length);
-                    var winner = basicBot.room.roulettetroll.participants[ind];
-                    basicBot.room.roulettetroll.participants = [];
-                    var posx = Math.floor((Math.random() * API.getWaitList().length) + 1);
-                    var user = basicBot.userUtilities.lookupUser(winner);
-		    var dj = API.getDJ().username;                    
-	    	    var name = user.username;                    
-	    	    API.sendChat(subChat(basicBot.chat.winnerpicked, {name: name, position: posx}));
-		    /*if (name == dj) {	
-			setTimeout(function () {
-                                basicBot.userUtilities.moveUser(winner, posx, false);
-                        }, 10 * 1000, winner, posx);                    
-		    } else {  
-			setTimeout(function () {
-				basicBot.userUtilities.moveUser(winner, posx, false);
-	    	    	}, 1 * 1000, winner, posx);
-		    } */
-		    setTimeout(function (winner, posx) {
-                        if (name == dj) {
-				basicBot.userUtilities.moveUser(winner, posx, false);
-                    		}, 10 * 1000, winner, posx);
-			else {
-				basicBot.userUtilities.moveUser(winner, posx, false);
-                    		}, 1 * 1000, winner, posx);
-			}      			
-		    };			
+                }		
             },
             usersUsedThor: []
         },
