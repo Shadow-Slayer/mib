@@ -1,0 +1,114 @@
+.tab-menu button.selected {
+    background: #c1973b;
+    color: #eee;
+    cursor: default
+}
+#playlist-button {
+    top: 0;
+    z-index: 100;
+    width: 53px;
+    -webkit-box-shadow: inset 0 2px 0 -1px #0A0A0A;
+    background: #ac76ff;
+    background: -moz-linear-gradient(top, #ac76ff 0, #c1973b 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ac76ff), color-stop(100%, #c1973b));
+    background: -webkit-linear-gradient(top, #ac76ff 0, #c1973b 100%);
+    background: -o-linear-gradient(top, #ac76ff 0, #c1973b 100%);
+    background: -ms-linear-gradient(top, #ac76ff 0, #c1973b 100%);
+    background: linear-gradient(to bottom, #ac76ff 0, #c1973b 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ac76ff', endColorstr='#c1973b', GradientType=0);
+    -moz-box-shadow: inset 0 2px 0 -1px #0A0A0A;
+    box-shadow: inset 0 2px 0 -1px #0A0A0A;
+    cursor: pointer
+}
+#playlist-shuffle-button:hover {
+    background: #ac76ff;
+    background: -moz-linear-gradient(top, #ac76ff 0, #c1973b 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ac76ff), color-stop(100%, #c1973b));
+    background: -webkit-linear-gradient(top, #ac76ff 0, #c1973b 100%);
+    background: -o-linear-gradient(top, #ac76ff 0, #c1973b 100%);
+    background: -ms-linear-gradient(top, #ac76ff 0, #c1973b 100%);
+    background: linear-gradient(to bottom, #ac76ff 0, #c1973b 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ac76ff', endColorstr='#c1973b', GradientType=0)
+}
+#playlist-import:hover {
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ac76ff', endColorstr='#c1973b', GradientType=0)
+}
+#media-panel .header .import-button {
+    right: 0;
+    width: 162px;
+    background: #ac76ff;
+    background: -moz-linear-gradient(top, #ac76ff 0, #c1973b 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ac76ff), color-stop(100%, #c1973b));
+    background: -webkit-linear-gradient(top, #ac76ff 0, #c1973b 100%);
+    background: -o-linear-gradient(top, #ac76ff 0, #c1973b 100%);
+    background: -ms-linear-gradient(top, #ac76ff 0, #c1973b 100%);
+    background: linear-gradient(to bottom, #ac76ff 0, #c1973b 100%)
+}
+.media-list .row.now-playing {
+    height: 53px;
+    border-bottom: #ac76ff 2px solid!important;
+    background: #c1973b!important
+}
+.media-list .row.now-playing .actions {
+    top: 1px;
+    background: #c1973b
+}
+.drag-media-box {
+    z-index: 9999;
+    width: 85px;
+    height: 56px;
+    background: #c1973b;
+    -webkit-box-shadow: 2px 2px 3px #000;
+    -moz-box-shadow: 2px 2px 3px #000;
+    box-shadow: 2px 2px 3px #000
+}
+#playlist-import:hover {
+    background: #ac76ff;
+    background: -moz-linear-gradient(top, #ac76ff 0, #c1973b 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ac76ff), color-stop(100%, #c1973b));
+    background: -webkit-linear-gradient(top, #ac76ff 0, #c1973b 100%);
+    background: -o-linear-gradient(top, #ac76ff 0, #c1973b 100%);
+    background: -ms-linear-gradient(top, #ac76ff 0, #c1973b 100%);
+    background: linear-gradient(to bottom, #ac76ff 0, #c1973b 100%)
+}
+#tooltip.purple span {
+    background: #c1973b
+}
+#tooltip.purple .corner {
+    border-top: 10px solid #c1973b;
+    border-left: 10px solid #c1973b
+}
+#tooltip.right.purple .corner {
+    border-top: 10px solid #c1973b;
+    border-right: 10px solid #c1973b;
+    border-left: 10px solid transparent
+}
+#user-lists .list.bans .user .label,
+#user-lists .list.mutes .user .label {
+    position: relative;
+    top: 24px;
+    margin-left: 17px;
+    color: #c1973b;
+    font-size: 12px
+}
+.experience .levels .level.earned.avatar .label {
+    background: #c1973b
+}
+#grab {
+    background: #aa74ff;
+    background: -moz-linear-gradient(top, #aa74ff 0, #c1973b 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #aa74ff), color-stop(100%, #c1973b));
+    background: -webkit-linear-gradient(top, #aa74ff 0, #c1973b 100%);
+    background: -o-linear-gradient(top, #aa74ff 0, #c1973b 100%);
+    background: -ms-linear-gradient(top, #aa74ff 0, #c1973b 100%);
+    background: linear-gradient(to bottom, #aa74ff 0, #c1973b 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#aa74ff', endColorstr='#c1973b', GradientType=0)
+}
+#dialog-import-tt.importing .import-progress-bar .progress-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #c1973b
+}
